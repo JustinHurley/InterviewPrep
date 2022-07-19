@@ -1,2 +1,2 @@
 # InterviewPrep
-Just a repo to hold notes on problems I did.
+Just a repo to hold general study materials.
