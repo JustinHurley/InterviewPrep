@@ -1,6 +1,13 @@
 ### 117. Populating Next Right Pointers in Each Interval II
 Link: [here](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
 
+#### Topics
+- Trees
+- Breadth-first-search
+- Linked lists
+- Graph traversal
+- Queues
+  
 #### Problem
 Given a binary tree
 ```
@@ -26,3 +33,34 @@ All we need to do is BFS on the graph and link the nodes on the same level toget
 
 It is important to note that we have to check while iterating through the level that we haven't gone past the size of the level. Because we add in the child nodes as we process each node, we need to be sure that we don't overextend our iteration of the queue.
 
+#####Note
+In Python, queues are initialized by writing `queue = collections.deque([root])`. When popping from the queue, it is important to use `popleft()` instead of `pop(0)`. This is because `popleft()` roughly runs in `O(1)` time while the other methods takes `O(n)` time.
+#### Solution
+```
+class Solution:
+    def connect(self, root: 'Node') -> 'Node':
+        # First do a null check
+        if not root: 
+            return root
+        # Initialize the queue, the starting node in the queue is the root 
+        queue = collections.deque([root])
+        # Now we start processing the queue
+        while queue:
+            n = len(queue)
+            # We need to keep track of the current size as that is the current level
+            for i in range(n):
+                # First we pop a node from the queue
+                node = queue.popleft()
+                
+                # If we are less than size, AKA on the same level, we want to append the popped node
+                # To the node on the top of the stack (next node on this level)
+                if i < n - 1:
+                    node.next = queue[0]
+                
+                # Then add children of current node to the queue
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+        return root
+```
