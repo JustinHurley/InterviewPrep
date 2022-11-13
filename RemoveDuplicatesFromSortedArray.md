@@ -19,6 +19,8 @@ Do not allocate extra space for another array. You must do this by modifying the
 #### Approach
 The general approach is a two pointer solution, one to keep track of where in the array the unique elements should go, and one to scan through the array to find unique elements.
 The way this algorithm works is that the fast pointer moves through the array until it finds a unique element, relative to the element before it. We then need to move the element to the position of the other pointer, which keeps track of the position of the next unique element. It's important to start the pointers at index 1 instead of index 0, as we need 1 space of buffer so we can check the element before without having to worry about an `OutOfBounds` exception at index position 0. We also know that the 0-index element is the smallest so we don't have to ever worry about swapping it.
+Q: Why do we just replace the index values instead of swapping?
+A: We have no need to preserve the index value, and swapping throws off the "seeker" as it iterates through the array. Once we pass over an elt with the "seeker" we don't care what the value is.
 
 #### Solution
 ```
