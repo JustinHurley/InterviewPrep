@@ -7,19 +7,19 @@ Link: [here](https://leetcode.com/problems/number-of-islands/)
 - Graph traversals
 - Depth-first-search
   
-####Problem
+#### Problem
 Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
 
 An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
-####Approach
+#### Approach
 The way to solve this problem is by using a graph traversal, and keeping track of 'visited' nodes. We need to go through every element of the matrix, and for each element we check if that element is '1' or not. 
 If the element is '1', then we do Depth-First-Search on that element, searching all the adjacent cells, and marking any that are '1' as '0'. This prevents us from double counting an island.
 Once the island has been fully visited, we keep moving through the matrix, skipping nodes that are 0 and nodes that are already visited.
 
 Something to keep in mind is the fact that the 1s in the problem are not integers but strings, so make sure to clarify that if asked in an interview.
 
-####Solution
+#### Solution
 ```
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
