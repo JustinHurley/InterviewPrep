@@ -11,48 +11,32 @@
             "id": "e3f8655c56037120",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "47-Permutations2.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "a4368017c02e8dec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11-ContainerWithMostWater.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "a2973303bce626a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "151-ReverseWordsInAString.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "ac692b925b3ed281",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "238-ProductOfArrayExceptSelf.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -122,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "238-ProductOfArrayExceptSelf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "238-ProductOfArrayExceptSelf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "238-ProductOfArrayExceptSelf.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -185,6 +165,7 @@
   },
   "active": "ac692b925b3ed281",
   "lastOpenFiles": [
+    "238-ProductOfArrayExceptSelf.md",
     "347-TopKFrequentElements.md",
     "Templates/TEMPLATE.md",
     "1091-ShortestPathInBinaryMatrix.md",
@@ -193,7 +174,6 @@
     "Untitled 1.md",
     "151-ReverseWordsInAString.md",
     "11-ContainerWithMostWater.md",
-    "TEMPLATE.md",
-    "README.md"
+    "TEMPLATE.md"
   ]
 }
