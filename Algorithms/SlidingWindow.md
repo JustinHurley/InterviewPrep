@@ -14,15 +14,31 @@ input = [a,b,c,b,b,c,a,b]
 while r < len(input):
     # If no condition is violated, business as usual
     if (condition is NOT violated):
-        build best solution 
+        do: build current solution 
         r += 1
     # If condition is violated
     else:
         while (condition is violated):
-            do work to remove input[l] from current answer
+            do: work to remove input[l] from current answer
             if l >= length:
                 return ans 
             l += 1
     return ans
     
+```
+alternatively
+```
+l = 0
+input = [a,b,c,b,b,c,a,b]
+
+for r in range(input):
+    do: work
+
+    while isValid() == False:
+        do: remove input[l] from current tracking 
+        l += 1
+
+    best = getWhichIsBetter(best, currBest)
+
+return best
 ```
