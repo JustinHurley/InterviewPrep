@@ -24,7 +24,12 @@ When we are in a valid case, this is when we want to move up the left pointer, t
 This will continue until `r` hits the end of the string, and we stop.
 Once we are done, we then look at the best value. If it was never updated from it's original value, we never found a best substring so return `""`. If it was updated, we grab the corresponding `l` and `r` pointers and build the string from `s` using `s[l:r+1]`.
 
+**Optimizations**
+While from a complexity standpoint the solution is optimal, we still have to deal with the extra potential `O(26)` operation required to ensure that all the chars in `t` are present in the current `s` substring. We can actually reduce this to `O(1)` by keeping track of how many valid chars we have so far, and comparing that to how many valid chars we need. 
+The gist of the approach is that when we update the map with a new char, we don't actually need to check for the validity of the whole maps, we only actually need to check for the validity of the given char, and if it has become valid or has become invalid. To do this we simply look at if `mapS[i] >= mapT[i]` and if the condition is true, we can update some counter variable like `validS` and then compare it to some other variable like `validT` that is defined originally as the number of unique chars present in `t`. Once `validS == validT`, we know that every char is accounted for and we are looking at a valid solution. We basically optimize the `mapS` and `mapT` comparison to just `validS == validT` instead, which is an `O(1)` operation instead of `O(|s|)`.
+
 #### Solution
+**Solution Without Optimization**
 ```
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
@@ -74,6 +79,57 @@ class Solution:
                 return False
         return True
 ```
+**Solution with Optimization**
+```
+class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+        lenS = len(s)
+        lenT = len(t)
+
+        # Edge case
+        if lenS < lenT:
+            return ""
+        
+        # Make a map of t
+        mapT = {}
+        for i in range(lenT):
+            mapT[t[i]] = mapT.get(t[i], 0) + 1
+        countT = len(mapT)
+        
+        # Iterate through s
+        mapS = {}
+        best = -1
+        bestPos = (0, 0)
+        countS = 0
+        l = 0
+        for r in range(lenS):
+            # If curr in mapT, we want to also update mapS
+            if s[r] in mapT:
+                mapS[s[r]] = mapS.get(s[r], 0) + 1
+                # If we have a valid char, inc. count
+                # Only do it when equal to prevent dupes
+                if mapS[s[r]] == mapT[s[r]]:
+                    countS += 1
+            # If the maps are valid, we should try to move up l
+            while countS == countT:
+                # Compare to best and update if needed
+                if (r - l + 1) < best or best == -1:
+                    bestPos = (l, r)
+                    best = r - l + 1
+                # Then update map and move up left ptr
+                if s[l] in mapT:
+                    mapS[s[l]] = mapS[s[l]] - 1
+                    if mapS[s[l]] < mapT[s[l]]:
+                        countS -= 1
+                l += 1
+    
+            # At this point we're no longer valid
+        # Once loop is done we have best range, need to convert to str
+        if best == -1:
+            return ""
+        else: 
+            return s[bestPos[0]:bestPos[1]+1]
+```
 
 #### Time Complexity
 If we convert the psuedocode to time complexity, we end up with this:
@@ -85,5 +141,5 @@ If we convert the psuedocode to time complexity, we end up with this:
     
     O(lenS) -> build string
 ```
-so ultimately, we end up with a time complexity of `O(|s|+|t|)`, but if `|s| < |t|` then the answer will always be `""` which is a `O(1)` operation, so we only care when `|s| >= |t|` which means worst case `|s| == |t|` which means we can say `O(2|s|) => O(|s|)`. 
+so ultimately, we end up with a time complexity of `O(|s|+|t|)`, but if `|s| < |t|` then the answer will always be `""` which is a `O(1)` operation, so we only care when `|s| >= |t|` which means worst case `|s| == |t|` which means we can say `O(2|s|) => O(|s|)`. We can ignore the while loop since it will also run at most `|s|` times since `l` is also constrained by the size of `s` and if `l == r` then the length would be 0 and we would definitely not be in a valid state.
 
