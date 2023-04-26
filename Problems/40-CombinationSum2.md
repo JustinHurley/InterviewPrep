@@ -4,7 +4,7 @@ Link: [here](https://leetcode.com/problems/combination-sum-ii/)
 
 #### Topics
 - Backtracking
-- Depth-first-search
+- Depth-first Search
 - Recursion
 - Permutation
 

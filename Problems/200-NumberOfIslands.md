@@ -8,7 +8,7 @@ Link: [here](https://leetcode.com/problems/number-of-islands/)
 - Depth-first-search
   
 #### Problem
-Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
+Given an `m x n` 2D binary grid grid which represents a map of `'1's` (land) and `'0's` (water), return the number of islands.
 
 An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
@@ -20,6 +20,7 @@ Once the island has been fully visited, we keep moving through the matrix, skipp
 Something to keep in mind is the fact that the 1s in the problem are not integers but strings, so make sure to clarify that if asked in an interview.
 
 #### Solution
+Note: You could also just put the DFS function in the `numIslands` function so that you don't need to pass in `grid` as a parameter and can just call it like a global variable since it's in the scope of the function.
 ```
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
