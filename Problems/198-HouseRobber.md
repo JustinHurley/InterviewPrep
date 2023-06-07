@@ -29,6 +29,14 @@ This is the bottom up approach, where instead of starting at the beginning of th
 We can just iterate backwards through the array and at each house the way to find the best value is the same. We can either rob this house and skip the next, or skip this house and check the next. We are just skipping the part with all the recursive calls.
 Something to watch out for is that we need to make an array for the empty case, when `i == n`. This means when making the array to store the DP values in it, it needs to be of size `n+1` and not size `n`.
 
+###### Approach 3: Optimized Dynamic Programming
+This approach iterates through the array, and leverages the fact that we only really need to track the previous 2 values to determine a current value. We instantiate 2 variables and set them equal to 0. One will represent the the robber that has robbed the previous house and thus must skip the current house, and the other robber will represent the robber that robbed the house 2 houses ago, and thus can rob this house. We then take the max of those two values. We then want to update the position of our robbers, so we set the robber two houses away to the robber 1 house away (so it will be 2 houses away on the next iteration), and then set the robber 1 house away to the max value that was just calculated, so that it will represent the robber who is 1 house away to the current house.
+```
+Current setup: [rob1, rob2, num, num+1, ...]
+Setup for next iteration: [rob1, rob2, num+1, ...]
+```
+So as you can see we prepare the robber variables for the next iteration (num+1).
+
 #### Solution
 ###### Approach 1:
 ```
@@ -78,3 +86,27 @@ class Solution:
         
         return maxRobbedAmount[0]
 ```
+###### Approach 3:
+```
+class Solution:
+    def rob(self, nums: List[int]) -> int:
+        n = len(nums)
+        rob1, rob2 = 0, 0
+
+        # [rob1, rob2, num, num+1, ...]
+        for num in nums:
+            # Calculate best path up to num
+            curr = max(rob1 + num, rob2)
+            # Move up rob1 to rob2 pos
+            rob1 = rob2
+            # Update rob2 to num position (which is equal to curr)
+            rob2 = curr
+
+        return rob2
+```
+
+#### Time Complexity
+`O(n)` we pass through `nums` once.
+
+#### Space Complexity
+`O(n)` if you use the memoized approach, otherwise it's just `O(1)` for the 2 variable solution.
