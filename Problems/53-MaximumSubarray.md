@@ -20,6 +20,12 @@ The first thing to think about when dealing with a dynamic programming problem i
 So we just keep track of the current sum, compare it to the max sum, and for each elt in `nums`, we use: `currSum = max(currSum+num,num)` where `currSum + num` is if we continue building the subarray, and `num` is when we elect to start over. 
 When setting the initial values, you can just set them to `nums[0]` and then start from `nums[1]` since that would happen anyway if we started from `nums[0]`.
 
+**Greedy Approach**
+
+We can use a greedy approach to solve this problem. This is done by keeping a running total of the sum so far, and deciding if we want to keep the current sum, or to start over and make the subarray starting on the current elt. 
+The way to determine this is to just see if the current sum is positive or negative. If it's positive, that means that the subarray up to now is beneficial to the answer, i.e. we should keep the number of the subarray we have traversed so far in. If it's negative, we know that summing the numbers up until now is detrimental and we should not include the subarray so far and start over. 
+
+
 #### Solution
 ```
 class Solution:
@@ -41,4 +47,20 @@ class Solution:
             maxSum = max(currSum, maxSum)        
         
         return maxSum
+```
+**Greedy Solution**
+```
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        ans = nums[0]
+        currSum = 0
+        for num in nums:
+            # Update the currSum
+            currSum += num
+            # Compare to best
+            ans = max(ans, currSum)
+            # If negative, reset else continue
+            if currSum < 0:
+                currSum = 0
+        return ans
 ```
