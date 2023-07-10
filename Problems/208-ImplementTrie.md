@@ -1,14 +1,16 @@
+---
+tags:
+- trie
+- tree
+- array
+- string 
+- Dictionary
+- design
+---
+
 ### 208. Implement Trie (Prefix Tree)
 
 Link: [here](https://leetcode.com/problems/implement-trie-prefix-tree/description/)
-
-#### Topics
-- Trie
-- Tree
-- Array
-- String
-- Dictionary
-- Design
 
 #### Problem
 A trie (pronounced as "try") or prefix tree is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. There are various applications of this data structure, such as autocomplete and spellchecker.
@@ -34,7 +36,7 @@ The same as search, we just don't check the to see if the last character is also
 
 
 #### Solution
-```
+```python 
 class TrieNode:
     def __init__(self):
         self.children = {}

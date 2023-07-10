@@ -1,11 +1,14 @@
+---
+tags:
+- string 
+- 
+- Sliding_Window
+- dictionary
+---
+
 ### 567. Permutation in String
 
 Link: [here](https://leetcode.com/problems/permutation-in-string/description/)
-
-#### Topics
-- String
-- Sliding window
-- Hash map
 
 #### Problem
 Given two strings `s1` and `s2`, return `true` if `s2` contains a permutation of `s1`, or `false` otherwise.
@@ -17,7 +20,7 @@ Since we're looking for a permutation, we don't care about what the order is, ju
 Once we see that the dicts are equal, then we return true, otherwise `r` will reach the end of the string and we return false.
 
 #### Solution
-```
+```python 
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         s1Len = len(s1)

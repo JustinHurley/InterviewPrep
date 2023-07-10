@@ -1,11 +1,13 @@
+---
+tags:
+- matrix
+- binary_search
+- array
+---
+
 ### 74. Search a 2D Matrix
 
 Link: [here](https://leetcode.com/problems/search-a-2d-matrix/description/)
-
-#### Topics
-- Matrix
-- Binary Search
-- Array
 
 #### Problem
 You are given an `m x n` integer matrix `matrix` with the following two properties:
@@ -20,7 +22,7 @@ You must write a solution in `O(log(m * n))` time complexity.
 Given that the whole matrix is sorted, we can simply run binary search twice to determine if the target element is in the matrix. The first search we do is to determine the potential target row of the matrix, this is done by looking at the last value in the current row relative to the target element and also looking at the first element in the current row relative to the target element. This finds us the row, then once we have the row, we just need to do binary search on that row to determine if the target element is in the matrix.
 
 #### Solution
-```
+```python 
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         rows = len(matrix)

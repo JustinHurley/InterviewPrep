@@ -1,10 +1,11 @@
+---
+tags:
+- two_pointer
+- greedy_choice
+- array
+---
 ### 11. Container With Most Water
 Link [here](https://leetcode.com/problems/container-with-most-water/)
-
-Topics
-- 2 pointer
-- Greedy choice
-- Arrays
 
 To solve this problem, we simply use 2 pointers on each end. First we calculate the area, compare with the current global max area and replace if necessary. After we calculate area, we move one of the pointers in, based on which pointer has the lower height. This greedy choice ensures that we maximize height as we look for a solution.
 

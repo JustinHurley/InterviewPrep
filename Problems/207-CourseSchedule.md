@@ -1,12 +1,14 @@
+---
+tags:
+- depth_first_search
+- graph
+- array
+- dictionary
+---
+
 ### 207. Course Schedule
 
 Link: [here](https://leetcode.com/problems/course-schedule/description/)
-
-#### Topics
-- Depth-first Search
-- Graph
-- Array
-- Hash Table
 
 #### Problem
 There are a total of numCourses courses you have to take, labeled from `0` to `numCourses - 1`. You are given an array prerequisites where `prerequisites[i] = [ai, bi]` indicates that you must take course bi first if you want to take course ai.
@@ -23,7 +25,7 @@ Once the base case checks are done, we visit the current node, call DFS on the c
 Finally in the main method, we iterate through every course to determine if there are cycles present for any of them. We need to iterate through every node because we don't necessarily know if the graph is fully connected, and don't want to miss any nodes. 
 
 #### Solution
-```
+```python 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         courses = { i:[] for i in range(numCourses)}

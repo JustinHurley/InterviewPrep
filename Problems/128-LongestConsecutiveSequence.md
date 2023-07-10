@@ -1,10 +1,12 @@
+---
+tags:
+- array
+- set
+---
+
 ### 128. Longest Consecutive Sequence
 
 Link: [here](https://leetcode.com/problems/longest-consecutive-sequence/description/)
-
-#### Topics
-- Array
-- Set
 
 #### Problem
 Given an unsorted array of integers `nums`, return the length of the longest consecutive elements sequence.
@@ -18,7 +20,7 @@ The next item that needs to be considered is determining if we are at the beginn
 When we see that we are at the beginning of a sequence (the number we are looking at minus 1 does not exist in the set), we can just iterate by 1 until we hit a number not in the set. When we finish, we then compare the sequence we hit with the best sequence so far, and update if necessary. 
 
 #### Solution
-```
+```python 
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         # Populates set with list 

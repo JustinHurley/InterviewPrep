@@ -1,10 +1,12 @@
+---
+tags:
+- array
+- interval
+---
+
 ### 56. Merge Intervals
 
 Link: [here](https://leetcode.com/problems/merge-intervals/description/)
-
-#### Topics
-- Array
-- Interval
 
 #### Problem
 Given an array of intervals where `intervals[i] = [starti, endi]`, merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
@@ -26,7 +28,7 @@ There is a slightly simpler solution that doesn't involve needing a `curr` varia
 Because we sort the array, we don't need to worry about looking at an element where the start is before some element that is already in the `ans` array.
 
 #### Solution
-```
+```python 
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         ans = []

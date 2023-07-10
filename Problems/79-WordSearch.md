@@ -1,13 +1,15 @@
+---
+tags:
+- backtracking
+- recursion
+- depth_first_search
+- matrix
+- string
+---
+
 ### 79. Word Search
 
 Link: [here](https://leetcode.com/problems/word-search/)
-
-#### Topics
-- Backtracking
-- Recursion
-- DFS
-- Matrices
-- Strings
 
 #### Problem
 Given an `m x n` grid of characters `board` and a string `word`, return true if `word` exists in the grid.
@@ -25,7 +27,7 @@ So you run DFS at each element in the matrix, and then in each DFS algo, you:
 The tricky part of this problem comes in knowing when to return. We simply cannot just return the recursive calls, as many of them will be false, and we will return that as the answer. However the general flow of the code should be to find a true result, and only after all other results have been explored, return false. That is why in the solution we don't do something like `return DFS(row,col,word)`, and instead use the result of the DFS function to return true if that function finds the whole word, otherwise just keep looking. Another reason we don't just return the result is if we were to return False, we would need to keep looking through the array that we didn't "clean up," as we returned the result before we had the chance to "un-visit" the node by putting the original value where the `#` currently is.
 
 #### Solution
-```
+```python 
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         rows = len(board)

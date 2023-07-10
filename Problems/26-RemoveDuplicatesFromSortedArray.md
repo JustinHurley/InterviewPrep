@@ -1,11 +1,12 @@
+---
+tags:
+- two_pointer
+- array
+---
+
 ### \#26. Remove Duplicates from Sorted Array
 
 Link: [here](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
-
-#### Topics
-- Two pointers
-- Arrays
-- In place array manipulation
 
 #### Problem
 Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
@@ -23,7 +24,7 @@ Q: Why do we just replace the index values instead of swapping?
 A: We have no need to preserve the index value, and swapping throws off the "seeker" as it iterates through the array. Once we pass over an elt with the "seeker" we don't care what the value is.
 
 #### Solution
-```
+```python 
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:

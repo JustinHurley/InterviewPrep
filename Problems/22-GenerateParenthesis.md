@@ -1,12 +1,14 @@
+---
+tags:
+- Combinations
+- backtracking
+- depth_first_search
+- string
+---
+
 ### 22. Generate Parentheses
 
 Link: [here](https://leetcode.com/problems/generate-parentheses/)
-
-#### Topics
-- Combinations
-- Backtracking
-- DFS
-- Strings
 
 #### Problem
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.

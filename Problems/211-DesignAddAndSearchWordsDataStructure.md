@@ -1,14 +1,16 @@
+---
+tags:
+- trie
+- tree
+- recursion
+- design
+- string 
+- depth_first_search
+---
+
 ### 211. Design Add and Search Words Data Structure
 
 Link: [here](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)
-
-#### Topics
-- Trie
-- Tree
-- Recursion
-- Design
-- String
-- Depth-first Search
 
 #### Problem
 Design a data structure that supports adding new words and finding if a string matches any previously added string.
@@ -25,7 +27,7 @@ The next step is to then implement the given functions. The first one `addWord`,
 Finally, we have to implement the `search` function. The tricky part about this function is that we need to account for wildcard characters, in this case `'.'`. To do this, we need to handle the normal case, which is iterating through the Trie and the word, ensuring that the letters exist, and returning `False` if not. The special case is when we see a `'.'` character. In this case, we need to check all the children of the node that corresponds with the wildcard since any letter in that position could be valid. When that happens we run DFS on each child node present, passing along the current node and how far along we have gotten, then recursively call the DFS function, which if it returns `True`, the search function will as well. So this problem is like half an iterative solution and half a recursive solution, for when we need to handle the wildcard case.
 
 #### Solution
-```
+```python 
 class TrieNode: 
     def __init__(self):
         self.children = {}

@@ -1,12 +1,14 @@
+---
+tags:
+- binary_tree
+- recursion
+- tree
+- depth_first_search
+---
+
 ### 124. Binary Tree Maximum Path Sum
 
 Link: [here](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
-
-#### Topics
-- Binary Tree
-- Recursion
-- Tree
-- Depth-first Search
 
 #### Problem
 A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence at most once. Note that the path does not need to pass through the root.
@@ -32,7 +34,7 @@ There are a couple tricky things to consider in this problem:
 - The third thing is that we want to set the global variable to the root node value, this is because if it is negative, we want to capture that. 
 
 #### Solution
-```
+```python 
 class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         best = [root.val]

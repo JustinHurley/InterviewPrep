@@ -1,11 +1,13 @@
+---
+tags:
+- graph
+- tree
+- depth_first_search
+---
+
 ### 261. Graph Valid Tree
 
 Link: [here](https://leetcode.com/problems/graph-valid-tree/description/)
-
-#### Topics
-- Graph
-- Tree
-- Depth-first Search
 
 #### Problem
 You have a graph of `n` nodes labeled from `0` to `n - 1`. You are given an integer `n` and a list of `edges` where `edges[i] = [ai, bi]` indicates that there is an undirected edge between nodes `ai` and `bi` in the graph.
@@ -23,7 +25,7 @@ The last thing to keep in mind is that the graph is undirected, unlike `TreeNode
 Finally, we will call the DFS method on the `0` node (chosen arbitrarily, technically you could choose any node, but choosing 0 makes the most sense since you don't have to check against `n`). This will tell us if the graph has a cycle, and then to check to see if the graph is connected, we can just look at the size of the `visited` set, and if it equals `n`, it means we were able to visit all the nodes from node `0`. So if both of these things are true, then we have a valid tree.
 
 #### Solution
-```
+```python 
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         if n <= 1:

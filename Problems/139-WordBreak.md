@@ -1,11 +1,12 @@
+---
+tags:
+- dynamic_programming
+- string_array
+---
+
 ### 139. Word Break
 
 Link: [here](https://leetcode.com/problems/word-break/description/)
-
-#### Topics
-- Dynamic programming
-- String
-- Array
 
 #### Problem
 Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` can be segmented into a space-separated sequence of one or more dictionary words.
@@ -28,7 +29,7 @@ if dp[i]:
 ```
 So basically we do a check to make sure that our word would be in bounds of the string length, and then we also make sure that we are actually looking at a word in the dictionary with the second half of the if statement. If those conditions are met, then we set the current DP array index to the DP array value of the index right after the current word. Meaning if we are able to make a word from the current index `i` and the next position is also true then the rest of the words after the word we are currently looking at are valid. We just need to make sure to break once we set the value to true, since we could also get cases where the word matches but it results in being left with a non-string word suffix, so we need to be aware that there are multiple valid words that can fit, but not all of them may lead to a valid answer.
 #### Solution
-```
+```python 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         n = len(s)

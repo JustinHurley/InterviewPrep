@@ -1,12 +1,14 @@
+---
+tags:
+- stack
+- monotonic_stack
+- sorting
+- array
+---
+
 ### 853. Car Fleet
 
 Link: [here](https://leetcode.com/problems/car-fleet/description/)
-
-#### Topics
-- Stack
-- Monotonic stack
-- Sorting
-- Array
 
 #### Problem
 There are n cars going to the same destination along a one-lane road. The destination is target miles away.
@@ -31,7 +33,7 @@ The general approach is to use a monotonic stack, where we keep track of all the
 6. Repeat for each element in the array.
 It is also important that we sort the stack. This is because we want to avoid scenarios where cars can get buried in the stack. This can happen when you have a car in the stack that is buried under a car that is faster and closer to the target than the stack shown. So we end up with 2 cars in the stack that will never meet, but the further out car is buried under the closer car. So then when we look at the next car, we end up in a scenario where we won't catch the TOS car but would catch the first car in the stack. This is why we need to sort by distance to the target and work our way from the further cars in.
 #### Solution
-```
+```python 
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
         n = len(speed)

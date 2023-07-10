@@ -4,43 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "835545019775d5c9",
+        "id": "7aea479728ee48f4",
         "type": "tabs",
         "children": [
           {
-            "id": "e3f8655c56037120",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a4368017c02e8dec",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a2973303bce626a3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "ac692b925b3ed281",
+            "id": "8d857e42e02dc7d4",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,6 +58,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "9b1df219153553a0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -134,7 +117,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -146,7 +129,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -160,20 +144,40 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ac692b925b3ed281",
+  "active": "5b50846d455b7196",
   "lastOpenFiles": [
-    "238-ProductOfArrayExceptSelf.md",
-    "347-TopKFrequentElements.md",
-    "Templates/TEMPLATE.md",
-    "1091-ShortestPathInBinaryMatrix.md",
-    "746-MinCostClimbingStairs.md",
-    "986-IntervalListIntersections.md",
-    "Untitled 1.md",
-    "151-ReverseWordsInAString.md",
-    "11-ContainerWithMostWater.md",
-    "TEMPLATE.md"
+    "Problems/20-ValidParentheses.md",
+    "Problems/125-ValidPalindrome.md",
+    "Problems/438-FindAllAnagramsInAString.md",
+    "Problems/79-WordSearch.md",
+    "Problems/1143-LongestCommonSubsequence.md",
+    "Problems/49-GroupAnagrams.md",
+    "Problems/22-GenerateParenthesis.md",
+    "Problems/213-HouseRobberII.md",
+    "Problems/875-KokoEatingBananas.md",
+    "Problems/74-SearchA2DMatrix.md",
+    "Problems/238-ProductOfArrayExceptSelf.md",
+    "Problems/17-LetterCombinationsOfAPhoneNumber.md",
+    "Problems/713-SubarrayProductLessThanK.md",
+    "Problems/198-HouseRobber.md",
+    "Problems/26-RemoveDuplicatesFromSortedArray.md",
+    "Untitled.canvas",
+    "Problems/239-SlidingWindowMaximum.md",
+    "Problems/23-MergeKSortedLists.md",
+    "Problems/47-Permutations2.md",
+    "Problems/11-ContainerWithMostWater.md",
+    "Problems/200-NumberOfIslands.md",
+    "Problems/34-FindFirstAndLastPositionOfElementInSortedArray.md",
+    "Problems/3-LongestSubstringWithoutRepeatingCharacters.md",
+    "README.md",
+    "Problems/5-LongestPalindromicSubstring.md",
+    "Templates/ProblemTemplate.md",
+    "Templates/AlgorithmTemplate.md"
   ]
 }

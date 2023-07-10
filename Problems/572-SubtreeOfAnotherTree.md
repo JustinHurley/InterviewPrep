@@ -1,11 +1,13 @@
-### 572. Subtree of Another Tree
+---
+tags:
+- graph_traversal
+- tree
+- breadth_first_search
+- depth_first_search
+- recursion
+---
 
-#### Topics
-- Tree traversal
-- Trees
-- Breadth-first-search
-- Depth-first-search
-- Recursion
+### 572. Subtree of Another Tree
 
 #### Problem 
 Given the roots of two binary trees root and subRoot, return true if there is a subtree of root with the same structure and node values of subRoot and false otherwise.

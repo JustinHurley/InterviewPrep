@@ -1,10 +1,12 @@
+---
+tags:
+- array
+- binary_search
+---
+
 ### 33. Search in Rotated Sorted Array
 
 Link: [here](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
-
-#### Topics
-- Array
-- Binary Search
 
 #### Problem
 There is an integer array `nums` sorted in ascending order (with distinct values).
@@ -21,7 +23,7 @@ Consider the array `[4,5,6,7,0,1,2]`, while the entire array isn't sorted, we ca
 The main idea of this solution is that we leverage the sorted portions of the array to do binary search.
 
 #### Solution
-```
+```python 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         n = len(nums)

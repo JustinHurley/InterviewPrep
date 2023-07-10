@@ -1,11 +1,13 @@
+---
+tags:
+- tree
+- binary_search_tree
+- depth_first_search
+---
+
 ### 230. Kth Smallest Element in a BST
 
 Link: [here](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
-
-#### Topics
-- Tree
-- Binary Search Tree
-- Depth-first Search
 
 #### Problem
 Given the `root` of a binary search tree, and an integer `k`, return the `kth` smallest value (1-indexed) of all the values of the nodes in the tree.
@@ -21,7 +23,7 @@ Since we will have to "backtrack" in this scenario. We use a stack to keep track
 This problem uses DFS, however benefits from using an iterative approach instead of a recursive approach, since we use a stack anyway, and backtracking while also returning values only in some cases with a recursive approach is more difficult. 
 
 #### Solution
-```
+```python 
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         n = 0

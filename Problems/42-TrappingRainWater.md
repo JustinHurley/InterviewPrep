@@ -1,11 +1,13 @@
+---
+tags:
+- dynamic_programming 
+- array
+- two_pointer
+---
+
 ### 42. Trapping Rain Water
 
 Link: [here](https://leetcode.com/problems/trapping-rain-water/description/)
-
-#### Topics
-- Dynamic programming 
-- Array
-- Two pointers
 
 #### Problem
 Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.
@@ -20,7 +22,7 @@ The general approach is to set a left and right pointer at the start and end of 
 
 For example, let's consider the scenario where `height[l] = 11, height[r] = 14` and `maxLeftHeight = 13`. We first compare left and right, and see that we need to increment the left pointer. Before we do this though, we need to get the submerged area for the current left index. To do this we simply take `maxLeftHeight - height[l]` which is 2. Now it makes sense that because the left side has already passed a larger height, that the water will be contained in the container relative to the left side, but how can we "trust" that the right side will also contain the water? Well we know that because of how the algorithm chooses what side to increment. In this case, the left side is less than the right which is why it was incremented in the first place, which is basically filling in for the `min` part of taking the minimum of the max relative left and right values (see below formula if this doesn't make sense). 
 
-**Dynamic Programming**
+**Dynamic_Programming**
 This is actually an approach that is less optimized than the above approach since it also uses `O(n)` memory, but I think it is a good example of using DP concepts.
 So for a given problem, we can think about a single instance of `height[i]` and how to determine the amount of water it can hold in that index. This is simply done by taking the max height to the left and right, and then taking the min of that height, and then finally subtracting the current height from that value. So the water volume calculations would look like:
 ```
@@ -33,7 +35,7 @@ We can do 2 scans of the list, one scan left to right and the other in the oppos
 https://www.youtube.com/watch?v=ZI2z5pq0TqA&t=23s
 
 #### Solution
-```
+```python 
 class Solution:
     def trap(self, height: List[int]) -> int:
         length = len(height)

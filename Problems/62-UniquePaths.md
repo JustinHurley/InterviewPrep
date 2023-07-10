@@ -1,11 +1,13 @@
+---
+tags:
+- dynamic_programming
+- array
+- matrix
+---
+
 ### 62. Unique Paths
 
 Link: [here](https://leetcode.com/problems/unique-paths/description/)
-
-#### Topics
-- Dynamic programming
-- Array
-- Matrix
 
 #### Problem
 There is a robot on an `m x n` grid. The robot is initially located at the top-left corner (i.e., `grid[0][0]`). The robot tries to move to the bottom-right corner (i.e., `grid[m - 1][n - 1]`). The robot can only move either down or right at any point in time.
@@ -22,7 +24,7 @@ There are a few optimizations that can be made to this problem to make non-expon
 We can also make a space improvement by reusing the DP matrix row instead of actually making a matrix and filling it in. As you can see in the solution, we work on one row at a time and don't really need to look at other rows so we don't need `m*n` space and instead just need `min(m,n)` space.
 
 #### Solution
-```
+```python 
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         # Build DP array, set vals to 1 as seed vals for bottom and right cells

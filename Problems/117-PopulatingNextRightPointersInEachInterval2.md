@@ -1,12 +1,14 @@
+---
+tags:
+- tree
+- breadth_first_search
+- linked_list
+- graph_traversal
+- queue
+---
+
 ### 117. Populating Next Right Pointers in Each Interval II
 Link: [here](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
-
-#### Topics
-- Trees
-- Breadth-first-search
-- Linked lists
-- Graph traversal
-- Queues
   
 #### Problem
 Given a binary tree
@@ -36,7 +38,7 @@ It is important to note that we have to check while iterating through the level 
 #####Note
 In Python, queues are initialized by writing `queue = collections.deque([root])`. When popping from the queue, it is important to use `popleft()` instead of `pop(0)`. This is because `popleft()` roughly runs in `O(1)` time while the other methods takes `O(n)` time.
 #### Solution
-```
+```python 
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
         # First do a null check

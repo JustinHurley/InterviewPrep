@@ -1,10 +1,12 @@
+---
+tags:
+- array
+- interval
+---
+
 ### 57. Insert Interval
 
 Link: [here](https://leetcode.com/problems/insert-interval/description/)
-
-#### Topics
-- Array
-- Interval
 
 #### Problem
 You are given an array of non-overlapping intervals intervals where `intervals[i] = [starti, endi]` represent the start and the end of the ith interval and intervals is sorted in ascending order by `starti`. You are also given an interval `newInterval = [start, end]` that represents the start and end of another interval.
@@ -23,7 +25,7 @@ Tackling this problem comes down to handling the different interval cases. As we
 Once we stop the loop we just need to append the new interval, since if we don't return in the loop it means we never found a scenario where the new interval is fully before the current interval, and thus the only place to put it is at the end of the array. 
 
 #### Solution
-```
+```python 
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         ans = []

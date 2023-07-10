@@ -1,11 +1,13 @@
+---
+tags:
+- recursion
+- matrix 
+- graph_traversal
+- depth_first_search
+---
+
 ### 200. Number of Islands
 Link: [here](https://leetcode.com/problems/number-of-islands/)
-
-#### Topics
-- Recursion
-- Matrices 
-- Graph traversals
-- Depth-first-search
   
 #### Problem
 Given an `m x n` 2D binary grid grid which represents a map of `'1's` (land) and `'0's` (water), return the number of islands.

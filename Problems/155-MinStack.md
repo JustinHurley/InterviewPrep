@@ -1,11 +1,13 @@
+---
+tags:
+- stack
+- array
+- design
+---
+
 ### 155. Min Stack
 
 Link: [here](https://leetcode.com/problems/min-stack/description/)
-
-#### Topics
-- Stack
-- Array
-- Design
 
 #### Problem
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
@@ -26,7 +28,7 @@ To implement this we use 2 stacks, the actual stack and the minimum stack. The a
 Let's consider the example of having the input: `[put 4, put 2, pop, put 3, put 5]`. We will have 2 stacks the actual and the min. So first we add `4` to the stack, and since it's the only val, the minimum is also `4`. Then we add `2` so we end up with `[4,2]` in our stack, but we have a new min. So we compare the current value, `2` with the TOS, `4` and see which is smaller. Since `2` is smaller it goes at the TOS so the min stack is also `[4,2]`. Now we get a pop operation, so stack goes to `[4]` and we also just pop the min so it's now `[4]`. Next we add `3` which is smaller so we end up with `[4,3]` for both. Finally we add `5` so the regular stack is `[4,3,5]` but we see that `5 > 3` so when we look to the TOS min stack to see, we want to maintain that `3` is still smaller so we add `3` to the min stack. Ending up with `[4,3,5]` for the regular stack and `[4,3,3]` for the min stack. The reason this works is because we are adding the minimum relative value to the stack at the time, but we don't remove previous values so as we pop from the stack, we effectively "go back an iteration" to before we had just seen that number and potential new min.
 
 #### Solution
-```
+```python 
 class MinStack:
     def __init__(self):
         self.stack = []

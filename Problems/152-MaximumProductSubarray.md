@@ -1,10 +1,12 @@
+---
+tags:
+- dynamic_programming
+- array
+---
+
 ### 152. Maximum Product Subarray
 
 Link: [here](https://leetcode.com/problems/maximum-product-subarray/description/)
-
-#### Topics
-- Dynamic programming
-- Array
 
 #### Problem
 Given an integer array `nums`, find a subarray that has the largest product, and return the product.
@@ -28,7 +30,7 @@ maxProduct, minProduct =
 ```
 
 #### Solution
-```
+```python 
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         ans = nums[0]

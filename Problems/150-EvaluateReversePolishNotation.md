@@ -1,11 +1,13 @@
+---
+tags:
+- stack
+- array
+- math
+---
+
 ### 150. Evaluate Reverse Polish Notation
 
 Link: [here](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
-
-#### Topics
-- Stack
-- Array
-- Math
 
 #### Problem
 You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.
@@ -27,7 +29,7 @@ So to solve this problem we iterate through the array, and look at each token. I
 Some pitfalls for this problem involve remembering to convert to a string, and also ensuring that negative numbers round up instead of down. You can do this by doing `int(a/b)` where it will divide, then the int operator will round towards 0. `a//b` would not work in this scenario.
 
 #### Solution
-```
+```python 
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []

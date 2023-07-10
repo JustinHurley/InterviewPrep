@@ -1,13 +1,15 @@
+---
+tags:
+- binary_tree
+- tree
+- recursion
+- divide_and_conquer
+- array
+---
+
 ### 105. Construct Binary Tree from Preorder and Inorder Traversal
 
 Link: [here](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
-
-#### Topics
-- Binary Tree
-- Tree
-- Recursion
-- Divide and Conquer
-- Array
 
 #### Problem
 Given two integer arrays `preorder` and `inorder` where `preorder` is the `preorder` traversal of a binary tree and `inorder` is the `inorder` traversal of the same tree, construct and return the binary tree.
@@ -26,7 +28,7 @@ Which was made from a tree that looked like this:
 As we can see, the inorder traversal lets us know if an element is on the left or right side of a given node. 9 is to the left of 3 and the other values are to the right of 3. So, using both lists, we can determine the current root node of a tree, and which nodes belong in the left or right subtree. So that's all we have to do, we recursively find the root node value, and the left and right subtrees, and then partition the left and right sub-lists to build the tree.
 Note: The easy python way to find the index of a value in a list is by using `List.index(val)`. This returns the index of the value in the list, but will throw and error if the value is not in the list. This does run in `O(n)` time. 
 #### Solution
-```
+```python 
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         # Null check

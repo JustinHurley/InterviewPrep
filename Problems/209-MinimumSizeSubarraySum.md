@@ -1,9 +1,11 @@
+---
+tags:
+- sliding_window
+- array
+---
+
 ### 209. Minimum Size Subarray Sum 
 Link: [here](https://leetcode.com/problems/minimum-size-subarray-sum/)
-
-####Topics:
-- Sliding Window
-- Arrays
 
 The problem is asking to find the smallest subarray sum that is larger than a given target value.
 
@@ -12,8 +14,8 @@ The approach for this problem is to just use a sliding window and keep track of 
 
 An edge case to watch out for is when the total sum of the elements is still less than the target, this can be resolved by checking the answer before returning it, and assigning some value larger than `len(nums)` so that we know when we see it, a subarray was never found, and we aren't just using the initial answer value.
 
-####Solution
-```
+#### Solution
+```python 
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         # We add the +1 so we can check later if we ever found a lower value

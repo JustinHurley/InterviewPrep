@@ -1,10 +1,12 @@
+---
+tags:
+- sliding_window
+- dictionary
+- string
+---
+
 ### 438. Find All Anagrams in a String
 Link: [here](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
-
-Topics:
-- Sliding window
-- Dictionaries
-- Strings
 
 We want to find out if one of the strings is an anagram of the other. This makes the problem partially easier because we now are working with a fixed window of length `len(p)`. This means we can just move through the array with a sliding window, keeping track of the chars in the current window to know if we have an anagram or not.
 

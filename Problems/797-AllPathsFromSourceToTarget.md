@@ -1,10 +1,13 @@
+---
+tags:
+- graph_traversal
+- depth_first_search
+- backtracking 
+- queue
+---
+
 ### 797. All Paths from Source to Target
 Link: [here](https://leetcode.com/problems/all-paths-from-source-to-target/)
-#### Topics
-- Graph traversal
-- Depth-first-search
-- Backtracking 
-- Queues
 
 #### Problem
 Given a directed acyclic graph (DAG) of n nodes labeled from 0 to `n - 1`, find all possible paths from node 0 to node `n - 1` and return them in any order.
@@ -18,7 +21,7 @@ The structure of the DFS algorithm has the base case, where the target node of t
 It's important to only add the edge we are currently on to the path, and then to remove it before we process the next connected node.
 
 #### Solution
-```
+```python 
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
         target = len(graph) - 1

@@ -1,13 +1,13 @@
+---
+tags:
+- recursion
+- dynamic_programming
+- memoization
+---
+
 ### 198. House Robber
 
 Link: [here](https://leetcode.com/problems/house-robber/)
-
-#### Topics
-- Recursion
-- Dynamic programming
-- Memoization
-- Top-down approach
-- Bottom-up approach
 
 #### Problem
 You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
@@ -24,12 +24,12 @@ To solve this problem we make a recursive function, that starts from 0.
 - The next check is to see if the value is in the memoization table, if so, return that result to save unnecessary work.
 - If the above two conditions are not satisfied, we continue navigating the decision tree with a recursive call, where we find the max of the scenario where the current house is robbed, and when it isn't robbed.
 
-###### Approach 2: Dynamic Programming
+###### Approach 2: Dynamic_Programming
 This is the bottom up approach, where instead of starting at the beginning of the list and working our way down the decision tree, we instead start at the leaves of the tree and work our way up. In this case the bottom leaf is when `i >= len(nums)`. In this case there are no houses to steal so we just return 0. Then we look at the `i-1` case where there is only 1 house, in which case we just return the value for that one house. Using these cases, we set those as the values for `n` and `n-1` in our table and then work backwards. 
 We can just iterate backwards through the array and at each house the way to find the best value is the same. We can either rob this house and skip the next, or skip this house and check the next. We are just skipping the part with all the recursive calls.
 Something to watch out for is that we need to make an array for the empty case, when `i == n`. This means when making the array to store the DP values in it, it needs to be of size `n+1` and not size `n`.
 
-###### Approach 3: Optimized Dynamic Programming
+###### Approach 3: Optimized Dynamic_Programming
 This approach iterates through the array, and leverages the fact that we only really need to track the previous 2 values to determine a current value. We instantiate 2 variables and set them equal to 0. One will represent the the robber that has robbed the previous house and thus must skip the current house, and the other robber will represent the robber that robbed the house 2 houses ago, and thus can rob this house. We then take the max of those two values. We then want to update the position of our robbers, so we set the robber two houses away to the robber 1 house away (so it will be 2 houses away on the next iteration), and then set the robber 1 house away to the max value that was just calculated, so that it will represent the robber who is 1 house away to the current house.
 ```
 Current setup: [rob1, rob2, num, num+1, ...]

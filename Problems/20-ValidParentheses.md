@@ -1,11 +1,13 @@
+---
+tags:
+- stack
+- array
+- string
+---
+
 ### 20. Valid Parentheses
 
 Link: [here](https://leetcode.com/problems/valid-parentheses/description/)
-
-#### Topics
-- Stack
-- Array
-- String
 
 #### Problem
 Given a string s containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
@@ -22,7 +24,7 @@ By adding each open bracket to the stack, we set up the order that each parenthe
 There are also a few edge cases that are good to consider on this problem. We can match all the values up in the stack fine, but if there are still leftover values in the stack, it means that not all of the open parentheses were accounted for so this is invalid. Likewise, if we try to pop the stack and see that it is empty, it means we have a closing parenthesis with no possible opening one and are also invalid. Having both these checks ensures that we aren't over-matching or leaving parentheses unaccounted for. 
 
 #### Solution
-```
+```python 
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []

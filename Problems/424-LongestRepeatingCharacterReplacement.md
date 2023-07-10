@@ -1,11 +1,13 @@
+---
+tags:
+- sliding_window
+- string 
+- dictionary
+---
+
 ### 424. Longest Repeating Character Replacement
 
 Link: [here](https://leetcode.com/problems/longest-repeating-character-replacement/description/)
-
-#### Topics
-- Sliding window
-- String
-- Hash table
 
 #### Problem
 You are given a string `s` and an integer `k`. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most `k` times.
@@ -24,7 +26,7 @@ We don't want to replace the most frequent character, since that wouldn't give u
 It's important in this problem to keep track of when we are adding items to the dict, and when we are evaluating the validity of the dict. If we check then add a char, we run the risk of validating, adding a char that makes it invalid, then hitting the last char in the string and returning, thus giving an incorrect solution. While the code solution given takes this into account, there is an easier way to do this without the need for an if statement. 
 
 #### Solution
-```
+```python 
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         length = len(s)

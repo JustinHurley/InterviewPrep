@@ -1,9 +1,11 @@
+---
+tags:
+- linked_list
+---
+
 ### 143. Reorder List
 
 Link: [here](https://leetcode.com/problems/reorder-list/description/)
-
-#### Topics
-- Linked List
 
 #### Problem
 You are given the head of a singly linked-list. The list can be represented as:
@@ -28,7 +30,7 @@ To merge the 2 lists together, we can use a flag variable that oscillated betwee
 The final consideration is when we are dealing with a case where `len(firstHalf) != len(secondHalf)`. To do this, we just check the first half of the list, to see if there is still a node present, and if so we add it to the answer list. It is important to also overwrite the next node when you add this node as it will still be pointing to the first node in the second half of the list, so you need to also append a `None` as the final node afterwards, otherwise you will end up with a cycle. 
 
 #### Solution
-```
+```python 
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
         """

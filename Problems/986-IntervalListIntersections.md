@@ -1,10 +1,12 @@
+---
+tags:
+- two_pointer
+- interval
+- greedy_choice
+---
+
 ### 986. Interval List Intersections
 Link [here](https://leetcode.com/problems/interval-list-intersections/)
-
-Topics:
-- 2 pointer
-- Intervals
-- Greedy choice
   
 Given 2 lists of closed intervals
 Intervals are always different numbers and in order

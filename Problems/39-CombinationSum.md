@@ -1,12 +1,14 @@
+---
+tags:
+- permutation
+- recursion
+- depth_first_search
+- array
+- backtracking
+---
+
 ### 39. Combination Sum
 Link: [here](https://leetcode.com/problems/combination-sum/)
-
-#### Topics
-- Permutation
-- Recursion
-- Depth-first Search
-- Arrays
-- Backtracking
 
 #### Problem 
 Given an array of distinct integers `candidates` and a target integer `target`, return a list of all unique combinations of `candidates` where the chosen numbers sum to `target`. You may return the combinations in any order.

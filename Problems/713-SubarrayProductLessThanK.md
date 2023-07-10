@@ -1,10 +1,12 @@
+---
+tags:
+- sliding_window
+- math
+- array
+---
+
 ### 713 Subarray Product Less than K
 Link: [here](https://leetcode.com/problems/subarray-product-less-than-k/)
-
-Topics:
-- Sliding window
-- Multiplication
-- Arrays
 
 Given an array of integers and a value `k` find the number of continuous subarrays where the product is `< k`.
 

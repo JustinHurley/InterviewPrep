@@ -1,12 +1,14 @@
+---
+tags:
+- permutation
+- recursion 
+- set
+- deep_copy 
+- array
+---
+
 ### 47. Permutations II
 Link: [here](https://leetcode.com/problems/permutations-ii/)
-
-#### Topics
-- Permutation
-- Recursion 
-- Sets
-- Deep copying 
-- Lists
 
 #### Problem 
 Given a collection of numbers, `nums`, that might contain duplicates, return all possible unique permutations in any order.
@@ -22,7 +24,7 @@ Tips:
 - If you want to put a list into a set or use it as a key in a dict, you need to convert it to a tuple first, which can be done by wrapping the list in a `tuple()`
 
 #### Solution
-```
+```python 
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)

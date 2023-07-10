@@ -1,11 +1,13 @@
+---
+tags:
+- binary_tree
+- depth_first_search
+- tree
+---
+
 ### 100. Same Tree
 
 Link: [here](https://leetcode.com/problems/same-tree/description/)
-
-#### Topics
-- Binary Tree
-- Depth-First Search
-- Trees
 
 #### Problem
 Given the roots of two binary trees `p` and `q`, write a function to check if they are the same or not.
@@ -17,7 +19,7 @@ Like almost all DFS problems, this one involves coming up with base cases for wh
 For the recursive case, we just want to iterate on the child nodes of each given node, and if any part of the tree is the same, we want to return false, so we join each of the recursive calls made on the child nodes with an `and`.
 
 #### Solution
-```
+```python 
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         if p == None and q == None:

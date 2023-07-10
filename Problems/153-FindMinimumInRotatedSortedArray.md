@@ -1,10 +1,12 @@
+---
+tags:
+- array
+- binary_search
+---
+
 ### 153. Find Minimum In Rotated Sorted Array
 
 Link: [here](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
-
-#### Topics
-- Array
-- Binary Search
 
 #### Problem
 Suppose an array of length `n` sorted in ascending order is rotated between `1` and `n` times. For example, the array `nums = [0,1,2,4,5,6,7]` might become:
@@ -23,7 +25,7 @@ So we set up binary search using left and right pointers like normal, however ou
 It is important to check the midpoint value as we are doing this problem, as we could potentially set the midpoint value equal to the minimum value in the array, and then would not touch it again as the left and right values would skip over it as we make the problem space smaller and smaller. 
 
 #### Solution
-```
+```python 
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         n = len(nums)

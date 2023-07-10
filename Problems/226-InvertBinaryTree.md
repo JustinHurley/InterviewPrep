@@ -1,11 +1,13 @@
+---
+tags:
+- binary_tree
+- recursion 
+- depth_first_search
+---
+
 ### 226. Invert Binary Tree
 
 Link: [here](https://leetcode.com/problems/invert-binary-tree/description/)
-
-#### Topics
-- Binary Tree
-- Recursion 
-- Depth-First Search
 
 #### Problem
 Given the `root` of a binary tree, invert the tree, and return its root.
@@ -14,7 +16,7 @@ Given the `root` of a binary tree, invert the tree, and return its root.
 The approach is fairly simple, given that we are working with a tree, and in this case want to use DFS, we can just recur on the tree and swap nodes at each recursion. The base case is when we are given an empty node, in which case we just return `None`. Otherwise we swap the left and right child nodes of the root, and then make recursive calls on those children. Finally, after the recursion, we return the updated root node.
 
 #### Solution
-```
+```python 
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         # Base case

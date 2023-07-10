@@ -1,12 +1,14 @@
+---
+tags:
+- sliding_window
+- queue
+- heap 
+- deque
+---
+
 ### 239. Sliding Window Maximum
 
-Link: [here](https://leetcode.com/problems/sliding-window-maximum/description/)
-
-#### Topics
-- Sliding window
-- Queue
-- Heap (priority queue)
-- Deque (double-ended queue)
+Link: [here](https://leetcode.com/problems/sliding-window-maximum/description/) 
 
 #### Problem
 You are given an array of integers `nums`, there is a sliding window of size `k` which is moving from the very left of the array to the very right. You can only see the `k` numbers in the window. Each time the sliding window moves right by one position.
@@ -21,7 +23,7 @@ While this is good, we can do a better solution by using a deque to keep track o
 This whole approach hinges on using the deque to keep track of the max value as we iterate through the array, while also keeping values that aren't the largest but could be. The main thing to keep in mind when understanding this problem is that we only care about the max values, so if we see a new max value, all the previous values in the deque can go away since they will never be the value added to the answer array, as the new max value will be in the window longer than all the other smaller ones. This idea of keeping the max in the leftmost spot in the deque allows us to move through the array and keep the max at each step while still having room for values that could be the max in the future as we slide the window to the right, without needing to look at values we have passed already and know could never be the max.
 
 #### Solution
-```
+```python 
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         length = len(nums)

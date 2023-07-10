@@ -1,13 +1,15 @@
+---
+tags:
+- binary_tree
+- recursion
+- string 
+- depth_first_search
+- tree
+---
+
 ### 297. Serialize and Deserialize Binary Tree
 
 Link: [here](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)
-
-#### Topics
-- Binary Tree
-- Recursion
-- String
-- Depth-first Search
-- Tree
 
 #### Problem
 Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.
@@ -26,7 +28,7 @@ To deserialize, we basically run DFS but on the string we generated during seria
 It's important to use `self.i` as a global pointer in this problem, as we want to iterate over the list we built from the string as we are doing the recursion. 
 
 #### Solution
-```
+```python 
 class Codec:
 
     def serialize(self, root):

@@ -1,15 +1,16 @@
+---
+tags:
+- trie
+- recursion
+- depth_first_search
+- backtracking
+- matrix
+- string_array
+---
+
 ### 212. Word Search
 
 Link: [here](https://leetcode.com/problems/word-search-ii/description/)
-
-#### Topics
-- Trie
-- Recursion
-- Depth-first Search
-- Backtracking
-- Matrix
-- String
-- Array
 
 #### Problem
 Given an `m x n` `board` of characters and a list of strings `words`, return all words on the board.
@@ -29,7 +30,7 @@ Once we have made the trie, we are ready to iterate through the matrix. This is 
 **NOTE**: This approach will fail on the `Time Limit Exceeded` test cases, as the problem expects you to remove already found words from the trie as you go, however this will not affect the overall time complexity.
 
 #### Solution
-```
+```python 
 class TrieNode: 
     def __init__(self):
         self.children = {}

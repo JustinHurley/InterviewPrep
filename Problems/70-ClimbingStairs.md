@@ -1,10 +1,12 @@
+---
+tags:
+- dynamic_programming
+- array
+---
+
 ### 70. Climbing Stairs
 
 Link: [here](https://leetcode.com/problems/climbing-stairs/)
-
-#### Topics
-- Dynamic programming
-- Arrays
 
 #### Problem
 You are climbing a staircase. It takes `n` steps to reach the top.

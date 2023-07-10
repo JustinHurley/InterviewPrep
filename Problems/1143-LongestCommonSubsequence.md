@@ -1,11 +1,13 @@
+---
+tags:
+- dynamic_programming
+- array
+- string
+---
+
 ### 1143. Longest Common Subsequence
 
 Link: [here](https://leetcode.com/problems/longest-common-subsequence/description/)
-
-#### Topics
-- Dynamic programming
-- Array
-- String
 
 #### Problem
 Given two strings `text1` and `text2`, return the length of their longest common subsequence. If there is no common subsequence, return 0.
@@ -25,7 +27,7 @@ As we iterate backwards through the matrix, we consider 2 cases:
 2. The other case to consider is when the current chars don't match. When this happens, we just want to update the current cell with the best LCS so far. To do this, we just look at the cell to the right and the cell under the current cell, and take the max of both values. This works because we are taking the best value of each subproblem when we ignore one of the current chars. We can't just look diagonally because we don't want to skip the cells under and to the right of the current cell where we are evaluating the cases without either current char.
 
 #### Solution
-```
+```python 
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         dp = [[0 for _ in range(len(text2)+1)] for _ in range(len(text1)+1)]

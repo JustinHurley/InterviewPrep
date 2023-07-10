@@ -1,10 +1,12 @@
+---
+tags:
+- dynamic_programming
+- array
+---
+
 ### 746. Min Cost Climbing Stairs
 
 Link: [here](https://leetcode.com/problems/min-cost-climbing-stairs/)
-
-#### Topics
-- Dynamic programming
-- Arrays
 
 #### Problem
 You are given an integer array `cost` where `cost[i]` is the cost of `ith` step on a staircase. Once you pay the cost, you can either climb one or two steps.
@@ -21,7 +23,7 @@ In the above code, `ans[i-1]+cost[i-1]` represents if the user had taken 1 step 
 We then continue to fill in the array until all `n+1` cells have been populated, and we return the last element in the list (using `ans[-1]`).
 
 #### Solution
-```
+```python 
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         n = len(cost)

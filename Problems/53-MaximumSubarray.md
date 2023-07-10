@@ -1,12 +1,14 @@
+---
+tags:
+- dynamic_programming
+- array
+- greedy_choice
+- divide_and_conquer 
+---
+
 ### 53. Maximum Subarray
 
 Link: [here](https://leetcode.com/problems/maximum-subarray/)
-
-#### Topics
-- Dynamic programming
-- Arrays
-- Greedy choice
-- Divide and conquer (different approach)
 
 #### Problem
 Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
@@ -27,7 +29,7 @@ The way to determine this is to just see if the current sum is positive or negat
 
 
 #### Solution
-```
+```python 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         # Edge case check

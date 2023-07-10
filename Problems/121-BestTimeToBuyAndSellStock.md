@@ -1,11 +1,13 @@
+---
+tags:
+- sliding_window
+- dynamic_programming
+- array
+---
+
 ### 121. Best Time to Buy and Sell Stock
 
 Link: [here](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
-
-#### Topics
-- Sliding window
-- Dynamic programming
-- Array
 
 #### Problem
 You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day.
@@ -15,7 +17,7 @@ You want to maximize your profit by choosing a single day to buy one stock and c
 Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return `0`.
 
 #### Approach
-**Dynamic Programming**
+**Dynamic_Programming**
 This first approach is based on dynamic programming and memoization to solve the problem. We basically want to figure out what the best future prices is relative to the current `prices[i]` that we're looking at. 
 One way to go about doing this is to use an array where we mark at each index `i` what the highest future price will be for that given index. To do this, we can simply iterate through the array backwards, and keep track of what the highest value seen so far is. We also need to offset by 1, since the highest value at a given location should not be itself, it should be only considering the values after it.
 We then can do a forward pass through `prices[i]` and at each index, calculate the difference between `prices[i]` and the future max sell price for that given position, then just return the max difference between buy and sell found.

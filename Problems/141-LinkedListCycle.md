@@ -1,9 +1,11 @@
+---
+tags:
+- linked_list
+---
+
 ### 141. Linked List Cycle
 
 Link: [here](https://leetcode.com/problems/linked-list-cycle/description/)
-
-#### Topics
-- Linked List
 
 #### Problem
 Given `head`, the head of a linked list, determine if the linked list has a cycle in it.
@@ -17,7 +19,7 @@ This is a pretty trivial problem once you know the approach. All you have to do 
 It is important to consider edge cases in this problem, as we need to init `fast = head.next` and `slow = head` because otherwise the pointers would be equal on the first iteration. This means if `head == None` we need to stop and just return False, as there is no way there can be a cycle with just an empty node. 
 
 #### Solution
-```
+```python 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         # Edge case check for if head == None so we can't init fast

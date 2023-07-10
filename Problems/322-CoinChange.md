@@ -1,12 +1,14 @@
+---
+tags:
+- dynamic_programming
+- array
+- depth_first_search
+- breadth_first_search
+---
+
 ### 322. Coin Change
 
 Link: [here](https://leetcode.com/problems/coin-change/description/)
-
-#### Topics
-- Dynamic programming
-- Array
-- Depth-first search
-- Breadth-first search
 
 #### Problem
 You are given an integer array `coins` representing coins of different denominations and an integer amount representing a total `amount` of money.
@@ -27,7 +29,7 @@ if i - coin >= 0:
 ```
 The above line of code is asking what takes fewer coins to make: the current value (which may be uncalculated and thus `amount+1`) or the number of coins it takes to make up the `amount - coin` where `coin` is the value of the given coin. We can do this check because we know that the earlier values in the `dp` array have already been filled, since we started with the `dp[0]` seed value. The if statement check is also important because we don't want to provide coin counts for values that are impossible to make with the given coins, e.g. if you want to make 7 cents only using nickels, that is impossible. So we go through and calculate the lowest coin amount possible to make the desired amount at each amount up to `amount` and then we return the value of `dp[amount]`, the only catch is make sure it's not `amount + 1` because that means we can't calculate that amount with the given coin denominations.
 #### Solution
-```
+```python 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         # This is where we build the array, initally we set each val to above the max for min comparisons

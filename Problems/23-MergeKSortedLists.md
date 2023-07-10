@@ -1,12 +1,14 @@
+---
+tags:
+- linked_list
+- recursion 
+- divide_and_conquer
+- merge_sort
+---
+
 ### 23. Merge k Sorted Lists
 
 Link: [here](https://leetcode.com/problems/merge-k-sorted-lists/description/)
-
-#### Topics
-- Linked List
-- Recursion 
-- Divide and Conquer
-- Merge Sort
 
 #### Problem
 You are given an array of `k` linked-lists `lists`, each linked-list is sorted in ascending order.
@@ -25,7 +27,7 @@ return self.merge2Lists(self.mergeKLists(lists[0:k//2]), self.mergeKLists(lists[
 Now let's break down what exactly is going on in the above statement. So we want to merge two lists, which is why we call `merge2Lists`. But because we are given `k` lists, we need to recursively call `mergeKlists` on the half-slices of each list until we hit the base case. Exactly like merge sort, we break the problem down until we only have one element, and then build the sorted solution back up until we end up with the sorted result. 
 
 #### Solution
-```
+```python 
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         k = len(lists)

@@ -1,11 +1,13 @@
+---
+tags:
+- breadth_first_search
+- tree
+- binary_tree
+---
+
 ### 102. Binary Tree Level Order Traversal
 
 Link: [here](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
-
-#### Topics
-- Breadth-First Search
-- Trees
-- Binary Tree
 
 #### Problem
 Given the `root` of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
@@ -17,7 +19,7 @@ The general approach is to process the queue one level at a time, we do this by 
 One important thing to note, is that `[None]` is not Falsy, so we don't want unprocessed `None` nodes in the queue, so we need to check the children of nodes beforehand, so that we don't accidentally add `None` to the queue.
 
 #### Solution
-```
+```python 
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         Q = [root]

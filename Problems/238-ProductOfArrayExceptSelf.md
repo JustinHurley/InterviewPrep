@@ -1,11 +1,13 @@
+---
+tags:
+- array
+- prefix_sum
+- math
+---
+
 ### 238. Product of Array Except Self
 
 Link: [here](https://leetcode.com/problems/product-of-array-except-self/description/)
-
-#### Topics
-- Arrays
-- Prefix sum
-- Math
 
 #### Problem
 Given an integer array `nums`, return _an array_ `answer` _such that_ `answer[i]` _is equal to the product of all the elements of_ `nums` _except_ `nums[i]`.
@@ -21,7 +23,7 @@ We can do this by doing 2 passes, left-to-right and then right-to-left in the ar
 We have now generated the left prefix product of the array, and now we have to generate the right. This can be done in the same fashion as previously, just in this instance we iterate backwards. Starting at the end of the array and moving to the first element.
 
 #### Solution
-```
+```python 
 class Solution: 
 	def productExceptSelf(self, nums: List[int]) -> List[int]: 
 		n = len(nums) 

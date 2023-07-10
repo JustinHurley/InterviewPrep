@@ -1,12 +1,13 @@
+---
+tags:
+- dictionary
+- string_array
+- binary_search
+---
+
 ### 981. Time Based Key-Value Store
 
 Link: [here](https://leetcode.com/problems/time-based-key-value-store/description/)
-
-#### Topics
-- Hash Table
-- String
-- Array
-- Binary Search
 
 #### Problem
 Design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key's value at a certain timestamp.
@@ -25,7 +26,7 @@ Because the problem states that the set method will remain strictly increasing, 
 To do so, we set up the problem like binary search normally, the only difference is that when we go left, we update the current answer with the midpoint timestamp. This is because we only go left when the midpoint timestamp is greater than the target timestamp (so we know it's valid), and then we move the search window to the left, so we know we will only evaluate timestamps smaller than the current timestamp we just looked at. This ensures we don't accidentally assign a larger timestamp to the target that is also valid.
 
 #### Solution
-```
+```python 
 
 ```
 

@@ -1,12 +1,14 @@
+---
+tags:
+- sliding_window
+- string 
+- Set
+- dictionary
+---
+
 ### 3. Longest Substring Without Repeating Characters
 
 Link: [here](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
-
-#### Topics
-- Sliding window
-- String
-- Set
-- Hash table
 
 #### Problem
 Given a string `s`, find the length of the longest 
@@ -17,7 +19,7 @@ For this problem we will use the sliding window approach. To do this, we will st
 If we hit a character in the string that collides with an element in the set, we need to move `L` up until the character is removed from the set, and we are back to a substring with all unique characters again, starting the process from where we left off with `R`. 
 This problem can also be solved using a HashSet/dict, but it isn't really necessary as we don't need to count the number of times we've seen every element, just if we've seen it more than once. We do need to keep in mind that we may end up trying to remove an element from the set that isn't there, so will need to have a check to prevent that from happening when we do use a set. 
 #### Solution
-```
+```python 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         length = len(s)

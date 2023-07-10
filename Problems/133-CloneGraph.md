@@ -1,12 +1,14 @@
+---
+tags:
+- dictionary
+- depth_first_search
+- graph
+- recursion
+---
+
 ### 133. Clone Graph
 
 Link: [here](https://leetcode.com/problems/clone-graph/description/)
-
-#### Topics
-- Hash Table
-- Depth-first Search
-- Graph
-- Recursion
 
 #### Problem
 Given a reference of a node in a connected undirected graph.
@@ -32,7 +34,7 @@ After running the DFS method, we just return the hash table entry for the origin
 Edge Case: We need to handle the case where the original node is `None`.
 
 #### Solution
-```
+```python 
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
         # Edge case

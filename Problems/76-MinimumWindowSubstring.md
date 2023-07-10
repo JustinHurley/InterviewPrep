@@ -1,11 +1,13 @@
+---
+tags:
+- sliding_window
+- string 
+- dictionary
+---
+
 ### 76. Minimum Window Substring
 
 Link: [here](https://leetcode.com/problems/minimum-window-substring/description/)
-
-#### Topics
-- Sliding window
-- String
-- Hash map
 
 #### Problem
 Given two strings `s` and `t` of lengths m and n respectively, return the minimum window 

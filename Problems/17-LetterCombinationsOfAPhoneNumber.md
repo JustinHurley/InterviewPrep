@@ -1,13 +1,14 @@
+---
+tags:
+- math
+- backtracking
+- depth_first_search
+- recursion
+---
+
 ### 17. Letter Combinations of a Phone Number
 
 Link: [here](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-
-#### Topics
-- Combinations
-- Backtracking
-- DFS
-- Recursion
-- String building
 
 #### Problem
 Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.
@@ -20,7 +21,7 @@ All you do is make a recursive method that tracks the current index and recursiv
 For each digit, we call a recursive method for each letter. For example, if we saw the digit `"2"`, then we recursively run on `"a"`, `"b"`, and `"c"`.
 
 #### Solution
-```
+```python python
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         ans = []

@@ -1,9 +1,11 @@
+---
+tags:
+- linked_list
+---
+
 ### 21. Merge Two Sorted Lists
 
 Link: [here](https://leetcode.com/problems/merge-two-sorted-lists/description/)
-
-#### Topics
-- Linked List
 
 #### Problem
 You are given the heads of two sorted linked lists `list1` and `list2`.
@@ -22,7 +24,7 @@ This is a pretty simple problem, but there are some tricks that should be used t
 The other important part of this approach is determining how to start the list? We could use if statments to get the head of the list, but then we would also need to determine which list we need to advance to the next node on, and basically manually run the first iteration of this algorithm. Instead of that, we can just use a dummy node, instantiated with `dummy = ListNode()`. This allows us to just append whatever first node we want, and then at the end of the problem, we just return `dummy.next` as the answer, because we don't want to return the empty node we instantiated, we just want to use it to provide an "anchor point" to start our linked list.
 
 #### Solution
-```
+```python 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         dummy = ListNode()

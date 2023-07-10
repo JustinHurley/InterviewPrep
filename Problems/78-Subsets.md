@@ -1,11 +1,13 @@
+---
+tags:
+- backtracking 
+- recursion 
+- permutation
+- array
+---
+
 ### 78. Subsets
 Link: [here](https://leetcode.com/problems/subsets/)
-
-#### Topics
-- Backtracking 
-- Recursion 
-- Permutation
-- Arrays
 
 #### Problem
 Given an integer array `nums` of unique elements, return all possible subsets (the power set).
@@ -17,7 +19,7 @@ We can simply permute through the problem by iterating through the integer array
 An issue to watch out for on this problem is to make sure that you aren't adding to the array that you're iterating, as this will cause an infinite loop.
 
 #### Solution
-```
+```python 
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         ans = [[]]

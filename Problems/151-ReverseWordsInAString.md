@@ -1,10 +1,11 @@
-### \#151. Reverse words in a String
+---
+tags:
+- string_array
+---
+
+### 151. Reverse words in a String
 
 Link: [here](https://leetcode.com/problems/reverse-words-in-a-string/)
-
-#### Topics
-- Strings
-- Arrays
 
 #### Problem
 Given an input string `s`, reverse the order of the words.
@@ -20,7 +21,7 @@ The approach is to split the string up into an array, separating by spaces, reve
 The important part of this question is to note that you need to remove whitespace if there is extra so make sure to only append non-empty strings to the answer string.
 
 #### Solution
-```
+```python 
 class Solution:
     def reverseWords(self, s: str) -> str:
         # Split up word into array with " "

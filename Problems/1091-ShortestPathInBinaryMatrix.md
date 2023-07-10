@@ -1,11 +1,14 @@
+---
+tags:
+- matrix
+- breadth_first_search
+- queue
+- set
+- tuple
+---
+
 ### 1091. Shortest Path in Binary Matrix
 Link: [here](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
-#### Topics
-- Matrices
-- Breadth-first-search
-- Queues
-- Sets
-- Tuples
 
 #### Problem
 Given an n x n binary matrix grid, return the length of the shortest clear path in the matrix. If there is no clear path, return -1.
@@ -27,11 +30,11 @@ There are a lot of Python-specific things to know that can help make this proble
 - You can store coordinates in a tuple, and instead of indexing them, simply extract them into a variable like:
 `x-coordinate, y-coordinate = coordinates`
 - You can also extract values from a tuple using the `*` symbol. So if we wanted to return coordinates, but also add a z-coordinate, we could do that like this: `return(*coordinates, z-coordinate)`, where `*coordinates` will populate the returned tuple with the x and y coordinate. 
-- Sets can be initialized by making a `{}` with something in it, if there is nothing inside the curly braces, you will end up with a dict instead. To get an empty set use `set()` or `{*()}`.
+- set can be initialized by making a `{}` with something in it, if there is nothing inside the curly braces, you will end up with a dict instead. To get an empty set use `set()` or `{*()}`.
 - `yield` returns a generator instead of a value. What this means is that instead of returning a list of things, it returns a generator that only provides the values when called, and cannot be iterated over again. When you call a function that uses `yield` the function does not run, it returns the generator object which is used to run the function. `yield` can be used as a way to return a list without actually needing to build said list, as `yield` doesn't terminate the function.
 
 #### Solution
-```
+```python 
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         rows = len(grid)

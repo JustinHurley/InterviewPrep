@@ -1,11 +1,13 @@
+---
+tags:
+- matrix
+- graph_traversal
+- depth_first_search
+- set
+---
+
 ### 130. Surrounded Regions
 Link: [here](https://leetcode.com/problems/surrounded-regions/)
-
-#### Topics
-- Matrices
-- Graph traversal
-- Depth-first-search
-- Sets
 
 #### Problem
 Given an m x n matrix board containing 'X' and 'O', capture all regions that are 4-directionally surrounded by 'X'.
@@ -19,7 +21,7 @@ We can navigate around the borders of the matrix, looking for Os. When we see on
 Then, before we submit, simply iterate over the array and change any O you see to an X, and any of the Os that can't be replaced (that were reassigned to differentiate from the other Os) and then return the matrix.
 
 #### Solution
-```
+```python 
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """

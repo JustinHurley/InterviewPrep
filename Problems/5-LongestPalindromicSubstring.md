@@ -1,11 +1,12 @@
+---
+tags:
+- array
+- string 
+- Dynamic_Programming
+---
 ### 5. Longest Palindromic Substring
 
 Link: [here](https://leetcode.com/problems/longest-palindromic-substring/description/)
-
-#### Topics
-- Array
-- String
-- Dynamic Programming
 
 #### Problem
 Given a string `s`, return the longest palindromic substring in `s`.

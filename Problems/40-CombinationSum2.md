@@ -1,12 +1,14 @@
+---
+tags:
+- backtracking
+- depth_first_search
+- recursion
+- permutation
+---
+
 ### 40. Combination Sum II
 
 Link: [here](https://leetcode.com/problems/combination-sum-ii/)
-
-#### Topics
-- Backtracking
-- Depth-first Search
-- Recursion
-- Permutation
 
 #### Problem
 Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.
@@ -21,7 +23,7 @@ We need a recursive function, that checks if you are at the target sum and if so
 For this problem, preventing duplicates is important. This is why we sort the candidate array at the beginning and also check for duplicates while iterating. We check for duplicates by ensuring that we aren't about to add the same number we are currently looking at into the solution set. We also look at the previous element to make sure it's not the same. We also start each sequence from the current index we are on, so that we "move right" with each recursive call, preventing duplicates. If we didn't do that, we could get `[candidates[i],candidates[j]]` and `[candidates[j],candidates[i]]`.
 
 #### Solution
-```
+```python 
 class Solution:
     def combinationSum2(self, candidates, target):
         candidates.sort()

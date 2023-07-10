@@ -1,12 +1,14 @@
+---
+tags:
+- Dictionary
+- sorting
+- array
+- bucketsort
+---
+
 ### 347. Top K Frequent Elements
 
 Link: [here](https://leetcode.com/problems/top-k-frequent-elements/description/)
-
-#### Topics
-- Dictionary
-- Sorting
-- Arrays
-- Bucketsort
 
 #### Problem
 Given an integer array `nums` and an integer `k`, return _the_ `k` _most frequent elements_. You may return the answer in **any order**.
@@ -17,7 +19,7 @@ We can then just count backwards in the answer set until we hit `k` items, as we
 This allows us to create an `O(n)` algorithm in time and space complexity. We do one pass of `nums`, `O(n)`, create the count list, `O(n)`, then a pass through each unique element to determine where in the count list it should go `< O(n)`. Finally, we just need to read from the list backwards and grab each element until we hit k elements. This is also an `O(n)` operation as we iterate through `n` items in the list of lists, and each element only appears once at most in the list, so we check `2n` items which is `O(n)`. 
 
 #### Solution
-```
+```python 
 class Solution:
 	def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 		n = len(nums)

@@ -1,13 +1,15 @@
+---
+tags:
+- depth_first_search
+- recursion
+- matrix
+- graph
+- array
+---
+
 ### 417. Pacific Atlantic Water Flow
 
 Link: [here](https://leetcode.com/problems/pacific-atlantic-water-flow/)
-
-#### Topics
-- Depth-first Search
-- Recursion
-- Matrix
-- Graph
-- Array
 
 #### Problem
 There is an `m x n` rectangular island that borders both the Pacific Ocean and Atlantic Ocean. The Pacific Ocean touches the island's left and top edges, and the Atlantic Ocean touches the island's right and bottom edges.
@@ -40,7 +42,7 @@ For this problem it helps to:
 - Know that DFS doesn't work on cyclic graphs.
 
 #### Solution
-```
+```python 
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
         rows, cols = len(heights), len(heights[0])

@@ -1,10 +1,12 @@
+---
+tags:
+- two_pointer
+- array
+---
+
 ### 167. Two Sum II - Input Array is Sorted
 
 Link: [here](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
-
-#### Topics
-- Two pointer
-- Arrays
 
 #### Problem
 Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be `numbers[index1]` and `numbers[index2]` where `1 <= index1 < index2 <= numbers.length`.
@@ -20,7 +22,7 @@ Given that the array is sorted, we should take advantage of this. I immediately 
 We just start with one pointer on either end of the sorted array and look at the sum. If the sum is larger than the target, we move the right pointer left by 1, reducing the sum, and if the sum is less than the target, we move the left pointer right by 1, increasing the sum. We do this until we hit the answer (answer is guaranteed to exist for this problem). In the case that it didn't, our two pointer while loop would stop when `l > r` and we could return `False` or `[-1,-1]` or something.
 
 #### Solution
-```
+```python 
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         length = len(numbers)

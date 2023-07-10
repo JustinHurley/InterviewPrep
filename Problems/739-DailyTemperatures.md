@@ -1,11 +1,13 @@
+---
+tags:
+- stack
+- monotonic_stack
+- array
+---
+
 ### 739. Daily Temperatures
 
 Link: [here](https://leetcode.com/problems/daily-temperatures/)
-
-#### Topics
-- Stack
-- Monotonic stack
-- Array
 
 #### Problem
 Given an array of integers `temperatures` represents the daily temperatures, return an array answer such that `answer[i]` is the number of days you have to wait after the `ith` day to get a warmer temperature. If there is no future day for which this is possible, keep `answer[i] == 0` instead.
@@ -17,7 +19,7 @@ So we traverse the input array from left to right, adding `(temp, index)` pairs 
 This monotonically stack approach is good when we want to "remember" past values, and do work on those values when a condition is met, and there is a variable distance from a value and the value that triggers that condition. In the context of this problem it means we can "remember" and keep track of values until a larger one comes along and we can then process and calculate the difference in days relative to the popped value. 
 
 #### Solution
-```
+```python 
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         stack = [] # t,i

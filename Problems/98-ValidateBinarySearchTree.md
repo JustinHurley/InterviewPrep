@@ -1,12 +1,14 @@
+---
+tags:
+- binary_search_tree
+- recursion
+- tree
+- depth_first_search
+---
+
 ### 98. Validate Binary Search Tree
 
 Link: [here](https://leetcode.com/problems/validate-binary-search-tree/description/)
-
-#### Topics
-- Binary Search Tree
-- Recursion
-- Tree
-- Depth-First Search
 
 #### Problem
 Given the `root` of a binary tree, determine if it is a valid binary search tree (BST).
@@ -24,7 +26,7 @@ We need to use a helper method to track the allowed range of a given node, while
 NOTE: to have infinity and negative infinity in Python, use `float("inf")` and `float("-inf")` respectively.
 
 #### Solution
-```
+```python 
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
         return self.helper(root, float("-inf"), float("inf"))

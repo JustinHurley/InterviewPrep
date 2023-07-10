@@ -1,10 +1,12 @@
+---
+tags:
+- dynamic_programming
+- array
+---
+
 ### 300. Longest Increasing Subsequence
 
 Link: [here](https://leetcode.com/problems/longest-increasing-subsequence/description/)
-
-#### Topics
-- Dynamic programming
-- Array
 
 #### Problem
 Given an integer array `nums`, return the length of the longest strictly increasing subsequence.
@@ -26,7 +28,7 @@ Which exists in the inner part of loop that goes through all the elts in the DP 
 Now at the end we can't just return `dp[0]` since starting at the 0th index might not lead to the best solution so instead we return `max(dp).
 
 #### Solution
-```
+```python 
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         n = len(nums)

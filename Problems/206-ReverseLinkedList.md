@@ -1,9 +1,11 @@
+---
+tags:
+- linked_list
+---
+
 ### 206. Reverse Linked List
 
 Link: [here](https://leetcode.com/problems/reverse-linked-list/description)
-
-#### Topics
-- Linked List
 
 #### Problem
 Given the `head` of a singly linked list, reverse the list, and return the reversed list.
@@ -15,7 +17,7 @@ When we move through the list, we need to do a swap, and it involves an extra no
 Finally we return `prev` as our answer, as our loop stops when `curr` is null, so we don't want to return `None` but the new head of the list which in this case is `prev`.
 
 #### Solution
-```
+```python 
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         prev = None

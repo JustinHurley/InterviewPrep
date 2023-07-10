@@ -1,10 +1,12 @@
+---
+tags:
+- array
+- interval
+---
+
 ### 253. Meeting Rooms II
 
 Link: [here](https://leetcode.com/problems/meeting-rooms-ii/description/)
-
-#### Topics
-- Array
-- Interval
 
 #### Problem
 Given an array of meeting time intervals `intervals` where `intervals[i] = [starti, endi]`, return the minimum number of conference rooms required.
@@ -15,7 +17,7 @@ We do this by extracting the start and end times, putting them into their own ar
 If the current start time is before the current end time, we increment the start pointer and also increment the room counter as well. Otherwise, we increment the end pointer and decrement the room counter. We can think of incrementing the start counter as "starting" a meeting, and incrementing the end counter as "ending" a meeting. When we see a start time and it's before the current end time, it means we need to start another meeting, but there is a meeting that hasn't reached it's end time (because the start time is less), so we should book another room. When we advance the end pointer, it means that the current start time has not been reached yet, so we can end the current meeting and focus on the end of the next meeting.
 
 #### Solution
-```
+```python 
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
         starts = sorted([i[0] for i in intervals])
