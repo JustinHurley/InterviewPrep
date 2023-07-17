@@ -1,8 +1,9 @@
+---
+tags:
+---
 ### #. Title
 
 Link: [here]()
-
-tags:
 
 #### Problem
 

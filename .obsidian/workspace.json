@@ -11,8 +11,12 @@
             "id": "8d857e42e02dc7d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Problems/84-LargestRectangleInHistogram.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Problems/84-LargestRectangleInHistogram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Problems/84-LargestRectangleInHistogram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Problems/84-LargestRectangleInHistogram.md"
+              }
             }
           }
         ],
@@ -134,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,13 +157,19 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5b50846d455b7196",
+  "active": "8d857e42e02dc7d4",
   "lastOpenFiles": [
+    "Problems/84-LargestRectangleInHistogram.md",
+    "Problems/79-WordSearch.md",
+    "Problems/90-Subsets2.md",
+    "Templates/ProblemTemplate.md",
+    "Problems/1143-LongestCommonSubsequence.md",
+    "Problems/3-LongestSubstringWithoutRepeatingCharacters.md",
+    "Problems/5-LongestPalindromicSubstring.md",
+    "Problems/207-CourseSchedule.md",
     "Problems/20-ValidParentheses.md",
     "Problems/125-ValidPalindrome.md",
     "Problems/438-FindAllAnagramsInAString.md",
-    "Problems/79-WordSearch.md",
-    "Problems/1143-LongestCommonSubsequence.md",
     "Problems/49-GroupAnagrams.md",
     "Problems/22-GenerateParenthesis.md",
     "Problems/213-HouseRobberII.md",
@@ -172,12 +185,6 @@
     "Problems/23-MergeKSortedLists.md",
     "Problems/47-Permutations2.md",
     "Problems/11-ContainerWithMostWater.md",
-    "Problems/200-NumberOfIslands.md",
-    "Problems/34-FindFirstAndLastPositionOfElementInSortedArray.md",
-    "Problems/3-LongestSubstringWithoutRepeatingCharacters.md",
-    "README.md",
-    "Problems/5-LongestPalindromicSubstring.md",
-    "Templates/ProblemTemplate.md",
-    "Templates/AlgorithmTemplate.md"
+    "Problems/200-NumberOfIslands.md"
   ]
 }
