@@ -1,10 +1,17 @@
+---
+tags:
+- tree
+- binary_tree
+- graph
+---
+
 ### Depth-First Search
 
 #### General Idea
 Depth-First Search, or pre-order traversal, is a way to navigate a tree in such a way that it processes a node, then processes the entire left subtree, then processes the entire right subtree. As the name implies, it goes all the way to the bottom of the left children of the tree first, as opposed to traversing all the elements in a level before moving on. Depth-first search is commonly used when you are looking for something in a tree, or need to find elements in a way where you don't need to traverse by level. Commonly, DFS is implemented recursively, by processing the root node and then recursively calling the children nodes.
 
 #### Code
-```
+```python
 DFS(root):
     # If the current node is null, then we are at the bottom of the tree.
     if not root:

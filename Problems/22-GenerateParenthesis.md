@@ -1,6 +1,6 @@
 ---
 tags:
-- Combinations
+- combinations
 - backtracking
 - depth_first_search
 - string

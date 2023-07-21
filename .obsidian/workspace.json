@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/435-Non-overlappingIntervals.md",
+                "file": "Categories/ArraysAndHashing.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#memoization",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/435-Non-overlappingIntervals.md",
+                "file": "Categories/ArraysAndHashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/435-Non-overlappingIntervals.md",
+                "file": "Categories/ArraysAndHashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/435-Non-overlappingIntervals.md"
+                "file": "Categories/ArraysAndHashing.md"
               }
             }
           }
@@ -159,33 +159,34 @@
   },
   "active": "8d857e42e02dc7d4",
   "lastOpenFiles": [
-    "Problems/424-LongestRepeatingCharacterReplacement.md",
-    "Problems/435-Non-overlappingIntervals.md",
-    "Problems/84-LargestRectangleInHistogram.md",
-    "Untitled",
-    "Problems/79-WordSearch.md",
-    "Problems/90-Subsets2.md",
-    "Templates/ProblemTemplate.md",
-    "Problems/1143-LongestCommonSubsequence.md",
-    "Problems/3-LongestSubstringWithoutRepeatingCharacters.md",
-    "Problems/5-LongestPalindromicSubstring.md",
-    "Problems/207-CourseSchedule.md",
-    "Problems/20-ValidParentheses.md",
-    "Problems/125-ValidPalindrome.md",
-    "Problems/438-FindAllAnagramsInAString.md",
-    "Problems/49-GroupAnagrams.md",
-    "Problems/22-GenerateParenthesis.md",
-    "Problems/213-HouseRobberII.md",
-    "Problems/875-KokoEatingBananas.md",
-    "Problems/74-SearchA2DMatrix.md",
-    "Problems/238-ProductOfArrayExceptSelf.md",
-    "Problems/17-LetterCombinationsOfAPhoneNumber.md",
-    "Problems/713-SubarrayProductLessThanK.md",
+    "Problems/300-LongestIncreasingSubsequence.md",
+    "Categories/DynamicProgramming.md",
+    "Categories/BinarySearch.md",
+    "Categories/Tries.md",
+    "Categories/TwoPointers.md",
+    "Categories/SlidingWindow.md",
+    "Categories/Heap.md",
+    "Categories/Graphs.md",
+    "Problems/261-GraphValidTree.md",
+    "Categories/Greedy.md",
+    "Algorithms/Backtracking.md",
+    "Algorithms/MergeSort.md",
+    "Algorithms/MonotonicStack.md",
+    "Algorithms/InorderTraversal.md",
+    "Algorithms/DetectCycleInLinkedList.md",
+    "Algorithms/DepthFirstSearch.md",
+    "Categories/ArraysAndHashing.md",
+    "Categories/Backtracking.md",
+    "Categories/BitManipulation.md",
+    "Categories/Trees.md",
+    "Categories/Intervals.md",
+    "Categories/LinkedList.md",
     "Problems/198-HouseRobber.md",
-    "Problems/26-RemoveDuplicatesFromSortedArray.md",
-    "Untitled.canvas",
-    "Problems/239-SlidingWindowMaximum.md",
-    "Problems/23-MergeKSortedLists.md",
-    "Problems/47-Permutations2.md"
+    "Problems/22-GenerateParenthesis.md",
+    "Categories/Math.md",
+    "Categories/Stack.md",
+    "Categories",
+    "Algorithms/Graphs",
+    "Untitled.canvas"
   ]
 }

@@ -5,7 +5,7 @@ Inorder traversal is an algorithm used to traverse binary trees. A variation of 
 The main benefit of traversing this way is that when we are given a valid BST, we can use inorder traversal to get the nodes in non-decreasing order, i.e. sorted from smaller to larger.
 
 #### Code
-```
+```python
 root: TreeNode = treeNode
 
 def inorder(node):

@@ -2,7 +2,6 @@
 tags:
 - recursion
 - dynamic_programming
-- memoization
 ---
 
 ### 198. House Robber
