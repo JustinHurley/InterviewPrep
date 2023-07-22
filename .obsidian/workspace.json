@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Categories/ArraysAndHashing.md",
+                "file": "Problems/688-KnightProbabilityInChessboard.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Categories/ArraysAndHashing.md",
+                "file": "Problems/688-KnightProbabilityInChessboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Categories/ArraysAndHashing.md",
+                "file": "Problems/688-KnightProbabilityInChessboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Categories/ArraysAndHashing.md"
+                "file": "Problems/688-KnightProbabilityInChessboard.md"
               }
             }
           }
@@ -159,14 +159,20 @@
   },
   "active": "8d857e42e02dc7d4",
   "lastOpenFiles": [
+    "Templates/ProblemTemplate.md",
+    "Problems/688-KnightProbabilityInChessboard.md",
+    "Categories/Math.md",
+    "Categories/SlidingWindow.md",
+    "Categories/Stack.md",
+    "Categories/Trees.md",
+    "Categories/Graphs.md",
+    "Categories/ArraysAndHashing.md",
     "Problems/300-LongestIncreasingSubsequence.md",
     "Categories/DynamicProgramming.md",
     "Categories/BinarySearch.md",
     "Categories/Tries.md",
     "Categories/TwoPointers.md",
-    "Categories/SlidingWindow.md",
     "Categories/Heap.md",
-    "Categories/Graphs.md",
     "Problems/261-GraphValidTree.md",
     "Categories/Greedy.md",
     "Algorithms/Backtracking.md",
@@ -175,16 +181,10 @@
     "Algorithms/InorderTraversal.md",
     "Algorithms/DetectCycleInLinkedList.md",
     "Algorithms/DepthFirstSearch.md",
-    "Categories/ArraysAndHashing.md",
     "Categories/Backtracking.md",
     "Categories/BitManipulation.md",
-    "Categories/Trees.md",
     "Categories/Intervals.md",
     "Categories/LinkedList.md",
-    "Problems/198-HouseRobber.md",
-    "Problems/22-GenerateParenthesis.md",
-    "Categories/Math.md",
-    "Categories/Stack.md",
     "Categories",
     "Algorithms/Graphs",
     "Untitled.canvas"
