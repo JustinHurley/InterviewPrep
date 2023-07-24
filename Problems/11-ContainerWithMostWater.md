@@ -19,7 +19,7 @@ Logic
 - Otherwise move the right side up
 
 Solution
-```
+```python
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         n = len(height)

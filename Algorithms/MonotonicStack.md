@@ -1,3 +1,8 @@
+---
+tags:
+- stack
+- monotonic_stack
+---
 ### Monotonic Stack
 A monotonic stack is a stack where each value is either the same or bigger (increasing), or the same or less (decreasing), relative to the current value. This means that the stack remains sorted as work is done on it.
 Monotonic stacks are useful when we need to "remember" values for later and only care when they see a value less or greater than that value.

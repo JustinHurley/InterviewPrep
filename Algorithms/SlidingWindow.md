@@ -1,3 +1,7 @@
+---
+tags:
+- sliding_window
+---
 ### Sliding Window
 
 The sliding window algorithm is useful when we are given a situation in which we are looking for a contiguous subset of a list, that can be a variable length. Sliding windows allow for `O(n)` time complexity, as we are able to pass through an array only once per left and right pointer.

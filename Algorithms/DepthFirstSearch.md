@@ -3,6 +3,7 @@ tags:
 - tree
 - binary_tree
 - graph
+- depth_first_search
 ---
 
 ### Depth-First Search

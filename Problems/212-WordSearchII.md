@@ -18,7 +18,7 @@ Given an `m x n` `board` of characters and a list of strings `words`, return all
 Each word must be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.
 
 #### Approach
-This problem is actually just a combination of implementing a Trie along with a backtracking algorithm. The general approach is this:
+This problem is actually just a combination of implementing a Trie along with a [[Categories/Backtracking|backtracking]] algorithm. The general approach is this:
 1. Generate a trie from the list of words. This will make it faster to search for a word, and allow us to keep track of the current letter we are on.
 2. Iterate over every element in the matrix, searching for words at each position, using the trie to help.
 

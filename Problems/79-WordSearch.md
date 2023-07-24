@@ -17,7 +17,7 @@ Given an `m x n` grid of characters `board` and a string `word`, return true if 
 The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
 
 #### Approach
-The approach to this is pretty similar to most backtracking problems, with a slight change along the way.
+The approach to this is pretty similar to most [[Categories/Backtracking|backtracking]] problems, with a slight change along the way.
 So you run DFS at each element in the matrix, and then in each DFS algo, you:
 - Check to see if the remaining word to build is empty, if so return True.
 - Check to see if the cells are valid

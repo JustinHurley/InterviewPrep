@@ -3,7 +3,7 @@ tags:
 - linked_list
 - recursion 
 - divide_and_conquer
-- merge_sort
+- sorting
 ---
 
 ### 23. Merge k Sorted Lists

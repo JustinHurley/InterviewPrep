@@ -14,10 +14,10 @@ You are a professional robber planning to rob houses along a street. Each house 
 Given an integer array `nums` representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.
 
 #### Approach
-This is a dynamic programming/memoization problem. There is no greedy choice we can make so that usually means we have to do dynamic programming. The main choice the code has to make is to either rob the house or to not rob the house.
+This is a [[DynamicProgramming|dynamic programming]]/memoization problem. There is no greedy choice we can make so that usually means we have to do [[DynamicProgramming|dynamic programming]]. The main choice the code has to make is to either rob the house or to not rob the house.
 
 ###### Approach 1: Memoization
-Also known as the top-down approach to dynamic programming. The idea behind memoization is that we want to save values that have already been computed, which saves us extra work. In the decision tree, we can see that there are different ways to get to the same index in the array.
+Also known as the top-down approach to [[DynamicProgramming|dynamic programming]]. The idea behind memoization is that we want to save values that have already been computed, which saves us extra work. In the decision tree, we can see that there are different ways to get to the same index in the array.
 To solve this problem we make a recursive function, that starts from 0. 
 - First it checks if it's past all elements of the list (there are 0 houses) and if so, returns 0 as there is nothing to rob. 
 - The next check is to see if the value is in the memoization table, if so, return that result to save unnecessary work.

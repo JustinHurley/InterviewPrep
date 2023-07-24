@@ -29,7 +29,7 @@ So for a given problem, we can think about a single instance of `height[i]` and 
 waterVolume = min(maxLeftHeight, maxRightHeight) - height[i]
 ```
 Now we could calculate this for each element as we iterate through the array, but that would be time consuming and contribute to a time complexity of `O(n)`, which is no good. 
-Alternatively, we can use the dynamic programming concept of memoization, which is to save already calculated work for later to help us with the problem. 
+Alternatively, we can use the [[DynamicProgramming|dynamic programming]] concept of memoization, which is to save already calculated work for later to help us with the problem. 
 We can do 2 scans of the list, one scan left to right and the other in the opposite direction, to determine the max heights relative to each element, this is done by keeping track of the max and then having a corresponding array that keeps track of the left max and right max at each position. Once we do this, it's a matter of iterating through the arrays and at each position, grabbing the current height, and the relative left and right maxes, then finally using the defined formula above to get the water volume for that height, which gives us a `O(n)` solution. The two pointer approach basically uses the same logic, just keeps track of the maxes via variables instead of using a whole array. 
 #### NeetCode Link
 https://www.youtube.com/watch?v=ZI2z5pq0TqA&t=23s

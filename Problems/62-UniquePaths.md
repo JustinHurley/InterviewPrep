@@ -17,7 +17,7 @@ Given the two integers `m` and `n`, return the number of possible unique paths t
 The test cases are generated so that the answer will be less than or equal to `2*10^9`.
 
 #### Approach
-This is a permutation problem and thus we are looking to use dynamic programming to solve. In this scenario we first want to think of what the base case is and build off of that. 
+This is a permutation problem and thus we are looking to use [[DynamicProgramming|dynamic programming]] to solve. In this scenario we first want to think of what the base case is and build off of that. 
 For this problem, our base cases are the bottom row and right-most row. Since you can only go down or right, any path in those cells will only have one potential path. 
 The next step is to look at how we extrapolate these values, and for this we can fill the array backwards. To get a value, all we need to do is look at the values of the cells to the right and below the current cell, and set the current cell value to the sum of the left and right values, since we can choose either path and end up with either number of resulting paths.
 There are a few optimizations that can be made to this problem to make non-exponential improvements to the speed. First we can init all the cells to 1, this saves us the time of having to go back and manually adding the 1s in for the bottom and right-most cells. 

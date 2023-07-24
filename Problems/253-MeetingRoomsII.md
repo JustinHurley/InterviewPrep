@@ -9,7 +9,7 @@ tags:
 Link: [here](https://leetcode.com/problems/meeting-rooms-ii/description/)
 
 #### Problem
-Given an array of meeting time intervals `intervals` where `intervals[i] = [starti, endi]`, return the minimum number of conference rooms required.
+Given an array of meeting time [[intervals]] `intervals` where `intervals[i] = [starti, endi]`, return the minimum number of conference rooms required.
 
 #### Approach
 So the approach for this problem is pretty intuitive when you think about it. Here, we are given all the starting and ending times of meetings. So to determine how many meetings need to run at the same time, we just step through the day, seeing how many meetings are happening at a given time. 

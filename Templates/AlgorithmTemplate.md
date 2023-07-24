@@ -1,3 +1,7 @@
+---
+tags:
+- template
+---
 ### Algorithm
 
 #### General Idea
