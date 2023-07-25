@@ -7,11 +7,11 @@ tags:
 ### 34. Find First and Last Position of Element In Sorted Array
 Link: [here](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
-This problem is effectively asking us to do binary search when there is more than one target value.
+This problem is effectively asking us to do [[BinarySearch|binary search]] when there is more than one target value.
 
-Implementation is very similar to normal binary search, the only catch is once you find the target value, you need to use 2 pointers to find the start and end of the item.
+Implementation is very similar to normal [[BinarySearch|binary search]], the only catch is once you find the target value, you need to use 2 pointers to find the start and end of the item.
 
-```
+```python
 # Given array of integers sorted in non-decreasing order
 # Want to find the starting and ending position of the target value
 # Can do binary search to find the target, then 2 pointers to find the start and end

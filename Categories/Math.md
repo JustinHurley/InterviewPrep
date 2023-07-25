@@ -1,3 +1,3 @@
 ```query
-tag:#prefix_sum OR tag:#combinations OR tag:#math 
+tag:#prefix_sum OR tag:#math 
 ```

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7aea479728ee48f4",
+        "id": "9bc47dbb9e3a4b4a",
         "type": "tabs",
         "children": [
           {
-            "id": "8d857e42e02dc7d4",
+            "id": "f67649dc5256c19f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/200-NumberOfIslands.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/200-NumberOfIslands.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/200-NumberOfIslands.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/200-NumberOfIslands.md"
+                "file": "README.md"
               }
             }
           }
@@ -156,34 +156,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8d857e42e02dc7d4",
+  "active": "f67649dc5256c19f",
   "lastOpenFiles": [
+    "Templates/ProblemTemplate.md",
+    "Problems/852-PeakIndexInMountainArray.md",
+    "Problems/34-FindFirstAndLastPositionOfElementInSortedArray.md",
+    "Categories/BinarySearch.md",
+    "Algorithms/BinarySearchWithTwoPointers.md",
+    "Categories/Heap.md",
+    "Categories/DynamicProgramming.md",
+    "Categories/Math.md",
+    "Problems/50-Pow(x,n).md",
+    "Problems/15-3Sum.md",
+    "Problems/17-LetterCombinationsOfAPhoneNumber.md",
+    "Categories/LinkedList.md",
+    "Categories/Tries.md",
+    "Problems/102-BinaryTreeLevelOrderTraversal.md",
+    "Problems/79-WordSearch.md",
+    "Problems/78-Subsets.md",
+    "Problems/47-Permutations2.md",
+    "Problems/39-CombinationSum.md",
+    "Problems/200-NumberOfIslands.md",
     "Problems/117-PopulatingNextRightPointersInEachInterval2.md",
     "Problems/105-ConstructBinaryTreeFromPreorderAndInorderTraversal.md",
     "Problems/84-LargestRectangleInHistogram.md",
-    "Problems/79-WordSearch.md",
     "Problems/62-UniquePaths.md",
     "Problems/49-GroupAnagrams.md",
     "Problems/11-ContainerWithMostWater.md",
-    "Problems/15-3Sum.md",
-    "Templates/ProblemTemplate.md",
     "Untitled.md",
-    "Categories/Trees.md",
-    "Categories/Intervals.md",
-    "Categories/DynamicProgramming.md",
-    "Problems/22-GenerateParenthesis.md",
-    "Categories/Backtracking.md",
-    "Templates/AlgorithmTemplate.md",
-    "Categories/SlidingWindow.md",
-    "Categories/Graphs.md",
-    "Algorithms/Backtracking.md",
-    "Algorithms/InorderTraversal.md",
-    "Algorithms/SlidingWindow.md",
-    "Algorithms/MonotonicStack.md",
-    "Algorithms/MergeSort.md",
-    "Algorithms/DetectCycleInLinkedList.md",
-    "Algorithms/DepthFirstSearch.md",
-    "Problems/139-WordBreak.md",
     "Categories",
     "Algorithms/Graphs",
     "Untitled.canvas"

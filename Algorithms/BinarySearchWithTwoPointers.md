@@ -19,7 +19,7 @@ So we then move `l = mid-1` since we know that the value has to be between the l
 Now we are only looking at `[1,2,3]`, where `l = 0` and `r = 2`. We take the midpoint which is `1`, then check the value at that index, which is `2`, our target value, and are done!
 
 #### Code
-```
+```python
 # Input
 nums = [1,2,3,3,4,5,6,7]
 target = 2

@@ -1,5 +1,5 @@
 # InterviewPrep
-This is a collection of LeetCode problems, and while prepping for interviews I found that I was able to retain the solution to a problem better if I did a small writeup about each one. 
+This is a collection of solved LeetCode problems. While prepping for interviews I found that I was able to retain the solution to a problem better if I did a small writeup about each one. 
 
-I figured I would add it to my Repo in case someone else finds it helpful.
+I figured I would make my repo public in case someone else finds it helpful. 
 
