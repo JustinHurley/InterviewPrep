@@ -1,3 +1,9 @@
+---
+tags:
+- algorithm
+- two_pointer
+- binary_search
+---
 ### Binary Search Using the Two Pointer Approach
 
 Binary search is a very useful algorithm that can be used when needing to find a value in a **sorted** array. The two pointer approach is one of the ways to achieve this algorithm. The other approach is using recursive functions, but will not be detailed in this file.

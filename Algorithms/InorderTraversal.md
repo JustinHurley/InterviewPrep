@@ -1,3 +1,9 @@
+---
+tags:
+- algorithm
+- graph
+- depth_first_search
+---
 ### Inorder Traversal
 
 #### General Idea

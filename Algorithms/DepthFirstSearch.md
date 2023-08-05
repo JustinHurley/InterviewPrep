@@ -1,5 +1,6 @@
 ---
 tags:
+- algorithm
 - tree
 - binary_tree
 - graph

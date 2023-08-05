@@ -1,5 +1,6 @@
 ---
 tags:
+- algorithm
 - stack
 - monotonic_stack
 ---

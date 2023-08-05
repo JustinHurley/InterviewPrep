@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Problems/95-UniqueBinarySearchTreesII.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Problems/95-UniqueBinarySearchTreesII.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Problems/95-UniqueBinarySearchTreesII.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,11 +133,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Problems/95-UniqueBinarySearchTreesII.md"
               }
             }
+          },
+          {
+            "id": "8829e5d12cbe6f19",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -158,32 +167,32 @@
   },
   "active": "f67649dc5256c19f",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Problems/95-UniqueBinarySearchTreesII.md",
+    "Problems/100-SameTree.md",
+    "Problems/746-MinCostClimbingStairs.md",
+    "README.md",
+    "Algorithms/MergeSort.md",
+    "Algorithms/Backtracking.md",
+    "Algorithms/SlidingWindow.md",
+    "Algorithms/MonotonicStack.md",
+    "Algorithms/InorderTraversal.md",
+    "Algorithms/DetectCycleInLinkedList.md",
+    "Algorithms/DepthFirstSearch.md",
+    "Algorithms/BinarySearchWithTwoPointers.md",
+    "Algorithms/BreadthFirstSearch.md",
+    "Templates/AlgorithmTemplate.md",
     "Templates/ProblemTemplate.md",
+    "Problems/15-3Sum.md",
+    "Categories/Python.md",
     "Problems/852-PeakIndexInMountainArray.md",
     "Problems/34-FindFirstAndLastPositionOfElementInSortedArray.md",
     "Categories/BinarySearch.md",
-    "Algorithms/BinarySearchWithTwoPointers.md",
     "Categories/Heap.md",
     "Categories/DynamicProgramming.md",
     "Categories/Math.md",
     "Problems/50-Pow(x,n).md",
-    "Problems/15-3Sum.md",
     "Problems/17-LetterCombinationsOfAPhoneNumber.md",
-    "Categories/LinkedList.md",
-    "Categories/Tries.md",
-    "Problems/102-BinaryTreeLevelOrderTraversal.md",
-    "Problems/79-WordSearch.md",
-    "Problems/78-Subsets.md",
-    "Problems/47-Permutations2.md",
-    "Problems/39-CombinationSum.md",
-    "Problems/200-NumberOfIslands.md",
-    "Problems/117-PopulatingNextRightPointersInEachInterval2.md",
-    "Problems/105-ConstructBinaryTreeFromPreorderAndInorderTraversal.md",
-    "Problems/84-LargestRectangleInHistogram.md",
-    "Problems/62-UniquePaths.md",
-    "Problems/49-GroupAnagrams.md",
-    "Problems/11-ContainerWithMostWater.md",
-    "Untitled.md",
     "Categories",
     "Algorithms/Graphs",
     "Untitled.canvas"

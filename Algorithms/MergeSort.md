@@ -1,7 +1,8 @@
 ---
 tags:
+- algorithm
 - merge_sort
-- recusion
+- recursion
 - divide_and_conquer
 ---
 ### Merge Sort
@@ -12,7 +13,7 @@ The general idea is that we want to break our existing problem space that we wan
 The motivation behind doing this is that a binary decision is a constant time operation, while if we didn't break down the problem space, we would have to choose what element we wanted to sort from `n` different options. Because merge sort splits the problem space by a factor of 2 each time, instead we end up shrinking `n` merges to `log(n)` merges. 
 It's a recursive algorithm, where we have our base case (`when len(input) < 2`) and we return either the only element or `None`. Otherwise, we need to do the recursive case, where we call our binary merge function on half of the current problem set.
 #### Code
-```
+```python
 mergeSort(input):
     if input == 0:
         return None

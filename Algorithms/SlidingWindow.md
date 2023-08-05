@@ -1,6 +1,8 @@
 ---
 tags:
+- algorithm
 - sliding_window
+- array
 ---
 ### Sliding Window
 
