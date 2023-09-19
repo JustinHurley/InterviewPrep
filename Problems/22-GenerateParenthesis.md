@@ -55,7 +55,7 @@ Note: In python, you can convert a list of strings or chars to a string by doing
 
 #### Solution
 **First Solve**
-```
+```python
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         # We have n pairs so add each paren n times
@@ -96,7 +96,7 @@ class Solution:
         return ans
 ```
 **Second Solve**
-```
+```python
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         ans = []

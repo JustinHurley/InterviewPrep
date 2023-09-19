@@ -8,6 +8,8 @@ Link: [here]()
 
 #### Problem
 
+#### Main Idea
+
 #### Approach
 
 #### Edge Cases

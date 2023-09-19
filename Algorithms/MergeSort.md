@@ -14,15 +14,16 @@ The motivation behind doing this is that a binary decision is a constant time op
 It's a recursive algorithm, where we have our base case (`when len(input) < 2`) and we return either the only element or `None`. Otherwise, we need to do the recursive case, where we call our binary merge function on half of the current problem set.
 #### Code
 ```python
-mergeSort(input):
-    if input == 0:
+
+def mergeSort(input):
+    if len(input) == 0:
         return None
-    elif input == 1:
+    elif len(input) == 1:
         return input[0]
     else:
-        binaryMerge(mergeSort(input[0:half]), mergeSort(input[half,end]))
+        binaryMerge(mergeSort(input[:half]), mergeSort(input[half:]))
 
-binaryMerge(a, b):
+def binaryMerge(a, b):
     ans = []
     while a and b:
         if a < b:

@@ -26,3 +26,10 @@ The above code unzips the dictionary key-value-pairs from `dict` where they can 
 new_list = list(i*i for i in range(n))
 ```
 The above code creates a list of sequential squares, `[0, n)` using a for loop in a list constructor. 
+
+#### Deque 
+```python
+Q = deque()
+Q.append(elt) # Adds element to queue
+Q.popleft() # Pops leftmost element
+```

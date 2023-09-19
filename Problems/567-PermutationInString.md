@@ -1,8 +1,8 @@
 ---
 tags:
 - string 
-- 
-- Sliding_Window
+- permutation
+- sliding_Window
 - dictionary
 ---
 
@@ -39,7 +39,7 @@ class Solution:
             if s2[r] in s1Map:
                 s2Map[s2[r]] = s2Map.get(s2[r], 0) + 1
             
-            # Check to see if all vals are 0
+            # Check to see if all vals are ==
             if s1Map == s2Map:
                 return True
 

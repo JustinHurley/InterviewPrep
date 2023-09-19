@@ -26,7 +26,7 @@ This means, to find the number of subarrays you can just add the size of the sub
 The leap needed to solve this problem is to think about how many new subarrays we get on each iteration, and focusing on the right-most node.
 
 Solution
-```
+```python
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
         # Edge case for when there must be no values that work

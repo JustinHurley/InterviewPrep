@@ -19,7 +19,7 @@ Open brackets must be closed in the correct order.
 Every close bracket has a corresponding open bracket of the same type.
 
 #### Approach
-We can use a stack to trivialize this problem. We know that every opening bracket needs to correspond with the appropriate closing bracket, and that they need to be in the right order in terms of the open ones and closing ones and also correspond, meaning `({)}` would not count as a valid solution.
+We can use a [[Stack]] to trivialize this problem. We know that every opening bracket needs to correspond with the appropriate closing bracket, and that they need to be in the right order in terms of the open ones and closing ones and also correspond, meaning `({)}` would not count as a valid solution.
 By adding each open bracket to the stack, we set up the order that each parenthesis was opened in. When we see a closing stack, we know that we need to find the corresponding open parenthesis, so we can pop the stack and then compare the values, and if they are the right ones and match we are good, but if they aren't then we have an issue. 
 There are also a few edge cases that are good to consider on this problem. We can match all the values up in the stack fine, but if there are still leftover values in the stack, it means that not all of the open parentheses were accounted for so this is invalid. Likewise, if we try to pop the stack and see that it is empty, it means we have a closing parenthesis with no possible opening one and are also invalid. Having both these checks ensures that we aren't over-matching or leaving parentheses unaccounted for. 
 

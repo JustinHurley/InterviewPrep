@@ -28,7 +28,7 @@ Something else to consider in this problem is the fact that we are dealing with 
 
 #### Solution
 **Recursive**
-```
+```python
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         nodeRange = (p,q)

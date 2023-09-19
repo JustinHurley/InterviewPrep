@@ -17,13 +17,13 @@ You want to maximize your profit by choosing a single day to buy one stock and c
 Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return `0`.
 
 #### Approach
-**Dynamic_Programming**
+**Dynamic Programming**
 This first approach is based on [[DynamicProgramming|dynamic programming]] and memoization to solve the problem. We basically want to figure out what the best future prices is relative to the current `prices[i]` that we're looking at. 
 One way to go about doing this is to use an array where we mark at each index `i` what the highest future price will be for that given index. To do this, we can simply iterate through the array backwards, and keep track of what the highest value seen so far is. We also need to offset by 1, since the highest value at a given location should not be itself, it should be only considering the values after it.
 We then can do a forward pass through `prices[i]` and at each index, calculate the difference between `prices[i]` and the future max sell price for that given position, then just return the max difference between buy and sell found.
 
 **Sliding Window**
-A different approach is to iterate through the array using a sliding window. Basically we have a left and right pointer, set them to the 1st and 2nd index positions, `0` and `1` respectively, and then start moving the window. 
+A different approach is to iterate through the array using a [[Categories/SlidingWindow|sliding window]]. Basically we have a left and right pointer, set them to the 1st and 2nd index positions, `0` and `1` respectively, and then start moving the window. 
 The window follows a greedy algorithm as such:
 1. If the difference is negative, start over from the next index.
 2. If the difference is positive, keep moving the right pointer to see if a better sell price can be found.
@@ -33,7 +33,7 @@ The reason why we follow the second rule is because we want to keep looking rela
 
 #### Solution
 This is the [[DynamicProgramming|dynamic programming]] solution:
-```
+```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         length = len(prices)

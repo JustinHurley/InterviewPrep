@@ -16,7 +16,7 @@ substring of `s` such that every character in `t` (including duplicates) is incl
 The testcases will be generated such that the answer is unique.
 
 #### Approach
-Like almost all sliding window problems, this one will involve two pointers where one moves when we are in a valid case, and the other moves when we are in an invalid case. 
+Like almost all [[Algorithms/SlidingWindow|sliding window]] problems, this one will involve two pointers where one moves when we are in a valid case, and the other moves when we are in an invalid case. 
 In this problem, we want to find the minimum length valid substring, so it makes sense to move the right pointer until we end up with a valid substring (invalid case), and then move the left pointer to make the substring as small as possible while still being valid (valid case).
 To do this, we first convert the target string `t` to a dict, where we count each item in the string. This gives us a dict: `mapT` to compare the map we build with `s`. 
 Once the map is built, next we iterate through the string and try to build a valid map. In each iteration we do a few things:

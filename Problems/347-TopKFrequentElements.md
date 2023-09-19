@@ -1,6 +1,6 @@
 ---
 tags:
-- Dictionary
+- dictionary
 - sorting
 - array
 - bucketsort

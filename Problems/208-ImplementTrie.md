@@ -4,7 +4,7 @@ tags:
 - tree
 - array
 - string 
-- Dictionary
+- dictionary
 - design
 ---
 

@@ -1,4 +1,3 @@
----
 tags:
 - tree
 - binary_search_tree

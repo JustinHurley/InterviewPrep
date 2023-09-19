@@ -38,7 +38,7 @@ So as you can see we prepare the robber variables for the next iteration (num+1)
 
 #### Solution
 ###### Approach 1:
-```
+```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
         self.n = len(nums)
@@ -62,7 +62,7 @@ class Solution:
         return ans
 ```
 ###### Approach 2:
-```
+```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
         # Edge case
@@ -86,7 +86,7 @@ class Solution:
         return maxRobbedAmount[0]
 ```
 ###### Approach 3:
-```
+```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n = len(nums)

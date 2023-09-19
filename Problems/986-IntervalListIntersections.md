@@ -27,7 +27,7 @@ Logic:
    - To find the intersection of 2 ranges, take the max of the starts and the min of the ends.
   
 Solution:
-```
+```python
 class Solution:
     def intervalIntersection(self, firstList: List[List[int]], secondList: List[List[int]]) -> List[List[int]]:
         

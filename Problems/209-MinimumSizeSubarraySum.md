@@ -10,7 +10,7 @@ Link: [here](https://leetcode.com/problems/minimum-size-subarray-sum/)
 The problem is asking to find the smallest subarray sum that is larger than a given target value.
 
 ####Approach 
-The approach for this problem is to just use a sliding window and keep track of a running sum, and whenever that current sum goes over the target value, move up the back pointer until the sum is below the target again. Now you have found the smallest subarray sum given the current front pointer.
+The approach for this problem is to just use a [[Categories/SlidingWindow|sliding window]] and keep track of a running sum, and whenever that current sum goes over the target value, move up the back pointer until the sum is below the target again. Now you have found the smallest subarray sum given the current front pointer.
 
 An edge case to watch out for is when the total sum of the elements is still less than the target, this can be resolved by checking the answer before returning it, and assigning some value larger than `len(nums)` so that we know when we see it, a subarray was never found, and we aren't just using the initial answer value.
 

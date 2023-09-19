@@ -21,7 +21,7 @@ We also need to use tuples for this problem, as lists cannot be stored in sets d
 This means our approach will involve tuples and sets, where we simply iterate through each value, and add on to each value to the set. 
 
 #### Solution 
-```
+```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         ans = [[]]
