@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/355-DesignTwitter.md",
+                "file": "Problems/392-IsSubsequence.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/355-DesignTwitter.md",
+                "file": "Problems/392-IsSubsequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/355-DesignTwitter.md",
+                "file": "Problems/392-IsSubsequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/355-DesignTwitter.md"
+                "file": "Problems/392-IsSubsequence.md"
               }
             }
           },
@@ -191,8 +191,12 @@
   },
   "active": "e7c64a8af4d8280c",
   "lastOpenFiles": [
-    "Problems/621-TaskScheduler.md",
+    "Categories/TwoPointers.md",
+    "Problems/392-IsSubsequence.md",
+    "Problems/130-SurroundedRegions.md",
+    "Problems/295-FindMedianFromDataStream.md",
     "Problems/355-DesignTwitter.md",
+    "Problems/621-TaskScheduler.md",
     "355-DesignTwitter.md",
     "Categories/Heap.md",
     "Templates/ProblemTemplate.md",
@@ -214,10 +218,6 @@
     "Problems/973-KClosestPointsToOrigin.md",
     "Problems/215-KthLargestElementInAnArray.md",
     "2023-08-14.md",
-    "Problems/230-KthSmallestElementInABST.md",
-    "Problems/235-LowestCommonAncestorOfABinarySearchTree.md",
-    "Problems/213-HouseRobberII.md",
-    "Problems/211-DesignAddAndSearchWordsDataStructure.md",
     "Categories",
     "Algorithms/Graphs",
     "Untitled.canvas"
