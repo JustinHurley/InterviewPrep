@@ -4,5 +4,6 @@
   "spellcheck": true,
   "autoPairMarkdown": false,
   "smartIndentList": false,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "alwaysUpdateLinks": true
 }

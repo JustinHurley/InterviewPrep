@@ -1,4 +1,8 @@
 ---
+aliases:
+- depth-first search
+- DFS
+- dfs
 tags:
 - algorithm
 - tree

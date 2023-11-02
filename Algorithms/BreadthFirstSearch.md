@@ -1,4 +1,8 @@
 ---
+aliases:
+- breadth-first search
+- BFS
+- bfs
 tags:
 - algorithm
 - graph

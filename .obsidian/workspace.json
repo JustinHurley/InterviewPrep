@@ -13,7 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/392-IsSubsequence.md",
+                "file": "Algorithms/BreadthFirstSearch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d380202aecc360c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/BreadthFirstSearch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df33019646024403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9c56af205f7f990",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Categories/Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/392-IsSubsequence.md",
+                "file": "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/392-IsSubsequence.md",
+                "file": "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/392-IsSubsequence.md"
+                "file": "Problems/2265-CountNodesEqualToAverageOfSubtree.md"
               }
             }
           },
@@ -189,35 +226,38 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e7c64a8af4d8280c",
+  "active": "df33019646024403",
   "lastOpenFiles": [
-    "Categories/TwoPointers.md",
-    "Problems/392-IsSubsequence.md",
-    "Problems/130-SurroundedRegions.md",
-    "Problems/295-FindMedianFromDataStream.md",
-    "Problems/355-DesignTwitter.md",
-    "Problems/621-TaskScheduler.md",
-    "355-DesignTwitter.md",
-    "Categories/Heap.md",
+    "Problems/501-FindNodeInBinarySearchTree.md",
+    "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
+    "Algorithms/DepthFirstSearch.md",
+    "Algorithms/BreadthFirstSearch.md",
+    "Algorithms/Floyd'sAlgorithm.md",
+    "Algorithms/InorderTraversal.md",
+    "Problems/2433-FindTheOriginalArrayOfPrefixXor.md",
+    "Untitled.md",
+    "Problems/198-HouseRobber.md",
+    "Problems/287-FindTheDuplicateNumber.md",
+    "Algorithms/DetectCycleInLinkedList.md",
+    "Algorithms/Memoization.md",
+    "Templates/AlgorithmTemplate.md",
     "Templates/ProblemTemplate.md",
-    "Categories/Queues.md",
-    "Problems/797-AllPathsFromSourceToTarget.md",
-    "Categories/SlidingWindow.md",
-    "Categories/Python.md",
-    "Categories/Stack.md",
-    "Pasted image 20230828140809.png",
-    "Categories/BinarySearch.md",
-    "Categories/Backtracking.md",
-    "Categories/BitManipulation.md",
-    "Categories/ArraysAndHashing.md",
-    "Categories/Graphs.md",
-    "Categories/LinkedList.md",
-    "Categories/DynamicProgramming.md",
-    "Categories/Greedy.md",
-    "Categories/Intervals.md",
+    "Problems/1361-ValidateBinaryTreeNodes.md",
+    "Assets/champagne.png",
     "Problems/973-KClosestPointsToOrigin.md",
-    "Problems/215-KthLargestElementInAnArray.md",
-    "2023-08-14.md",
+    "Problems/905-SortArrayByParity.md",
+    "Problems/1448-CountGoodNodesInBinaryTree.md",
+    "Problems/199-BinaryTreeRightSideView.md",
+    "Problems/799-ChampagneTower.md",
+    "Assets",
+    "Templates/Untitled",
+    "Problems/1048-LongestStringChain.md",
+    "Problems/110-BalancedBinaryTree.md",
+    "Categories/Trees.md",
+    "Problems/392-IsSubsequence.md",
+    "Categories/TwoPointers.md",
+    "Problems/130-SurroundedRegions.md",
+    "Pasted image 20230828140809.png",
     "Categories",
     "Algorithms/Graphs",
     "Untitled.canvas"

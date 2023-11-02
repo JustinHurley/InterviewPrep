@@ -3,12 +3,15 @@ tags:
 - algorithm
 - graph
 - depth_first_search
+aliases:
+- inorder traversal
+- Inorder Traversal
 ---
 ### Inorder Traversal
 
 #### General Idea
-Inorder traversal is an algorithm used to traverse binary trees. A variation of DFS, we recursively call child nodes if present from the parent node. The main thing is that we "visit" the node between making the recursive call on the left and right subtrees. 
-The main benefit of traversing this way is that when we are given a valid BST, we can use inorder traversal to get the nodes in non-decreasing order, i.e. sorted from smaller to larger.
+Inorder traversal is an algorithm used to traverse binary trees. A variation of [DepthFirstSearch|DFS], we recursively call child nodes if present from the parent node. The main thing is that we "visit" the node between making the recursive call on the left and right subtrees. 
+The main benefit of traversing this way is that when we are given a valid BST, we can use inorder traversal to get the nodes in non-decreasing order, i.e. sorted from smaller to larger (in order).
 
 #### Code
 ```python
