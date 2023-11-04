@@ -1,8 +1,5 @@
 ---
-tags:
-- dictionary
-- string_array
-- binary_search
+tags: [dictionary, string_array, binary_search]
 ---
 
 ### 981. Time Based Key-Value Store

@@ -1,14 +1,6 @@
 ---
-aliases:
-- breadth-first search
-- BFS
-- bfs
-tags:
-- algorithm
-- graph
-- stack
-- breadth_first_search
-- tree
+aliases: [breadth-first search, BFS, bfs]
+tags: [algorithm, graph, stack, breadth_first_search, tree]
 ---
 
 ## Breadth-First Search

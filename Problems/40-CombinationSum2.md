@@ -1,9 +1,5 @@
 ---
-tags:
-- backtracking
-- depth_first_search
-- recursion
-- permutation
+tags: [backtracking, depth_first_search, recursion, permutation]
 ---
 
 ### 40. Combination Sum II

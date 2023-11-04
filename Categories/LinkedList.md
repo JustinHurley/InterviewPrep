@@ -1,6 +1,5 @@
 ---
-tags:
-- linked_list
+tags: [linked_list]
 ---
 ```query
 tag:#linked_list

@@ -1,11 +1,9 @@
 ---
-aliases:
-- two pointer
-- 2 pointer
-tags:
-- two_pointer
-- category
+aliases: [two pointer, 2 pointer]
+tags: [two_pointer, category]
 ---
-```query
-tag:#two_pointer
+
+```dataview
+TABLE
+FROM (#two_pointer) AND !(#algorithm) AND !(#category)
 ```

@@ -1,8 +1,5 @@
 ---
-tags:
-- trie
-- tree
-- string
+tags: [trie, tree, string]
 ---
 
 ### Problems

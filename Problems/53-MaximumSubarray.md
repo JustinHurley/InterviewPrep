@@ -1,9 +1,5 @@
 ---
-tags:
-- dynamic_programming
-- array
-- greedy_choice
-- divide_and_conquer 
+tags: [dynamic_programming, array, greedy_choice, divide_and_conquer]
 ---
 
 ### 53. Maximum Subarray

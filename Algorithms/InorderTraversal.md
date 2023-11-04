@@ -1,13 +1,9 @@
 ---
-tags:
-- algorithm
-- graph
-- depth_first_search
-aliases:
-- inorder traversal
-- Inorder Traversal
+tags: [algorithm, graph, depth_first_search]
+aliases: [inorder traversal, Inorder Traversal]
 ---
 ### Inorder Traversal
+Inorder traversal is a binary tree traversal technique that allows for [[binary search trees]] to be traversed from smallest to largest number. This is really helpful when you want to see node values in order of a BST.
 
 #### General Idea
 Inorder traversal is an algorithm used to traverse binary trees. A variation of [DepthFirstSearch|DFS], we recursively call child nodes if present from the parent node. The main thing is that we "visit" the node between making the recursive call on the left and right subtrees. 

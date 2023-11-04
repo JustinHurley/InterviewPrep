@@ -1,9 +1,5 @@
 ---
-tags:
-- sliding_window
-- string 
-- Set
-- dictionary
+tags: [sliding_window, string, Set, dictionary]
 ---
 
 ### 3. Longest Substring Without Repeating Characters

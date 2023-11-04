@@ -1,8 +1,5 @@
 ---
-tags:
-- breadth_first_search
-- tree
-- binary_tree
+tags: [breadth_first_search, tree, binary_tree]
 ---
 
 ### 102. Binary Tree Level Order Traversal

@@ -1,7 +1,5 @@
 ---
-tags:
-- recursion
-- dynamic_programming
+tags: [recursion, dynamic_programming]
 ---
 
 ### 198. House Robber

@@ -1,8 +1,5 @@
 ---
-tags:
-- algorithm
-- two_pointer
-- binary_search
+tags: [algorithm, two_pointer, binary_search]
 ---
 ### Binary Search Using the Two Pointer Approach
 

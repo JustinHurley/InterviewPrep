@@ -1,9 +1,5 @@
 ---
-tags:
-- heap
-- design
-- set
-- array
+tags: [heap, design, set, array]
 ---
 ### 355. Design Twitter
 

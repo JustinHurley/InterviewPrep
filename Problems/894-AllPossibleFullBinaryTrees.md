@@ -1,10 +1,5 @@
 ---
-tags:
-- dynamic_programming
-- memoization
-- tree
-- binary_tree
-- recursion
+tags: [dynamic_programming, memoization, tree, binary_tree, recursion]
 ---
 ### 894. All Possible Full Binary Trees
 

@@ -1,9 +1,5 @@
 ---
-aliases:
-- memoize
-- memoization
-tags:
-- dynamic_programming
-- algorithm
+aliases: [memoize, memoization]
+tags: [dynamic_programming, algorithm]
 ---
 

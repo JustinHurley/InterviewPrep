@@ -1,10 +1,5 @@
 ---
-tags:
-- depth_first_search
-- tree
-- binary_search_tree
-- binary_tree
-- recursion
+tags: [depth_first_search, tree, binary_search_tree, binary_tree, recursion]
 ---
 ### 501. Find Node in Binary Search Tree
 

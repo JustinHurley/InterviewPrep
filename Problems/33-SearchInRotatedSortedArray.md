@@ -1,7 +1,5 @@
 ---
-tags:
-- array
-- binary_search
+tags: [array, binary_search]
 ---
 
 ### 33. Search in Rotated Sorted Array

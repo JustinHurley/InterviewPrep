@@ -1,7 +1,5 @@
 ---
-tags:
-- binary_search
-- array
+tags: [binary_search, array]
 ---
 
 ### 875. Koko Eating Bananas

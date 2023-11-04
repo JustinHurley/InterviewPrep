@@ -1,8 +1,5 @@
 ---
-tags:
-- stack
-- monotonic_stack
-- array
+tags: [stack, monotonic_stack, array]
 ---
 ### 84. Largest Rectangle in Histogram
 

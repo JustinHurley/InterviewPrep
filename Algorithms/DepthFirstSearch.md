@@ -1,14 +1,6 @@
 ---
-aliases:
-- depth-first search
-- DFS
-- dfs
-tags:
-- algorithm
-- tree
-- binary_tree
-- graph
-- depth_first_search
+aliases: [depth-first search, DFS, dfs]
+tags: [algorithm, tree, binary_tree, graph, depth_first_search]
 ---
 
 ### Depth-First Search

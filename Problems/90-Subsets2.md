@@ -1,8 +1,5 @@
 ---
-tags:
-- permutation
-- set
-- tuple
+tags: [permutation, set, tuple]
 ---
 
 ### 90. Subsets II

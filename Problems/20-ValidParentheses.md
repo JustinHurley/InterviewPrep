@@ -1,8 +1,5 @@
 ---
-tags:
-- stack
-- array
-- string
+tags: [stack, array, string]
 ---
 
 ### 20. Valid Parentheses

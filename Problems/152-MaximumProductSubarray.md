@@ -1,7 +1,5 @@
 ---
-tags:
-- dynamic_programming
-- array
+tags: [dynamic_programming, array]
 ---
 
 ### 152. Maximum Product Subarray

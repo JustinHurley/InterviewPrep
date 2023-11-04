@@ -1,8 +1,6 @@
 ---
-tags:
-- binary_search
-aliases:
-- binary search
+tags: [binary_search]
+aliases: [binary search]
 ---
 ![[BinarySearchWithTwoPointers]]
 ```query

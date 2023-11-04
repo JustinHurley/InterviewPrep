@@ -1,8 +1,5 @@
 ---
-tags:
-- sliding_window
-- dictionary
-- string
+tags: [sliding_window, dictionary, string]
 ---
 
 ### 438. Find All Anagrams in a String

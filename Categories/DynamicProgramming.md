@@ -1,9 +1,6 @@
 ---
-tags:
-- dynamic_programming
-aliases:
-- 'dynamic programming'
-- 'DP'
+tags: [dynamic_programming]
+aliases: ['dynamic programming', 'DP']
 ---
 
 ### When to Use

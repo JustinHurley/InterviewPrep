@@ -1,8 +1,5 @@
 ---
-tags:
-- stack
-- array
-- math
+tags: [stack, array, math]
 ---
 
 ### 150. Evaluate Reverse Polish Notation

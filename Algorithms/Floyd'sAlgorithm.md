@@ -1,10 +1,6 @@
 ---
-tags:
-- linked_list
-- two_pointer
-- cycle
-aliases:
-- "Floyd's Algorithm"
+tags: [linked_list, two_pointer, cycle, algorithm]
+aliases: ["Floyd's Algorithm"]
 ---
 ### Floyd's Algorithm
 Floyd's algorithm is a way to detect where the first node in a cycle is, using a combination of fast and slow pointers.

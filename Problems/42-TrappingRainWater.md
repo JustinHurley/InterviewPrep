@@ -1,8 +1,5 @@
 ---
-tags:
-- dynamic_programming 
-- array
-- two_pointer
+tags: [dynamic_programming, array, two_pointer]
 ---
 
 ### 42. Trapping Rain Water

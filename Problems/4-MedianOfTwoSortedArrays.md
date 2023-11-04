@@ -1,8 +1,5 @@
 ---
-tags:
-- binary_search
-- array
-- divide_and_conquer
+tags: [binary_search, array, divide_and_conquer]
 ---
 ### 4. Median of Two Sorted Arrays
 

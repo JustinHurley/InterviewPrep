@@ -1,7 +1,5 @@
 ---
-tags:
-- queue
-- category
+tags: [queue, category]
 ---
 # Queues
 

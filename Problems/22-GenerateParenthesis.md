@@ -1,9 +1,5 @@
 ---
-tags:
-- combinations
-- backtracking
-- depth_first_search
-- string
+tags: [combinations, backtracking, depth_first_search, string]
 ---
 
 ### 22. Generate Parentheses

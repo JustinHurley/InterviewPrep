@@ -1,8 +1,5 @@
 ---
-tags:
-- two_pointer
-- interval
-- greedy_choice
+tags: [two_pointer, interval, greedy_choice]
 ---
 
 ### 986. Interval List Intersections

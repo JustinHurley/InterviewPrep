@@ -1,11 +1,5 @@
 ---
-tags:
-- trie
-- recursion
-- depth_first_search
-- backtracking
-- matrix
-- string_array
+tags: [trie, recursion, depth_first_search, backtracking, matrix, string_array]
 ---
 
 ### 212. Word Search

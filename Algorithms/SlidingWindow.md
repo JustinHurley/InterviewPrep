@@ -1,8 +1,5 @@
 ---
-tags:
-- algorithm
-- sliding_window
-- array
+tags: [algorithm, sliding_window, array]
 ---
 ### Sliding Window
 

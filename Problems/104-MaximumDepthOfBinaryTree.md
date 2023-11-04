@@ -1,9 +1,5 @@
 ---
-tags:
-- binary_tree
-- recursion
-- depth_first_search
-- tree
+tags: [binary_tree, recursion, depth_first_search, tree]
 ---
 
 ### 104. Maximum Depth of Binary Tree

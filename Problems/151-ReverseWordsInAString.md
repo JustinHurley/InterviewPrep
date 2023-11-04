@@ -1,6 +1,5 @@
 ---
-tags:
-- string_array
+tags: [string_array]
 ---
 
 ### 151. Reverse words in a String

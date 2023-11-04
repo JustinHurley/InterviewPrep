@@ -1,8 +1,5 @@
 ---
-tags:
-- binary_tree
-- recursion 
-- depth_first_search
+tags: [binary_tree, recursion, depth_first_search]
 ---
 
 ### 226. Invert Binary Tree

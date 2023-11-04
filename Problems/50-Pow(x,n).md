@@ -1,7 +1,5 @@
 ---
-tags:
-- math
-- recursion
+tags: [math, recursion]
 ---
 ### 50. Pow(x,n)
 

@@ -1,11 +1,5 @@
 ---
-tags:
-- trie
-- tree
-- recursion
-- design
-- string 
-- depth_first_search
+tags: [trie, tree, recursion, design, string, depth_first_search]
 ---
 
 ### 211. Design Add and Search Words Data Structure

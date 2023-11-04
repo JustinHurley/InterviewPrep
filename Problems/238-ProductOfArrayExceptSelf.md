@@ -1,8 +1,5 @@
 ---
-tags:
-- array
-- prefix_sum
-- math
+tags: [array, prefix_sum, math]
 ---
 
 ### 238. Product of Array Except Self

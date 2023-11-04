@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
+                "file": "Algorithms/InorderTraversal.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
+                "file": "Algorithms/InorderTraversal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
+                "file": "Algorithms/InorderTraversal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/2265-CountNodesEqualToAverageOfSubtree.md"
+                "file": "Algorithms/InorderTraversal.md"
               }
             }
           },
@@ -223,40 +223,41 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "df33019646024403",
+  "active": "5b50846d455b7196",
   "lastOpenFiles": [
-    "Problems/501-FindNodeInBinarySearchTree.md",
-    "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
-    "Algorithms/DepthFirstSearch.md",
-    "Algorithms/BreadthFirstSearch.md",
     "Algorithms/Floyd'sAlgorithm.md",
-    "Algorithms/InorderTraversal.md",
-    "Problems/2433-FindTheOriginalArrayOfPrefixXor.md",
-    "Untitled.md",
-    "Problems/198-HouseRobber.md",
-    "Problems/287-FindTheDuplicateNumber.md",
     "Algorithms/DetectCycleInLinkedList.md",
-    "Algorithms/Memoization.md",
-    "Templates/AlgorithmTemplate.md",
-    "Templates/ProblemTemplate.md",
-    "Problems/1361-ValidateBinaryTreeNodes.md",
-    "Assets/champagne.png",
-    "Problems/973-KClosestPointsToOrigin.md",
-    "Problems/905-SortArrayByParity.md",
+    "Algorithms/BinarySearchWithTwoPointers.md",
+    "Algorithms/InorderTraversal.md",
+    "Categories/DynamicProgramming.md",
+    "Categories/Backtracking.md",
+    "Categories/TwoPointers.md",
     "Problems/1448-CountGoodNodesInBinaryTree.md",
-    "Problems/199-BinaryTreeRightSideView.md",
-    "Problems/799-ChampagneTower.md",
+    "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
+    "Problems/2433-FindTheOriginalArrayOfPrefixXor.md",
+    "Problems/1143-LongestCommonSubsequence.md",
+    "Problems/1441-BuildAnArrayWithStackOperations.md",
+    "README.md",
+    "Categories/BinarySearch.md",
+    "Categories/Greedy.md",
+    "Categories/BitManipulation.md",
+    "Problems/22-GenerateParenthesis.md",
+    "Problems/15-3Sum.md",
+    "Problems/5-LongestPalindromicSubstring.md",
+    "Problems/3-LongestSubstringWithoutRepeatingCharacters.md",
+    "Templates/CategoryTemplate.md",
+    "Categories/ArraysAndHashing.md",
+    "Categories/LinkedList.md",
+    "Categories/Python.md",
+    "Problems/1057-CampusBikes.md",
+    "Problems/343-IntegerBreak.md",
+    "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",
-    "Problems/1048-LongestStringChain.md",
-    "Problems/110-BalancedBinaryTree.md",
-    "Categories/Trees.md",
-    "Problems/392-IsSubsequence.md",
-    "Categories/TwoPointers.md",
-    "Problems/130-SurroundedRegions.md",
     "Pasted image 20230828140809.png",
     "Categories",
     "Algorithms/Graphs",

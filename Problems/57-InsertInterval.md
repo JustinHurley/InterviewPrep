@@ -1,7 +1,5 @@
 ---
-tags:
-- array
-- interval
+tags: [array, interval]
 ---
 
 ### 57. Insert Interval

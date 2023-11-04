@@ -1,10 +1,5 @@
 ---
-tags:
-- graph_traversal
-- tree
-- breadth_first_search
-- depth_first_search
-- recursion
+tags: [graph_traversal, tree, breadth_first_search, depth_first_search, recursion]
 ---
 
 ### 572. Subtree of Another Tree

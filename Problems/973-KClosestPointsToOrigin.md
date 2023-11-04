@@ -1,7 +1,5 @@
 ---
-tags:
-- heap
-- array
+tags: [heap, array]
 ---
 ### 973. K Closest Points to Origin
 

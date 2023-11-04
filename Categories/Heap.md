@@ -1,9 +1,6 @@
 ---
-aliases:
-- heap
-tags:
-- heap
-- category
+aliases: [heap]
+tags: [heap, category]
 ---
 
 ## Heaps

@@ -1,8 +1,5 @@
 ---
-tags:
-- binary_tree
-- depth_first_search
-- tree
+tags: [binary_tree, depth_first_search, tree]
 ---
 
 ### 100. Same Tree

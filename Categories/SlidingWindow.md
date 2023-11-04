@@ -1,9 +1,6 @@
 ---
-aliases:
-- sliding window
-tags:
-- sliding_window
-- category
+aliases: [sliding window]
+tags: [sliding_window, category]
 ---
 
 ![[Algorithms/SlidingWindow|SlidingWindow]]

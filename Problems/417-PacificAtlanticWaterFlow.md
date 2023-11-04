@@ -1,10 +1,5 @@
 ---
-tags:
-- depth_first_search
-- recursion
-- matrix
-- graph
-- array
+tags: [depth_first_search, recursion, matrix, graph, array]
 ---
 
 ### 417. Pacific Atlantic Water Flow

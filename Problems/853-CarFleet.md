@@ -1,9 +1,5 @@
 ---
-tags:
-- stack
-- monotonic_stack
-- sorting
-- array
+tags: [stack, monotonic_stack, sorting, array]
 ---
 
 ### 853. Car Fleet

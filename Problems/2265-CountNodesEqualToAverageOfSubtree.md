@@ -1,8 +1,5 @@
 ---
-tags:
-- depth_first_search
-- recursion
-- math
+tags: [depth_first_search, recursion, math]
 ---
 ### 2265. Count Nodes Equal to Average of Subtree
 

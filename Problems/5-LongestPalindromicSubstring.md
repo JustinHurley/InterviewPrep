@@ -1,8 +1,5 @@
 ---
-tags:
-- array
-- string 
-- Dynamic_Programming
+tags: [array, string, Dynamic_Programming]
 ---
 ### 5. Longest Palindromic Substring
 

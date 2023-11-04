@@ -1,8 +1,5 @@
 ---
-tags:
-- sliding_window
-- string 
-- dictionary
+tags: [sliding_window, string, dictionary]
 ---
 
 ### 424. Longest Repeating Character Replacement

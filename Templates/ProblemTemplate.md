@@ -1,6 +1,5 @@
 ---
-tags:
-- template
+tags: [template]
 ---
 ### #. Title
 

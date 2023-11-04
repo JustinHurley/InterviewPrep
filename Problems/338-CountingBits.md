@@ -1,7 +1,5 @@
 ---
-tags:
-- bit_manipulation
-- dynamic_programming
+tags: [bit_manipulation, dynamic_programming]
 ---
 
 ### 338. Counting Bits

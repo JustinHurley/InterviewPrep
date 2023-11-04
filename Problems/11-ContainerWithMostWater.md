@@ -1,8 +1,5 @@
 ---
-tags:
-- two_pointer
-- greedy_choice
-- array
+tags: [two_pointer, greedy_choice, array]
 ---
 ### 11. Container With Most Water
 Link [here](https://leetcode.com/problems/container-with-most-water/)

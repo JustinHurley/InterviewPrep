@@ -1,7 +1,5 @@
 ---
-tags:
-- array
-- set
+tags: [array, set]
 ---
 
 ### 128. Longest Consecutive Sequence

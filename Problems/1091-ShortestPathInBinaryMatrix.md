@@ -1,10 +1,5 @@
 ---
-tags:
-- matrix
-- breadth_first_search
-- queue
-- set
-- tuple
+tags: [matrix, breadth_first_search, queue, set, tuple]
 ---
 
 ### 1091. Shortest Path in Binary Matrix

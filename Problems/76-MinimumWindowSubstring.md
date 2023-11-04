@@ -1,8 +1,5 @@
 ---
-tags:
-- sliding_window
-- string 
-- dictionary
+tags: [sliding_window, string, dictionary]
 ---
 
 ### 76. Minimum Window Substring

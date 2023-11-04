@@ -1,7 +1,5 @@
 ---
-tags:
-- array
-- binary_search
+tags: [array, binary_search]
 ---
 ### 852. Peak Index in Mountain Array
 

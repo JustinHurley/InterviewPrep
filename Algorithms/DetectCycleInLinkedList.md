@@ -1,9 +1,5 @@
 ---
-tags:
-- algorithm
-- linked_list
-- two_pointer
-- cycle
+tags: [algorithm, linked_list, two_pointer, cycle]
 ---
 ### Detect Cycle in Linked List
 This is a pretty specific algorithm, but can be useful in linked list problems where we need to find the cycles in a linked list. 

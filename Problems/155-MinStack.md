@@ -1,8 +1,5 @@
 ---
-tags:
-- stack
-- array
-- design
+tags: [stack, array, design]
 ---
 
 ### 155. Min Stack

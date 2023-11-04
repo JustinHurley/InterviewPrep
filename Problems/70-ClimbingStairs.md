@@ -1,7 +1,5 @@
 ---
-tags:
-- dynamic_programming
-- array
+tags: [dynamic_programming, array]
 ---
 
 ### 70. Climbing Stairs

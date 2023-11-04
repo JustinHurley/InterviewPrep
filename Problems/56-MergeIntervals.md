@@ -1,7 +1,5 @@
 ---
-tags:
-- array
-- interval
+tags: [array, interval]
 ---
 
 ### 56. Merge Intervals

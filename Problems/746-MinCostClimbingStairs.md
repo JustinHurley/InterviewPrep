@@ -1,7 +1,5 @@
 ---
-tags:
-- dynamic_programming
-- array
+tags: [dynamic_programming, array]
 ---
 
 ### 746. Min Cost Climbing Stairs

@@ -1,9 +1,5 @@
 ---
-tags:
-- algorithm
-- merge_sort
-- recursion
-- divide_and_conquer
+tags: [algorithm, merge_sort, recursion, divide_and_conquer]
 ---
 ### Merge Sort
 Merge sort is one of the most efficient sorting algorithms, slightly behind quick sort but complexity-wise the same. Merge sort is good to use when you can break your problem down into smaller subproblems, and then recursively rebuild the solution from the smaller subproblems.

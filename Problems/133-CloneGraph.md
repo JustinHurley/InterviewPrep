@@ -1,9 +1,5 @@
 ---
-tags:
-- dictionary
-- depth_first_search
-- graph
-- recursion
+tags: [dictionary, depth_first_search, graph, recursion]
 ---
 
 ### 133. Clone Graph

@@ -1,10 +1,5 @@
 ---
-tags:
-- tree
-- recursion
-- dynamic_programming
-- backtracking
-- binary_search_tree
+tags: [tree, recursion, dynamic_programming, backtracking, binary_search_tree]
 ---
 ### 95. Unique Binary Search Trees II
 

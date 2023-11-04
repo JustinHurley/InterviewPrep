@@ -1,8 +1,5 @@
 ---
-tags:
-- recursion
-- design
-- dynamic_progreamming
+tags: [recursion, design, dynamic_progreamming]
 ---
 ### 343. Integer Break
 

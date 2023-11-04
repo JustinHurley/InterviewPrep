@@ -1,9 +1,5 @@
 ---
-tags:
-- string 
-- permutation
-- sliding_Window
-- dictionary
+tags: [string, permutation, sliding_Window, dictionary]
 ---
 
 ### 567. Permutation in String
