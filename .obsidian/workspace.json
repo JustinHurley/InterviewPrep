@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7c64a8af4d8280c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/BreadthFirstSearch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d380202aecc360c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/BreadthFirstSearch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "df33019646024403",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/InorderTraversal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9c56af205f7f990",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Categories/Trees.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2895f27f1e82e1fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Categories/Heap.md",
+                "file": "Problems/78-Subsets.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/InorderTraversal.md",
+                "file": "Problems/78-Subsets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/InorderTraversal.md",
+                "file": "Problems/78-Subsets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/InorderTraversal.md"
+                "file": "Problems/78-Subsets.md"
               }
             }
           },
@@ -227,18 +178,23 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "5b50846d455b7196",
+  "active": "df33019646024403",
   "lastOpenFiles": [
+    "Categories/Python.md",
+    "Problems/78-Subsets.md",
+    "Problems/2433-FindTheOriginalArrayOfPrefixXor.md",
+    "Algorithms/BreadthFirstSearch.md",
+    "Problems/25-ReverseNodesInK-Group.md",
+    "Problems/1930-UniqueLength-3PalindromicSubsequences.md",
+    "Algorithms/InorderTraversal.md",
     "Algorithms/Floyd'sAlgorithm.md",
     "Algorithms/DetectCycleInLinkedList.md",
     "Algorithms/BinarySearchWithTwoPointers.md",
-    "Algorithms/InorderTraversal.md",
     "Categories/DynamicProgramming.md",
     "Categories/Backtracking.md",
     "Categories/TwoPointers.md",
     "Problems/1448-CountGoodNodesInBinaryTree.md",
     "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
-    "Problems/2433-FindTheOriginalArrayOfPrefixXor.md",
     "Problems/1143-LongestCommonSubsequence.md",
     "Problems/1441-BuildAnArrayWithStackOperations.md",
     "README.md",
@@ -250,11 +206,6 @@
     "Problems/5-LongestPalindromicSubstring.md",
     "Problems/3-LongestSubstringWithoutRepeatingCharacters.md",
     "Templates/CategoryTemplate.md",
-    "Categories/ArraysAndHashing.md",
-    "Categories/LinkedList.md",
-    "Categories/Python.md",
-    "Problems/1057-CampusBikes.md",
-    "Problems/343-IntegerBreak.md",
     "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",
