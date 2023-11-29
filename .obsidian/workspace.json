@@ -22,7 +22,7 @@
               "type": "markdown",
               "state": {
                 "file": "Home.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -167,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 249.5
   },
   "left-ribbon": {
     "hiddenItems": {

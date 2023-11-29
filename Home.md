@@ -2,7 +2,8 @@
 
 # List of Problem Solutions
 ```dataview
-LIST 
+TABLE WITHOUT ID
+	file.link AS "Problem",
+	file.tags AS "Tags"
 FROM "Problems"
-WHERE contains(file.folder, this.file.folder)
 ```
