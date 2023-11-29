@@ -4,34 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "8c6bc8cdb1398ba9",
+        "id": "9abd55fcc6854ad6",
         "type": "tabs",
         "children": [
           {
-            "id": "df33019646024403",
+            "id": "4e33f01d42d3e5e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Problems/78-Subsets.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "57f398e64e616b7c",
+            "id": "43166fe0c5e855ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Categories/Python.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 233.5
   },
   "right": {
     "id": "4774cb01d8b80cf6",
@@ -105,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/78-Subsets.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/78-Subsets.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/78-Subsets.md"
+                "file": "Home.md"
               }
             }
           },
@@ -156,13 +153,21 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "07d1e2128082e650",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,34 +183,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "df33019646024403",
+  "active": "43166fe0c5e855ad",
   "lastOpenFiles": [
+    "Home.md",
+    "Problems/17-LetterCombinationsOfAPhoneNumber.md",
+    "Problems/51-N-Queens.md",
+    "Problems/131-PalindromePartitioning.md",
+    "Problems/130-SurroundedRegions.md",
+    "Problems/40-CombinationSumII.md",
+    "Categories/Trees.md",
+    "Categories/Stack.md",
     "Categories/Python.md",
-    "Problems/78-Subsets.md",
-    "Problems/2433-FindTheOriginalArrayOfPrefixXor.md",
+    "Categories/SlidingWindow.md",
+    "Categories/Tries.md",
+    "Problems/47-PermutationsII.md",
+    "Problems/90-SubsetsII.md",
+    "Algorithms/Backtracking.md",
     "Algorithms/BreadthFirstSearch.md",
-    "Problems/25-ReverseNodesInK-Group.md",
-    "Problems/1930-UniqueLength-3PalindromicSubsequences.md",
-    "Algorithms/InorderTraversal.md",
+    "Algorithms/DepthFirstSearch.md",
+    "Algorithms/MergeSort.md",
+    "Algorithms/MonotonicStack.md",
+    "Algorithms/SlidingWindow.md",
     "Algorithms/Floyd'sAlgorithm.md",
-    "Algorithms/DetectCycleInLinkedList.md",
+    "Algorithms/InorderTraversal.md",
     "Algorithms/BinarySearchWithTwoPointers.md",
+    "Algorithms/DetectCycleInLinkedList.md",
+    "Categories/Queues.md",
+    "Categories/Graphs.md",
     "Categories/DynamicProgramming.md",
-    "Categories/Backtracking.md",
-    "Categories/TwoPointers.md",
-    "Problems/1448-CountGoodNodesInBinaryTree.md",
-    "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
-    "Problems/1143-LongestCommonSubsequence.md",
-    "Problems/1441-BuildAnArrayWithStackOperations.md",
-    "README.md",
-    "Categories/BinarySearch.md",
-    "Categories/Greedy.md",
-    "Categories/BitManipulation.md",
-    "Problems/22-GenerateParenthesis.md",
-    "Problems/15-3Sum.md",
-    "Problems/5-LongestPalindromicSubstring.md",
-    "Problems/3-LongestSubstringWithoutRepeatingCharacters.md",
-    "Templates/CategoryTemplate.md",
     "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",

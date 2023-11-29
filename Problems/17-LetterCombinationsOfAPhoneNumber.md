@@ -11,46 +11,52 @@ Given a string containing digits from 2-9 inclusive, return all possible letter 
 
 A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
+#### Main Idea
+- Use backtracking to navigate all the possibilities
+
 #### Approach
-This is a pretty straightforward combination problem, there is no room for memoization as each combination will be unique. 
-All you do is make a recursive method that tracks the current index and recursively accumulates an answer set.
-For each digit, we call a recursive method for each letter. For example, if we saw the digit `"2"`, then we recursively run on `"a"`, `"b"`, and `"c"`.
+- Make a map to hold all the number and letter matchings
+- Handle the edge case of when `digits` is `""`
+- If at the end of `digits` add the current word to `ans`
+- Otherwise make recursive calls for all the possible values for that digit
+
 
 #### Solution
-```python python
+```python
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        ans = []
-        n = len(digits)
-        # Mapping of letters to phone button
-        letters = {
-            "2": "abc", 
-            "3": "def", 
-            "4": "ghi", 
-            "5": "jkl", 
-            "6": "mno", 
-            "7": "pqrs", 
-            "8": "tuv", 
+		# Edge case
+        if len(digits) == 0:
+            return []
+
+        numMap = {
+            "2": "abc",
+            "3": "def",
+            "4": "ghi",
+            "5": "jkl",
+            "6": "mno",
+            "7": "pqrs",
+            "8": "tuv",
             "9": "wxyz"
         }
-        # Need to handle edge case when no digits are given
-        if digits == "":
-            return []
-        
-        # Helper function
-        def dfs(currWord: str, currIndex, fullWord):
-            # First check to see if at end of string
-            if currIndex == n:
-                ans.append(currWord)
+
+        ans = []
+
+        def backtrack(i, curr):
+            # If at end, stop and add curr
+            if i >= len(digits):
+                ans.append(curr)
                 return
-            # If not at the end, want to iterate on the current numbers children 
-            currDigit = fullWord[currIndex]
-            # Iterate through set of letters for number
-            for c in letters[currDigit]:
-                dfs(currWord+c, currIndex+1, fullWord)
+            # Otherwise, go through options
+            for j in range(len(numMap[digits[i]])):
+                backtrack(i+1, curr + numMap[digits[i]][j])
         
-        dfs("", 0, digits)
-        
+        backtrack(0, "")
         return ans
 ```
 
+#### Time Complexity
+`O(2^n)` 
+
+#### Space Complexity
+`O(n)` for the call stack space, we aren't considering the output as part of space complexity.

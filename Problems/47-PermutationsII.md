@@ -1,5 +1,5 @@
 ---
-tags: [permutation, recursion, set, deep_copy, array]
+tags: [permutation, recursion, set, array]
 ---
 
 ### 47. Permutations II

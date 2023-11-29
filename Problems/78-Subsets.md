@@ -63,3 +63,9 @@ class Solution:
 ```
 Above, we can see we append the current number to the current subset, then continue to DFS on it by calling recursively. Once that call is done, we pop the just added element to then use DFS to recursively explore the decision subtree where we don't decide to include the subset. 
 Note it is important that we do `subset.copy()` to make a deep copy of the current subset.
+
+#### Time Complexity
+`O(2^n)` 
+
+### Space Complexity
+`O(n)`

@@ -52,9 +52,10 @@ for i, val in enumerate(arr):
 ```
 Enumerate lets you access the index of an element during a for loop, but also creates a variable for each iteration of the loop, as opposed to using the index to access the value from the list. 
 
-#### Deep Copy
+#### Shallow Copy
 ```python
 arr = [1,2,3]
-deep_copy = arr.copy()
+shallow_copy = arr.copy()
+shallow_copy = arr[:]
 ```
-Creates a new object that is created by value, as opposed to just instantiating the variable by reference. 
+Creates a shallow copy, this copy object can be mutated, and the only issues where a shallow copy sees changes when the original is mutated, is if the original copy has mutable objects passed by reference e.g. a list of lists. 

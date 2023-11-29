@@ -1,4 +1,5 @@
 
-```query
-tag:#graph OR tag:#graph_traversal -tag:#algorithm -tag:#category
+```dataview
+TABLE
+FROM (#graph) OR (#tree_traversal) AND !(#algorithm) AND !(#category)
 ```
