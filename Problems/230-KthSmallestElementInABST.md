@@ -1,7 +1,9 @@
+---
 tags:
-- tree
-- binary_search_tree
-- depth_first_search
+  - tree
+  - binary_search_tree
+  - depth_first_search
+  - medium
 ---
 
 ### 230. Kth Smallest Element in a BST

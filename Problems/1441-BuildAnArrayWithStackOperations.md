@@ -1,5 +1,8 @@
 ---
-tags: [array, stack]
+tags:
+  - array
+  - stack
+  - medium
 ---
 ### 1441. Build an Array with Stack Operations
 

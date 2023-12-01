@@ -1,5 +1,10 @@
 ---
-tags: [matrix, graph_traversal, depth_first_search, set]
+tags:
+  - matrix
+  - graph_traversal
+  - depth_first_search
+  - set
+  - medium
 ---
 
 ### 130. Surrounded Regions

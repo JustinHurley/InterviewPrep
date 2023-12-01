@@ -1,5 +1,8 @@
 ---
-tags: [array, dynamic_programming]
+tags:
+  - array
+  - dynamic_programming
+  - medium
 ---
 ### 799. Champagne Tower
 

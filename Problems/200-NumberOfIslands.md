@@ -1,5 +1,10 @@
 ---
-tags: [recursion, matrix, graph_traversal, depth_first_search]
+tags:
+  - recursion
+  - matrix
+  - graph_traversal
+  - depth_first_search
+  - medium
 ---
 
 ### 200. Number of Islands

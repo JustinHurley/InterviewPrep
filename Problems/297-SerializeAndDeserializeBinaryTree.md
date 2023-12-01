@@ -1,5 +1,11 @@
 ---
-tags: [binary_tree, recursion, string, depth_first_search, tree]
+tags:
+  - binary_tree
+  - recursion
+  - string
+  - depth_first_search
+  - tree
+  - hard
 ---
 
 ### 297. Serialize and Deserialize Binary Tree

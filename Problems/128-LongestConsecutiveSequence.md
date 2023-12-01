@@ -1,5 +1,8 @@
 ---
-tags: [array, set]
+tags:
+  - array
+  - set
+  - medium
 ---
 
 ### 128. Longest Consecutive Sequence

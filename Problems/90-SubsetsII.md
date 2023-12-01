@@ -1,5 +1,10 @@
 ---
-tags: [backtracking, recursion, depth_first_search, array]
+tags:
+  - backtracking
+  - recursion
+  - depth_first_search
+  - array
+  - "#medium"
 ---
 ### 90. Subsets II
 

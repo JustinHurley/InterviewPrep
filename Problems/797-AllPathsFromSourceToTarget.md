@@ -1,5 +1,10 @@
 ---
-tags: [graph_traversal, depth_first_search, backtracking, queue]
+tags:
+  - graph_traversal
+  - depth_first_search
+  - backtracking
+  - queue
+  - medium
 ---
 
 ### 797. All Paths from Source to Target

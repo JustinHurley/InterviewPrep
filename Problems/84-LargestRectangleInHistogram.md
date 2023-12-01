@@ -1,10 +1,13 @@
 ---
-tags: [stack, monotonic_stack, array]
+tags:
+  - stack
+  - monotonic_stack
+  - array
+  - hard
 ---
 ### 84. Largest Rectangle in Histogram
 
 Link: [here](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
-
 #### Problem
 Given an array of integers `heights` representing the histogram's bar height where the width of each bar is `1`, return _the area of the largest rectangle in the histogram_.
 

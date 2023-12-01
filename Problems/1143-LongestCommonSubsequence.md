@@ -1,5 +1,9 @@
 ---
-tags: [dynamic_programming, array, string]
+tags:
+  - dynamic_programming
+  - array
+  - string
+  - medium
 ---
 
 ### 1143. Longest Common Subsequence

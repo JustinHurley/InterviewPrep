@@ -1,5 +1,11 @@
 ---
-tags: [array, dictionary, dynamic_programming, string, recursion]
+tags:
+  - array
+  - dictionary
+  - dynamic_programming
+  - string
+  - recursion
+  - medium
 ---
 ### 1048. Longest String Chain
 

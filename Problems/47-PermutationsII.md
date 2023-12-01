@@ -1,5 +1,10 @@
 ---
-tags: [permutation, recursion, set, array]
+tags:
+  - permutation
+  - recursion
+  - set
+  - array
+  - medium
 ---
 
 ### 47. Permutations II

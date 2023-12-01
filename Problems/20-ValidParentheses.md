@@ -1,5 +1,9 @@
 ---
-tags: [stack, array, string]
+tags:
+  - stack
+  - array
+  - string
+  - "#easy"
 ---
 
 ### 20. Valid Parentheses

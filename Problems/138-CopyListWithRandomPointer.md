@@ -1,5 +1,8 @@
 ---
-tags: [linked_list, dictionary]
+tags:
+  - linked_list
+  - dictionary
+  - medium
 ---
 ### 138. Copy List With Random Pointer
 

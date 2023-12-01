@@ -1,5 +1,8 @@
 ---
-tags: [backtracking, depth_first_search]
+tags:
+  - backtracking
+  - depth_first_search
+  - medium
 ---
 ### 46. Permutations
 

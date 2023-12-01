@@ -1,5 +1,10 @@
 ---
-tags: [math, backtracking, depth_first_search, recursion]
+tags:
+  - math
+  - backtracking
+  - depth_first_search
+  - recursion
+  - medium
 ---
 
 ### 17. Letter Combinations of a Phone Number

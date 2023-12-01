@@ -1,5 +1,11 @@
 ---
-tags: [graph_traversal, tree, breadth_first_search, depth_first_search, recursion]
+tags:
+  - graph_traversal
+  - tree
+  - breadth_first_search
+  - depth_first_search
+  - recursion
+  - medium
 ---
 
 ### 572. Subtree of Another Tree
@@ -19,7 +25,7 @@ The recursive case is how we keep looking, by recursively calling the method on 
 We need to implement the function that checks to see if the two [[trees]] are the same, however this is done in a previous problem and is trivial. 
 #### Solution
 **Iterative Approach**
-```
+```python
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
         # Make queue
@@ -48,7 +54,7 @@ class Solution:
 ```
 
 **Recursive Approach**
-```
+```python
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
         if not root:

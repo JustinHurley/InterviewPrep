@@ -1,5 +1,7 @@
 ---
-tags: [linked_list]
+tags:
+  - linked_list
+  - easy
 ---
 
 ### 21. Merge Two Sorted Lists

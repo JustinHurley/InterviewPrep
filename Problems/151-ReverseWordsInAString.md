@@ -1,5 +1,7 @@
 ---
-tags: [string_array]
+tags:
+  - string_array
+  - medium
 ---
 
 ### 151. Reverse words in a String

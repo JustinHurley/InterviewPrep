@@ -1,5 +1,10 @@
 ---
-tags: [dictionary, sorting, array, bucketsort]
+tags:
+  - dictionary
+  - sorting
+  - array
+  - bucketsort
+  - medium
 ---
 
 ### 347. Top K Frequent Elements

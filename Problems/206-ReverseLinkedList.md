@@ -1,5 +1,7 @@
 ---
-tags: [linked_list]
+tags:
+  - linked_list
+  - easy
 ---
 
 ### 206. Reverse Linked List

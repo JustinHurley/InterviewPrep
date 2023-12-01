@@ -1,5 +1,11 @@
 ---
-tags: [permutation, recursion, depth_first_search, array, backtracking]
+tags:
+  - permutation
+  - recursion
+  - depth_first_search
+  - array
+  - backtracking
+  - medium
 ---
 
 ### 39. Combination Sum

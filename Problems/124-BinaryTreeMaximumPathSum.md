@@ -1,5 +1,10 @@
 ---
-tags: [binary_tree, recursion, tree, depth_first_search]
+tags:
+  - binary_tree
+  - recursion
+  - tree
+  - depth_first_search
+  - hard
 ---
 
 ### 124. Binary Tree Maximum Path Sum

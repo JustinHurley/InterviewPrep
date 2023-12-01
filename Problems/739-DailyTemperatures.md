@@ -1,5 +1,9 @@
 ---
-tags: [stack, monotonic_stack, array]
+tags:
+  - stack
+  - monotonic_stack
+  - array
+  - medium
 ---
 
 ### 739. Daily Temperatures

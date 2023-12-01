@@ -1,5 +1,8 @@
 ---
-tags: [dynamic_programming, string_array]
+tags:
+  - dynamic_programming
+  - string_array
+  - medium
 ---
 
 ### 139. Word Break

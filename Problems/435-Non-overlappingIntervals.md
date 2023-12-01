@@ -1,5 +1,7 @@
 ---
-tags: [interval]
+tags:
+  - interval
+  - medium
 ---
 ### 435. Non-overlapping Intervals
 

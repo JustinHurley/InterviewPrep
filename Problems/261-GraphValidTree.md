@@ -1,5 +1,9 @@
 ---
-tags: [graph, tree, depth_first_search]
+tags:
+  - graph
+  - tree
+  - depth_first_search
+  - medium
 ---
 
 ### 261. Graph Valid Tree

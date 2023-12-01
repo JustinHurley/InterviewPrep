@@ -1,5 +1,9 @@
 ---
-tags: [sliding_window, math, array]
+tags:
+  - sliding_window
+  - math
+  - array
+  - medium
 ---
 
 ### 713 Subarray Product Less than K

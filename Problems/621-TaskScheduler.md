@@ -1,5 +1,10 @@
 ---
-tags: [queue, heap, array, sorting]
+tags:
+  - queue
+  - heap
+  - array
+  - sorting
+  - medium
 ---
 ### 621. Task Scheduler
 

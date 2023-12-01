@@ -1,5 +1,8 @@
 ---
-tags: [dynamic_programming, array]
+tags:
+  - dynamic_programming
+  - array
+  - medium
 ---
 
 ### 213. House Robber II

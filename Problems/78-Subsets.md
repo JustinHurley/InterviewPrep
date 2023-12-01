@@ -1,5 +1,10 @@
 ---
-tags: [backtracking, recursion, permutation, array]
+tags:
+  - backtracking
+  - recursion
+  - permutation
+  - array
+  - medium
 ---
 
 ### 78. Subsets

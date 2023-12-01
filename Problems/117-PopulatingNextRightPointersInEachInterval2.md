@@ -1,5 +1,11 @@
 ---
-tags: [tree, breadth_first_search, linked_list, graph_traversal, queue]
+tags:
+  - tree
+  - breadth_first_search
+  - linked_list
+  - graph_traversal
+  - queue
+  - medium
 ---
 
 ### 117. Populating Next Right Pointers in Each Interval II

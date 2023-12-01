@@ -1,5 +1,10 @@
 ---
-tags: [depth_first_search, graph, array, dictionary]
+tags:
+  - depth_first_search
+  - graph
+  - array
+  - dictionary
+  - medium
 ---
 
 ### 207. Course Schedule

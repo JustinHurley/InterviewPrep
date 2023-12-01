@@ -1,5 +1,10 @@
 ---
-tags: [binary_tree, recursion, depth_first_search, tree]
+tags:
+  - binary_tree
+  - recursion
+  - depth_first_search
+  - tree
+  - easy
 ---
 
 ### 104. Maximum Depth of Binary Tree
@@ -12,7 +17,7 @@ Given the `root` of a binary tree, return its maximum depth.
 A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
 #### Approach
-The approach for this algorithm is really simple. We are given a tree and want to find the maximum depth, so automatically we should be thinking DFS. To implement, we need to set up the base case, and the recusive case. The base case will be when we see an empty node, in which case we just return 0, as there is no node to count. The recursive case is more interesting, in which we want to return the max between the depth of the left and right child nodes. So we recursively call the child nodes in a max function, but also add 1 to each of the calls, because we want to account for the node that we are currently on. This sets up the recursive call structure that adds one for each call made, and returns 0 when you finally hit `None`.
+The approach for this algorithm is really simple. We are given a tree and want to find the maximum depth, so automatically we should be thinking DFS. To implement, we need to set up the base case, and the recursive case. The base case will be when we see an empty node, in which case we just return 0, as there is no node to count. The recursive case is more interesting, in which we want to return the max between the depth of the left and right child nodes. So we recursively call the child nodes in a max function, but also add 1 to each of the calls, because we want to account for the node that we are currently on. This sets up the recursive call structure that adds one for each call made, and returns 0 when you finally hit `None`.
 
 #### Solution
 ```python 

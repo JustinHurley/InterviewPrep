@@ -1,5 +1,9 @@
 ---
-tags: [dictionary, array, string]
+tags:
+  - dictionary
+  - array
+  - string
+  - medium
 ---
 
 ### \#49. Group Anagrams

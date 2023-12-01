@@ -1,5 +1,10 @@
 ---
-tags: [binary_tree, depth_first_search, tree, recursion]
+tags:
+  - binary_tree
+  - depth_first_search
+  - tree
+  - recursion
+  - medium
 ---
 ### 1448. Count Good Nodes in Binary Tree
 

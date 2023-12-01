@@ -1,5 +1,10 @@
 ---
-tags: [sliding_window, queue, heap, deque]
+tags:
+  - sliding_window
+  - queue
+  - heap
+  - deque
+  - hard
 ---
 
 ### 239. Sliding Window Maximum

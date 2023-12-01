@@ -1,5 +1,7 @@
 ---
-tags: [linked_list]
+tags:
+  - linked_list
+  - hard
 ---
 ### 25. Reverse Nodes in k-Group
 

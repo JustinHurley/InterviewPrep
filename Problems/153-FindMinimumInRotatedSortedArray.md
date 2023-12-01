@@ -1,5 +1,8 @@
 ---
-tags: [array, binary_search]
+tags:
+  - array
+  - binary_search
+  - medium
 ---
 
 ### 153. Find Minimum In Rotated Sorted Array

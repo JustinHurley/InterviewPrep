@@ -1,5 +1,9 @@
 ---
-tags: [template]
+tags:
+  - recursion
+  - backtracking
+  - hard
+  - matrix
 ---
 ### 51. N-Queens
 

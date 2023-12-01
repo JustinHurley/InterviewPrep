@@ -1,5 +1,10 @@
 ---
-tags: [permutation, string, set, two_pointer]
+tags:
+  - permutation
+  - string
+  - set
+  - two_pointer
+  - medium
 ---
 ### 1930. Unique Length-3 Palindromic Subsequences
 

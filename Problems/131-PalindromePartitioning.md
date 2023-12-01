@@ -1,5 +1,9 @@
 ---
-tags: [backtracking, recursion, string]
+tags:
+  - backtracking
+  - recursion
+  - string
+  - medium
 ---
 ### 131. Palindrome Partitioning
 

@@ -1,5 +1,7 @@
 ---
-tags: [linked_list]
+tags:
+  - linked_list
+  - medium
 ---
 
 ### 143. Reorder List

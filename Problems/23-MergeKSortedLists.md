@@ -1,5 +1,10 @@
 ---
-tags: [linked_list, recursion, divide_and_conquer, sorting]
+tags:
+  - linked_list
+  - recursion
+  - divide_and_conquer
+  - sorting
+  - hard
 ---
 
 ### 23. Merge k Sorted Lists

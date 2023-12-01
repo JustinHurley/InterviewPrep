@@ -1,5 +1,8 @@
 ---
-tags: [two_pointer, array]
+tags:
+  - two_pointer
+  - array
+  - medium
 ---
 
 ### 167. Two Sum II - Input Array is Sorted

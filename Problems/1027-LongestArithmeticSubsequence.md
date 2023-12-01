@@ -1,5 +1,9 @@
 ---
-tags: [array, dynamic_programming, dictionary]
+tags:
+  - array
+  - dynamic_programming
+  - dictionary
+  - medium
 ---
 
 ### 1027. Longest Arithmetic Subsequence

@@ -1,5 +1,9 @@
 ---
-tags: [design, heap, sorting]
+tags:
+  - design
+  - heap
+  - sorting
+  - hard
 ---
 ### 295. Find Median from Data Stream
 

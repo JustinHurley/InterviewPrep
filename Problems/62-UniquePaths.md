@@ -1,5 +1,9 @@
 ---
-tags: [dynamic_programming, array, matrix]
+tags:
+  - dynamic_programming
+  - array
+  - matrix
+  - medium
 ---
 
 ### 62. Unique Paths

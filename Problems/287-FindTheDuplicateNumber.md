@@ -1,5 +1,10 @@
 ---
-tags: [array, linked_list, cycle, two_pointer]
+tags:
+  - array
+  - linked_list
+  - cycle
+  - two_pointer
+  - medium
 ---
 ### 287. Find the Duplicate Number
 

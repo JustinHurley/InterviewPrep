@@ -1,5 +1,12 @@
 ---
-tags: [trie, tree, array, string, dictionary, design]
+tags:
+  - trie
+  - tree
+  - array
+  - string
+  - dictionary
+  - design
+  - medium
 ---
 
 ### 208. Implement Trie (Prefix Tree)

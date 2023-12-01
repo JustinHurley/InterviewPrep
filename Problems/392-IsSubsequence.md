@@ -1,5 +1,9 @@
 ---
-tags: [two_pointer, array, greedy]
+tags:
+  - two_pointer
+  - array
+  - greedy
+  - easy
 ---
 ### 392. Is Subsequence 
 

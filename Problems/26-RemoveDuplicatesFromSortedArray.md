@@ -1,5 +1,8 @@
 ---
-tags: [two_pointer, array]
+tags:
+  - two_pointer
+  - array
+  - easy
 ---
 
 ### \#26. Remove Duplicates from Sorted Array

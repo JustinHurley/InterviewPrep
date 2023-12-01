@@ -1,5 +1,9 @@
 ---
-tags: [tree, depth_first_search, binary_tree]
+tags:
+  - tree
+  - depth_first_search
+  - binary_tree
+  - easy
 ---
 ### 110. Balanced Binary Tree
 

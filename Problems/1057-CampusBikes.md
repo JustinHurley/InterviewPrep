@@ -1,5 +1,9 @@
 ---
-tags: [math, heap, set]
+tags:
+  - math
+  - heap
+  - set
+  - medium
 ---
 ### 1057. Campus Bikes
 

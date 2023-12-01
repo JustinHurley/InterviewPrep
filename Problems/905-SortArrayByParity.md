@@ -1,5 +1,9 @@
 ---
-tags: [array, two_pointer, sorting]
+tags:
+  - array
+  - two_pointer
+  - sorting
+  - easy
 ---
 ### 905. Sort Array by Parity
 

@@ -1,6 +1,9 @@
 ---
-tags: [heap, array, sorting]
-problem: [medium]
+tags:
+  - heap
+  - array
+  - sorting
+  - medium
 ---
 ### 215. Kth Largest Element in an Array
 

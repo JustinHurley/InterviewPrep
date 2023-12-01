@@ -1,5 +1,10 @@
 ---
-tags: [binary_tree, tree, breadth_first_search, queue]
+tags:
+  - binary_tree
+  - tree
+  - breadth_first_search
+  - queue
+  - medium
 ---
 ### 199. Binary Tree Right Side View
 

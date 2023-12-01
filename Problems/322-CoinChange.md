@@ -1,5 +1,10 @@
 ---
-tags: [dynamic_programming, array, depth_first_search, breadth_first_search]
+tags:
+  - dynamic_programming
+  - array
+  - depth_first_search
+  - breadth_first_search
+  - medium
 ---
 
 ### 322. Coin Change

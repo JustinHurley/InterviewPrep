@@ -1,5 +1,11 @@
 ---
-tags: [backtracking, recursion, depth_first_search, matrix, string]
+tags:
+  - backtracking
+  - recursion
+  - depth_first_search
+  - matrix
+  - string
+  - medium
 ---
 
 ### 79. Word Search

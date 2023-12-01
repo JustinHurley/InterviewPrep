@@ -1,5 +1,11 @@
 ---
-tags: [dynamic_programming, matrix, depth_first_search, recursion, memoization]
+tags:
+  - dynamic_programming
+  - matrix
+  - depth_first_search
+  - recursion
+  - memoization
+  - medium
 ---
 ### 688. Knight Probability in Chessboard
 

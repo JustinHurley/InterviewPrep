@@ -1,5 +1,9 @@
 ---
-tags: [two_pointer, regex, string]
+tags:
+  - two_pointer
+  - regex
+  - string
+  - easy
 ---
 
 ### 125. Valid Palindrome

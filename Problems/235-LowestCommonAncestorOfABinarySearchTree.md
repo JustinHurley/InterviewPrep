@@ -1,5 +1,10 @@
 ---
-tags: [binary_search_tree, recursion, tree, depth_first_search]
+tags:
+  - binary_search_tree
+  - recursion
+  - tree
+  - depth_first_search
+  - medium
 ---
 
 ### 235. Lowest Common Ancestor of a Binary Search Tree

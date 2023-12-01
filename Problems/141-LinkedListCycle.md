@@ -1,5 +1,7 @@
 ---
-tags: [linked_list]
+tags:
+  - linked_list
+  - easy
 ---
 
 ### 141. Linked List Cycle

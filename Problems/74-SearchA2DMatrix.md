@@ -1,5 +1,9 @@
 ---
-tags: [matrix, binary_search, array]
+tags:
+  - matrix
+  - binary_search
+  - array
+  - medium
 ---
 
 ### 74. Search a 2D Matrix

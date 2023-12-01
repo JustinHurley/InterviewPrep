@@ -1,5 +1,8 @@
 ---
-tags: [sliding_window, array]
+tags:
+  - sliding_window
+  - array
+  - medium
 ---
 
 ### 209. Minimum Size Subarray Sum 

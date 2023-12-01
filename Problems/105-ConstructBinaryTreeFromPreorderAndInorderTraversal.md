@@ -1,5 +1,11 @@
 ---
-tags: [binary_tree, tree, recursion, divide_and_conquer, array]
+tags:
+  - binary_tree
+  - tree
+  - recursion
+  - divide_and_conquer
+  - array
+  - medium
 ---
 
 ### 105. Construct Binary Tree from Preorder and Inorder Traversal

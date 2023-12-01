@@ -1,5 +1,8 @@
 ---
-tags: [bit_manipulation, array]
+tags:
+  - bit_manipulation
+  - array
+  - medium
 ---
 ### 2433. Find the Original Array of Prefix Xor
 

@@ -1,5 +1,8 @@
 ---
-tags: [binary_search, two_pointer]
+tags:
+  - binary_search
+  - two_pointer
+  - medium
 ---
 
 ### 34. Find First and Last Position of Element In Sorted Array
