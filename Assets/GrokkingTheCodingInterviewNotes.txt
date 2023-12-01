@@ -1,0 +1,79 @@
+#####################################
+### GROKKING THE CODING INTERVIEW ###
+#####################################
+
+### SLIDING WINDOW ###
+
+Sliding window problems characteristics:
+- The problem can be solved with a greedy choice.
+- The problem wants an O(n) time solution (usually constant number of passes).
+- The problem involves a list or array.
+- The answer of the problem is contiguous subset of the list/array or it's asking for a substring.
+- The problem follows some variant of longest substring in an array or string or something.
+- The problem requires the use of a HashMap for accounting.
+
+General Approach:
+- Have a front pointer and a back pointer
+- Iterate through the list using the front pointer until there is some scenario that violates a valid answer
+- Once the answer is no longer valid, move the back pointer up until the current answer is valid again
+- Typically accumulating with a dictionary or set
+- Typically looking for a global max or min so usually keeping track of the most extreme value 
+- Sometimes this will look like nested for loops, with the larger choosing the "starting location" and the smaller checking for some heuristic. 
+
+Tips/Pitfalls:
+- Focus on indexing, make sure the +1 and -1s are accounted for when working on these problems
+- Be careful where you're incrementing or comparing the current solution as you iterate through the list/array
+- Make sure you're accounting for the last iteration of the loop you use to solve the problem, sometimes an additional check may be needed, e.g. compare to max outside of for loop.
+- Know where your pointers end up!
+- Keep track of if you've accumulated the value you're currently on when a loop ends
+- Pay attention to what the stop condition for the while loop is (if you have one)
+- Keep track of if it should be > or >=
+- Make sure you're using the right index value for the element you are currently looking at
+- Keep track of where the pointers are during an iteration, make sure you're checking values at the right time 
+
+Notes:
+- Strings can be iterated through like arrays in Python
+- Max functions can be a cleaner way to compare the current value to the max value
+- == and != are still used in Python
+- An empty set is instantiated like this: mySet = set()
+- Sets support add() and remove() operations also len() 
+- Best way to add elements into a dictionary is to use d[e] = d.get(e, 0) + 1, the second parameter in d.get is a default value to give if that value doesn't exist in the dictionary yet.
+- It helps to put the validation for the question's criteria in a separate function, e.g. want to know Tic-Tac-Toe, make a separate function that just evaluates the board state.
+
+### Two Pointers ###
+
+Two Pointers questions characteristics: 
+- The problem typically involves a sorted array or a linked list.
+- The question may involve finding triplets.
+
+General Approach:
+- Start with two pointers either on the end or in the middle or something.
+- Given a heuristic, decide if the pointers should be moved.
+- Find your answer, and potentially record in a global-esque variable.
+- If unique answers are required, then ensure that you're skipping duplicate numbers.
+- If the array is unsorted, then sort it.
+
+Tips/Pitfalls:
+- Be very careful with array indexing.
+- If the question asks for unique solutions, that means you want to skip duplicate numbers.
+- If you are trying to find the closest value then you need to use abs() otherwise < and > will just return the negative number in a comparison.
+- If you have a left and right pointer in a sorted array, you know that we can move right towards left and the sum will be <= to the existing sum. This means that if we want the number of values that are less than the current sum of left and right, we can just do right - left and that will let us know. Vice versa for dealing with counting elements that are >.
+- If they are looking for something contiguous, then you cannot sort the array.
+- Be sure if you are checking the index behind you or in front of you to find duplicates.
+
+Notes:
+- If you can do it in an increasing order, see if doing it in a decreasing order is easier.
+- The last index in an array is len(array) - 1.
+- ** is the operator for squaring, x**2 is x^2.
+- "break" and "continue" are both useful commands when in a loop.
+- You don't need a temp variable to swap elements in an array, you can just do 
+    arr[i], arr[j] = arr[j], arr[i]
+- You can remove an element from an array or string by doing:
+    arr = arr[:i] + arr[i+1:]
+    This takes all the elements up to i and adds them to all the elements from i+1 to the end.
+
+
+
+
+
+

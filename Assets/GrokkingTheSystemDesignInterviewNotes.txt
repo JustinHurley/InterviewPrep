@@ -1,0 +1,101 @@
+############################################
+### GROKKING THE SYSTEM DESIGN INTERVIEW ###
+############################################
+
+### STEPS OF A SYSTEM DESIGN PROBLEM ###
+
+1. Requirements Clarifications
+- Ask clarifying questions. 
+- Want to understand all the features our system will have.
+- What will users be able to do?
+- Work backwards, start with the needs of the customer.
+
+2. Back-of-the-Envelope Estimation
+- How many people will be using the service?
+- What is the scale of certain services in our system?
+- How much storage will we need?
+- What network bandwidth usage are we expecting?
+
+3. System Interface Definition 
+- Define what APIs are expected from the system.
+- This ties into what actions the users are allowed to perform, and if they'll require API calls to do.
+
+4. Defining the Data Model
+- What objects are we going to need in our system? What attributes will they have?
+- For example, a Twitter 'Tweet' object would have content, userId, location, likes, timestamp, etc.
+- What kind of DB should we use?
+
+5. High-Level Design
+- Map out what our system will roughly look like.
+- Identify the components needed to solve the problem. 
+- Do we have a lot of requests? Then we need load balancers.
+- What will the storage systems look like?
+- How many application servers will we need?
+
+6. Detailed Design
+- This is where you dive deep into a few major components of the system, the interviewer will likely guide us to what they want us to focus on.
+- Important to consider tradeoffs between different systems and why they exist.
+
+7. Identifying and Resolving Bottlenecks
+- Is there a single point of failure in our system? How are we going to mitigate it?
+- If we lose servers do we have ways to keep serving users?
+- Do we have copies of services so that a few failures won't shut down the system?
+
+8. Summary
+- Be prepared.
+- Be organized.
+- Consider tradeoffs.
+- Ask questions.
+
+### GLOSSARY ###
+
+Scalability
+- The capability of a system, process or a network to grow and manage increased demand. 
+- Any distributed system that can continuously evolve to support the growing amount of work.
+- Scalable systems try to balance the load on all nodes in the system evenly.
+- The larger or more complex a system is, the harder it is to scale.
+
+Horizontal Scaling
+- When you add more servers to your pool of resources.
+- Cassandra and MongoDB both provide easy ways to scale horizontally.
+- 1 -> 1 + 1 -> 1 + 1 + 1
+
+Vertical Scaling
+- When you add more power (CPU, RAM, storage, etc.) to an existing server.
+- MySQL offers an easy way to scale vertically by switching from smaller to bigger machines, but this often involves downtime.
+- 1 -> 2 -> 3
+
+Reliability 
+- Probability a system will fail in a given period.
+- Distributed systems are considered reliable if it can keep working even if some software or hardware components fail.
+- Reliability = Availability/Time
+
+Availability 
+- The time a system remains operational ton perform its required function in a specific period. 
+- Takes into account maintainability, repair time, and other logistics.
+- Availability = Reliability * Time
+
+Efficiency 
+- Can be measured by response time (latency).
+- Can be measured by throughput (bandwidth), how many items can be delivered in a time unit
+
+Load Balancer (LB)
+- Spreads traffic over a cluster of servers.
+- Purpose is to reduce load on one server and increase response time and availability.
+- Sits between the client and the server typically.
+
+Health Checks
+- Used by LBs to determine if the serv.
+- LB pings server to determine health, if deemed "unhealthy" then the server is removed from the LB pool.
+
+Redundant Load Balancer
+- Adding extra load balancers can help if one fails, as it could potentially be a single point of failure on the system.
+
+Caching
+- Saving data so that it does not have to be recomputed/reaccessed in the future.
+- Useful when you know you will need to use information multiple times in the same environment. 
+- Kind of like memoization for API requests (not exclusively).
+
+Content Delivery/Distribution Network (CDN)
+- Typical implementation has a request that asks the CDN for some static media, then the CDN provides that content if it's locally available, if it isn't, then it fetches the data, stores locally, and provides to the requester.
+

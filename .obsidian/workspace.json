@@ -11,24 +11,15 @@
             "id": "4e33f01d42d3e5e0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "43166fe0c5e855ad",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Problems/994-RottingOranges.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Problems/994-RottingOranges.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Problems/994-RottingOranges.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Problems/994-RottingOranges.md"
               }
             }
           },
@@ -177,15 +168,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "workspaces:Manage workspace layouts": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "43166fe0c5e855ad",
+  "active": "4e33f01d42d3e5e0",
   "lastOpenFiles": [
     "Home.md",
+    "Problems/994-RottingOranges.md",
     "Problems/17-LetterCombinationsOfAPhoneNumber.md",
     "Problems/51-N-Queens.md",
     "Problems/131-PalindromePartitioning.md",
@@ -210,7 +202,6 @@
     "Algorithms/DetectCycleInLinkedList.md",
     "Categories/Queues.md",
     "Categories/Graphs.md",
-    "Categories/DynamicProgramming.md",
     "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",
