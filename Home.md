@@ -1,5 +1,6 @@
 ### Solutions Written 
-# `$=dv.pages('"Problems"').length`
+# Total: `$=dv.pages('"Problems"').length`
+
 
 #### List of Problem Solutions
 ```dataview

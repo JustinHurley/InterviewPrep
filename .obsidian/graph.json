@@ -2,37 +2,30 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Problems",
+      "query": "tag:#medium  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14867224
       }
     },
     {
-      "query": "path:Algorithms",
+      "query": "tag:#hard",
       "color": {
         "a": 1,
-        "rgb": 14718802
+        "rgb": 14763847
       }
     },
     {
-      "query": "path:Categories",
+      "query": "tag:#easy",
       "color": {
         "a": 1,
-        "rgb": 12247122
-      }
-    },
-    {
-      "query": "path:Templates",
-      "color": {
-        "a": 1,
-        "rgb": 5429216
+        "rgb": 3990555
       }
     }
   ],
@@ -46,6 +39,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.3862845943201566,
-  "close": true
+  "scale": 0.291643624948901,
+  "close": false
 }

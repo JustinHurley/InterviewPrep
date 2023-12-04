@@ -3,7 +3,6 @@ tags:
   - sliding_window
   - queue
   - heap
-  - deque
   - hard
 ---
 

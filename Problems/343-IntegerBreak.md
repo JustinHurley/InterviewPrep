@@ -2,8 +2,8 @@
 tags:
   - recursion
   - design
-  - dynamic_progreamming
   - medium
+  - dynamic_programming
 ---
 ### 343. Integer Break
 
