@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "02fdfbc6361ab0f5",
+        "id": "24a20b15c12434e5",
         "type": "tabs",
         "children": [
           {
-            "id": "96ce3d40637f8186",
+            "id": "86a65586db557007",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/2264-LargestSame-3-DigitNumberInString.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db287f5b019049a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Problems/1903-LargestOddNumberInString.md",
+                "file": "Problems/606-ConstructStringFromBinaryTree.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/1903-LargestOddNumberInString.md",
+                "file": "Problems/606-ConstructStringFromBinaryTree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/1903-LargestOddNumberInString.md",
+                "file": "Problems/606-ConstructStringFromBinaryTree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/1903-LargestOddNumberInString.md"
+                "file": "Problems/606-ConstructStringFromBinaryTree.md"
               }
             }
           },
@@ -187,14 +174,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "db287f5b019049a5",
+  "active": "86a65586db557007",
   "lastOpenFiles": [
-    "Problems/1716-CalculateMoneyInLeetcodeBank.md",
+    "Problems/2264-LargestSame-3-DigitNumberInString.md",
+    "Problems/606-ConstructStringFromBinaryTree.md",
     "Problems/1903-LargestOddNumberInString.md",
+    "Problems/1716-CalculateMoneyInLeetcodeBank.md",
     "Untitled.md",
     "Problems/1688-CountOfMatchesInTournament.md",
     "Home.md",
-    "Problems/2264-LargestSame-3-DigitNumberInString.md",
     "Problems/1266-MinimumTimeVisitingAllPoints.md",
     "Problems/210-CourseScheduleII.md",
     "Problems/1160-FindWordsThatCanBeFormedByCharacters.md",
@@ -214,7 +202,6 @@
     "Problems/1057-CampusBikes.md",
     "Problems/1048-LongestStringChain.md",
     "Problems/1027-LongestArithmeticSubsequence.md",
-    "Problems/994-RottingOranges.md",
     "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",
