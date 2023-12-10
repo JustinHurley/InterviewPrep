@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/606-ConstructStringFromBinaryTree.md",
+                "file": "Problems/867-TransposeMatrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/606-ConstructStringFromBinaryTree.md",
+                "file": "Problems/867-TransposeMatrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/606-ConstructStringFromBinaryTree.md",
+                "file": "Problems/867-TransposeMatrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/606-ConstructStringFromBinaryTree.md"
+                "file": "Problems/867-TransposeMatrix.md"
               }
             }
           },
@@ -176,8 +176,9 @@
   },
   "active": "86a65586db557007",
   "lastOpenFiles": [
-    "Problems/2264-LargestSame-3-DigitNumberInString.md",
     "Problems/606-ConstructStringFromBinaryTree.md",
+    "Problems/867-TransposeMatrix.md",
+    "Problems/2264-LargestSame-3-DigitNumberInString.md",
     "Problems/1903-LargestOddNumberInString.md",
     "Problems/1716-CalculateMoneyInLeetcodeBank.md",
     "Untitled.md",
@@ -201,7 +202,6 @@
     "Problems/1091-ShortestPathInBinaryMatrix.md",
     "Problems/1057-CampusBikes.md",
     "Problems/1048-LongestStringChain.md",
-    "Problems/1027-LongestArithmeticSubsequence.md",
     "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",
