@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "86a65586db557007",
+            "id": "27d55945cb0a35fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "27d55945cb0a35fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/UnionFind.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/UnionFind.md",
+                "file": "Problems/684-RedundantConnection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/UnionFind.md",
+                "file": "Problems/684-RedundantConnection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/UnionFind.md"
+                "file": "Problems/684-RedundantConnection.md"
               }
             }
           },
@@ -189,14 +176,15 @@
   },
   "active": "27d55945cb0a35fe",
   "lastOpenFiles": [
-    "Algorithms/Backtracking.md",
     "Algorithms/UnionFind.md",
+    "Union Find.md",
+    "Problems/684-RedundantConnection.md",
+    "Algorithms/Backtracking.md",
     "Algorithms/BreadthFirstSearch.md",
     "Algorithms/MergeSort.md",
     "Algorithms/SlidingWindow.md",
     "Problems/286-WallsAndGates.md",
     "Algorithms/DepthFirstSearch.md",
-    "Problems/684-RedundantConnection.md",
     "Problems/1120-MaximumAverageSubtree.md",
     "Problems/867-TransposeMatrix.md",
     "Problems/606-ConstructStringFromBinaryTree.md",
@@ -214,7 +202,6 @@
     "Problems/343-IntegerBreak.md",
     "Problems/2433-FindTheOriginalArrayOfPrefixXor.md",
     "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
-    "Problems/1930-UniqueLength-3PalindromicSubsequences.md",
     "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",

@@ -13,7 +13,7 @@ You are given a graph that started as a tree with `n` nodes labeled from `1` to 
 Return _an edge that can be removed so that the resulting graph is a tree of_ `n` _nodes_. If there are multiple answers, return the answer that occurs last in the input.
 
 #### Main Idea
-- Use [[Union Find]] to determine what node can be removed
+- Use [[UnionFind|Union Find]] to determine what node can be removed
 - Need to build methods
 
 #### Approach
