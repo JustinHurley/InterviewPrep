@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/684-RedundantConnection.md",
+                "file": "Algorithms/UnionFind.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/684-RedundantConnection.md",
+                "file": "Algorithms/UnionFind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/684-RedundantConnection.md",
+                "file": "Algorithms/UnionFind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/684-RedundantConnection.md"
+                "file": "Algorithms/UnionFind.md"
               }
             }
           },
@@ -176,9 +176,9 @@
   },
   "active": "27d55945cb0a35fe",
   "lastOpenFiles": [
+    "Problems/684-RedundantConnection.md",
     "Algorithms/UnionFind.md",
     "Union Find.md",
-    "Problems/684-RedundantConnection.md",
     "Algorithms/Backtracking.md",
     "Algorithms/BreadthFirstSearch.md",
     "Algorithms/MergeSort.md",
