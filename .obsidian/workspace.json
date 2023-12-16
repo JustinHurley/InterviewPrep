@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/UnionFind.md",
+                "file": "Problems/0127-WordLadder.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/UnionFind.md",
+                "file": "Problems/0127-WordLadder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/UnionFind.md",
+                "file": "Problems/0127-WordLadder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/UnionFind.md"
+                "file": "Problems/0127-WordLadder.md"
               }
             }
           },
@@ -176,32 +176,32 @@
   },
   "active": "27d55945cb0a35fe",
   "lastOpenFiles": [
-    "Problems/684-RedundantConnection.md",
-    "Algorithms/UnionFind.md",
-    "Union Find.md",
-    "Algorithms/Backtracking.md",
-    "Algorithms/BreadthFirstSearch.md",
-    "Algorithms/MergeSort.md",
-    "Algorithms/SlidingWindow.md",
-    "Problems/286-WallsAndGates.md",
-    "Algorithms/DepthFirstSearch.md",
-    "Problems/1120-MaximumAverageSubtree.md",
-    "Problems/867-TransposeMatrix.md",
-    "Problems/606-ConstructStringFromBinaryTree.md",
-    "Problems/2264-LargestSame-3-DigitNumberInString.md",
-    "Problems/1903-LargestOddNumberInString.md",
-    "Problems/1716-CalculateMoneyInLeetcodeBank.md",
-    "Problems/1688-CountOfMatchesInTournament.md",
-    "Home.md",
-    "Problems/1266-MinimumTimeVisitingAllPoints.md",
-    "Problems/210-CourseScheduleII.md",
-    "Problems/1160-FindWordsThatCanBeFormedByCharacters.md",
-    "Problems/1662-CheckIfTwoStringArraysAreEquivalent.md",
-    "Problems/239-SlidingWindowMaximum.md",
-    "Problems/392-IsSubsequence.md",
-    "Problems/343-IntegerBreak.md",
-    "Problems/2433-FindTheOriginalArrayOfPrefixXor.md",
-    "Problems/2265-CountNodesEqualToAverageOfSubtree.md",
+    "Problems/0125-ValidPalindrome.md",
+    "Problems/0124-BinaryTreeMaximumPathSum.md",
+    "Problems/0121-BestTimeToBuyAndSellStock.md",
+    "Problems/0117-PopulatingNextRightPointersInEachInterval2.md",
+    "Problems/0110-BalancedBinaryTree.md",
+    "Problems/0105-ConstructBinaryTreeFromPreorderAndInorderTraversal.md",
+    "Problems/0104-MaximumDepthOfBinaryTree.md",
+    "Problems/0102-BinaryTreeLevelOrderTraversal.md",
+    "Problems/0100-SameTree.md",
+    "Problems/0098-ValidateBinarySearchTree.md",
+    "Problems/0095-UniqueBinarySearchTreesII.md",
+    "Problems/0090-SubsetsII.md",
+    "Problems/0084-LargestRectangleInHistogram.md",
+    "Problems/0079-WordSearch.md",
+    "Problems/0078-Subsets.md",
+    "Problems/0076-MinimumWindowSubstring.md",
+    "Problems/0074-SearchA2DMatrix.md",
+    "Problems/0070-ClimbingStairs.md",
+    "Problems/0062-UniquePaths.md",
+    "Problems/0057-InsertInterval.md",
+    "Problems/0056-MergeIntervals.md",
+    "Problems/0053-MaximumSubarray.md",
+    "Problems/0051-N-Queens.md",
+    "Problems/0050-Pow(x,n).md",
+    "Problems/0049-GroupAnagrams.md",
+    "Problems/0047-PermutationsII.md",
     "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",

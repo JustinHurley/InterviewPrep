@@ -4,7 +4,6 @@ tags:
   - array
   - easy
 ---
-
 ### \#26. Remove Duplicates from Sorted Array
 
 Link: [here](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
