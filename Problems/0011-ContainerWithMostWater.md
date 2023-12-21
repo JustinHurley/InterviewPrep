@@ -1,7 +1,7 @@
 ---
 tags:
   - two_pointer
-  - greedy_choice
+  - greedy
   - array
   - medium
 ---

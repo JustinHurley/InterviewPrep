@@ -2,7 +2,7 @@
 tags:
   - dynamic_programming
   - array
-  - greedy_choice
+  - greedy
   - divide_and_conquer
   - medium
 ---

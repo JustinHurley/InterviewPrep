@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/0200-NumberOfIslands.md",
+                "file": "Problems/0300-LongestIncreasingSubsequence.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/0200-NumberOfIslands.md",
+                "file": "Problems/0300-LongestIncreasingSubsequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/0200-NumberOfIslands.md",
+                "file": "Problems/0300-LongestIncreasingSubsequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/0200-NumberOfIslands.md"
+                "file": "Problems/0300-LongestIncreasingSubsequence.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -176,32 +176,32 @@
   },
   "active": "27d55945cb0a35fe",
   "lastOpenFiles": [
+    "Problems/0297-SerializeAndDeserializeBinaryTree.md",
+    "Problems/0295-FindMedianFromDataStream.md",
+    "Problems/0287-FindTheDuplicateNumber.md",
+    "Problems/0286-WallsAndGates.md",
+    "Problems/0261-GraphValidTree.md",
+    "Problems/0253-MeetingRoomsII.md",
+    "Problems/0239-SlidingWindowMaximum.md",
+    "Problems/0238-ProductOfArrayExceptSelf.md",
+    "Problems/0235-LowestCommonAncestorOfABinarySearchTree.md",
+    "Problems/0230-KthSmallestElementInABST.md",
+    "Problems/0226-InvertBinaryTree.md",
+    "Problems/0215-KthLargestElementInAnArray.md",
+    "Problems/0213-HouseRobberII.md",
+    "Problems/0212-WordSearchII.md",
+    "Problems/0211-DesignAddAndSearchWordsDataStructure.md",
+    "Problems/0210-CourseScheduleII.md",
+    "Problems/0209-MinimumSizeSubarraySum.md",
+    "Problems/0208-ImplementTrie.md",
+    "Problems/0207-CourseSchedule.md",
+    "Problems/0206-ReverseLinkedList.md",
+    "Problems/1637-WidestVerticalAreaBetweenTwoPointsContainingNoPoints.md",
+    "Problems/0605-CanPlaceFlowers.md",
+    "Problems/0661-ImageSmoother.md",
+    "Problems/0200-NumberOfIslands.md",
     "Problems/0199-BinaryTreeRightSideView.md",
     "Problems/0198-HouseRobber.md",
-    "Problems/0167-TwoSumII-InputArrayIsSorted.md",
-    "Problems/0155-MinStack.md",
-    "Problems/0153-FindMinimumInRotatedSortedArray.md",
-    "Problems/0152-MaximumProductSubarray.md",
-    "Problems/0151-ReverseWordsInAString.md",
-    "Problems/0150-EvaluateReversePolishNotation.md",
-    "Problems/0143-ReorderList.md",
-    "Problems/0141-LinkedListCycle.md",
-    "Problems/0139-WordBreak.md",
-    "Problems/0138-CopyListWithRandomPointer.md",
-    "Problems/0133-CloneGraph.md",
-    "Problems/0131-PalindromePartitioning.md",
-    "Problems/0130-SurroundedRegions.md",
-    "Problems/0128-LongestConsecutiveSequence.md",
-    "Problems/1913-MaximumProductDifferenceBetweenTwoPairs.md",
-    "Problems/0127-WordLadder.md",
-    "Problems/0125-ValidPalindrome.md",
-    "Problems/0124-BinaryTreeMaximumPathSum.md",
-    "Problems/0121-BestTimeToBuyAndSellStock.md",
-    "Problems/0117-PopulatingNextRightPointersInEachInterval2.md",
-    "Problems/0110-BalancedBinaryTree.md",
-    "Problems/0105-ConstructBinaryTreeFromPreorderAndInorderTraversal.md",
-    "Problems/0104-MaximumDepthOfBinaryTree.md",
-    "Problems/0102-BinaryTreeLevelOrderTraversal.md",
     "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",

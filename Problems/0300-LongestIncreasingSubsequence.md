@@ -1,8 +1,5 @@
 ---
-tags:
-  - dynamic_programming
-  - array
-  - medium
+tags: [dynamic_programming, array, medium]
 ---
 
 ### 300. Longest Increasing Subsequence

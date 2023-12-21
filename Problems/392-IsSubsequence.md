@@ -3,7 +3,7 @@ tags:
   - two_pointer
   - array
   - easy
-  - greedy_choice
+  - greedy
 ---
 ### 392. Is Subsequence 
 

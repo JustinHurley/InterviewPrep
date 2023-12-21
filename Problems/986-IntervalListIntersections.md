@@ -2,7 +2,7 @@
 tags:
   - two_pointer
   - interval
-  - greedy_choice
+  - greedy
   - medium
 ---
 
