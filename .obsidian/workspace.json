@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "24a20b15c12434e5",
+        "id": "82310e6259a85cee",
         "type": "tabs",
         "children": [
           {
-            "id": "27d55945cb0a35fe",
+            "id": "105bd47e3a0828d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/0300-LongestIncreasingSubsequence.md",
+                "file": "Problems/0424-LongestRepeatingCharacterReplacement.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/0300-LongestIncreasingSubsequence.md",
+                "file": "Problems/0424-LongestRepeatingCharacterReplacement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/0300-LongestIncreasingSubsequence.md",
+                "file": "Problems/0424-LongestRepeatingCharacterReplacement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/0300-LongestIncreasingSubsequence.md"
+                "file": "Problems/0424-LongestRepeatingCharacterReplacement.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -174,34 +174,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "27d55945cb0a35fe",
+  "active": "105bd47e3a0828d1",
   "lastOpenFiles": [
-    "Problems/0297-SerializeAndDeserializeBinaryTree.md",
-    "Problems/0295-FindMedianFromDataStream.md",
-    "Problems/0287-FindTheDuplicateNumber.md",
-    "Problems/0286-WallsAndGates.md",
-    "Problems/0261-GraphValidTree.md",
-    "Problems/0253-MeetingRoomsII.md",
-    "Problems/0239-SlidingWindowMaximum.md",
-    "Problems/0238-ProductOfArrayExceptSelf.md",
-    "Problems/0235-LowestCommonAncestorOfABinarySearchTree.md",
-    "Problems/0230-KthSmallestElementInABST.md",
-    "Problems/0226-InvertBinaryTree.md",
-    "Problems/0215-KthLargestElementInAnArray.md",
-    "Problems/0213-HouseRobberII.md",
-    "Problems/0212-WordSearchII.md",
-    "Problems/0211-DesignAddAndSearchWordsDataStructure.md",
-    "Problems/0210-CourseScheduleII.md",
-    "Problems/0209-MinimumSizeSubarraySum.md",
-    "Problems/0208-ImplementTrie.md",
-    "Problems/0207-CourseSchedule.md",
-    "Problems/0206-ReverseLinkedList.md",
-    "Problems/1637-WidestVerticalAreaBetweenTwoPointsContainingNoPoints.md",
-    "Problems/0605-CanPlaceFlowers.md",
-    "Problems/0661-ImageSmoother.md",
-    "Problems/0200-NumberOfIslands.md",
-    "Problems/0199-BinaryTreeRightSideView.md",
-    "Problems/0198-HouseRobber.md",
+    "Problems/0417-PacificAtlanticWaterFlow.md",
+    "Problems/0392-IsSubsequence.md",
+    "Problems/0355-DesignTwitter.md",
+    "Problems/0347-TopKFrequentElements.md",
+    "Problems/0343-IntegerBreak.md",
+    "Problems/0338-CountingBits.md",
+    "Problems/0322-CoinChange.md",
+    "Problems/0684-RedundantConnection.md",
+    "Problems/0606-ConstructStringFromBinaryTree.md",
+    "Problems/0621-TaskScheduler.md",
+    "Problems/0799-ChampagneTower.md",
+    "Problems/0852-PeakIndexInMountainArray.md",
+    "Problems/0853-CarFleet.md",
+    "Problems/0867-TransposeMatrix.md",
+    "Problems/0875-KokoEatingBananas.md",
+    "Problems/0894-AllPossibleFullBinaryTrees.md",
+    "Problems/0905-SortArrayByParity.md",
+    "Problems/0973-KClosestPointsToOrigin.md",
+    "Problems/0981-TimeBasedKey-ValueStore.md",
+    "Problems/0986-IntervalListIntersections.md",
+    "Problems/0994-RottingOranges.md",
+    "Problems/2610-ConvertAnArrayIntoA2DArrayWithConditions.md",
+    "Problems/2433-FindTheOriginalArrayOfPrefixXor.md",
+    "Problems/0797-AllPathsFromSourceToTarget.md",
+    "Problems/0746-MinCostClimbingStairs.md",
+    "Problems/0739-DailyTemperatures.md",
     "Assets/champagne.png",
     "Assets",
     "Templates/Untitled",
