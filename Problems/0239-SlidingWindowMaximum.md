@@ -11,7 +11,7 @@ tags:
 Link: [here](https://leetcode.com/problems/sliding-window-maximum/description/) 
 
 #### Problem
-You are given an array of integers `nums`, there is a [[Categories/SlidingWindow|sliding window]] of size `k` which is moving from the very left of the array to the very right. You can only see the `k` numbers in the window. Each time the sliding window moves right by one position.
+You are given an array of integers `nums`, there is a [[Topics/SlidingWindow|sliding window]] of size `k` which is moving from the very left of the array to the very right. You can only see the `k` numbers in the window. Each time the sliding window moves right by one position.
 
 #### Approach
 So the brute force approach would be to just take the window and calculate the max in each window. This would give us a time complexity of `O((n-k)*k)` since we need to do `k` operations for each valid window to get the max. 

@@ -22,7 +22,7 @@ This is a tree traversal question with an added twist. The general approach is t
 **Recursive Approach**
 We can use DFS in this problem to recursively check if the tree we are looking at is the same as the subtree we are given. The base cases are as such: if the tree node we are looking at is `None`, then we are done, as it can't possible be the same as the subtree we are given (subtree has at least one node). The other base case is when the nodes of the tree and subtree have the same value, in which case we want to check to see if the rest of the tree and subtree is the same. If it is the same, we should return true, but if it's not the same, we don't want to return `false`, we want to keep looking.
 The recursive case is how we keep looking, by recursively calling the method on the left and right children of the given tree. 
-We need to implement the function that checks to see if the two [[trees]] are the same, however this is done in a previous problem and is trivial. 
+We need to implement the function that checks to see if the two [[Trees]] are the same, however this is done in a previous problem and is trivial. 
 #### Solution
 **Iterative Approach**
 ```python

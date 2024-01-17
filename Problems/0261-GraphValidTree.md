@@ -16,7 +16,7 @@ You have a graph of `n` nodes labeled from `0` to `n - 1`. You are given an inte
 Return `true` if the edges of the given graph make up a valid tree, and `false` otherwise.
 
 #### Approach
-The first thing to think about when approaching this problem is to determine the criteria of what makes a graph a valid tree, since all [[trees]] are [[graphs]] but not all [[graphs]] are [[trees]]. For a graph to be a valid tree, it must satisfy the following criteria:
+The first thing to think about when approaching this problem is to determine the criteria of what makes a graph a valid tree, since all [[Trees]] are [[Graphs]] but not all [[Graphs]] are [[Trees]]. For a graph to be a valid tree, it must satisfy the following criteria:
 1. The graph must have 0 cycles.
 2. The graph must be connected (meaning we can get to any node from any other node in the graph). 
 Now that the criteria has been determined, we can now start to solve the problem. The first thing to do is to build an adjacency list using the supplied edges. This will make it easier and faster to traverse and access the graph. We do this by using a `dict`, where the key corresponds to the node number and the value corresponds to the list of neighbors. This will be filled with the `edges` input.

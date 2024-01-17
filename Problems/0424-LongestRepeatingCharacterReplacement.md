@@ -18,7 +18,7 @@ Return the length of the longest substring containing the same letter you can ge
 #### Approach
 The general approach is to apply a sliding algorithm to the problem, we don't actually need to do any replacement since the question only asks for the max length, we just need to return that value. 
 To keep track of the number of times a character shows up, you can use a dict. Technically since we are working with a string, the max size of the dict is worst case 26, so we don't need to worry about dict scans from a time complexity standpoint. 
-Like all [[Categories/SlidingWindow|sliding window]] problems, we get our left and right pointers, and move right until we violate some principle, then move the left pointer up until the principle is no longer violated. In this case, the principle is when the number of replaced characters exceeds `k`. Another way to think of this is using the equation:
+Like all [[Topics/SlidingWindow|sliding window]] problems, we get our left and right pointers, and move right until we violate some principle, then move the left pointer up until the principle is no longer violated. In this case, the principle is when the number of replaced characters exceeds `k`. Another way to think of this is using the equation:
 ```
 length of window - count of most frequent character in window <= k
 (r - l + 1) - max(dict.values()) <= k

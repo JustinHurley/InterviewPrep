@@ -16,7 +16,7 @@ Given n pairs of parentheses, write a function to generate all combinations of w
 
 #### Approach
 **First Solve**
-This problem can be solved with [[DynamicProgramming|dynamic programming]], but I elected to do the [[Categories/Backtracking|backtracking]] approach. Basically the way it works is you use a dictionary to keep track of how many parentheses are left. 
+This problem can be solved with [[DynamicProgramming|dynamic programming]], but I elected to do the [[Topics/Backtracking|backtracking]] approach. Basically the way it works is you use a dictionary to keep track of how many parentheses are left. 
 While we could permute every combination of parentheses, many of them would be invalid and we would waste time checking to see if every solution is valid. An ideal solution would be one that never makes an invalid solution in the first place. This can be done by ensuring that there are always an equal or greater number of left parentheses than right ones. We want to keep this in mind when we go into our recursive method.
 Recursive method logic:
 - If there are no more parentheses, stop and add to answer set.
@@ -36,9 +36,9 @@ This gives us our cases.
 We know that these rules will keep things valid because we don't add more than `n` parens, we never add a closed paren unless `closed < open` i.e. we have an open paren to pair the closed one with, and we don't add an open paren if we have already added `n` parens.
 
 Now the next part of the problem comes up. How do we actually generate all of these permutations?
-The answer in this case is to use [[Categories/Backtracking|backtracking]] (or DP). We basically use a method that takes in the current count of the parens in the answer we are generating, and it makes the next case(s) based on the current case.
+The answer in this case is to use [[Topics/Backtracking|backtracking]] (or DP). We basically use a method that takes in the current count of the parens in the answer we are generating, and it makes the next case(s) based on the current case.
 We make 1 recursive call if `open < n` and `closed == open` and we make 2 calls if `open < n` and `closed < open` since adding either a closed or open paren will generate a valid arrangement. 
-Now this is where the [[Categories/Backtracking|backtracking]] comes into play. The basic way [[Categories/Backtracking|backtracking]] works is like this:
+Now this is where the [[Topics/Backtracking|backtracking]] comes into play. The basic way [[Topics/Backtracking|backtracking]] works is like this:
 ```
 do work on ans being built
 recursive call

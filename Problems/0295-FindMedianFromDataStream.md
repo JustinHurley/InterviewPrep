@@ -19,7 +19,7 @@ Implement the `MedianFinder` class:
 - `double findMedian()` returns the median of all elements so far. Answers within `10-5` of the actual answer will be accepted.
 
 #### Main Idea
-The main idea of this problem is using a 2 [[heap]] approach to keep track of the middlemost values, using a minHeap and a maxHeap that is rebalanced to ensure that the top of each heap has the middlemost value.
+The main idea of this problem is using a 2 [[Heap]] approach to keep track of the middlemost values, using a minHeap and a maxHeap that is rebalanced to ensure that the top of each heap has the middlemost value.
 
 #### Approach
 The real meat of the problem is implementing the `addNum` method. This is where you'll need to add the num to the heap, and balance the heap if needed. The first part of the process is knowing which heap to choose. This is done by looking at the minHeap (which stores the larger values), and seeing if the current num is larger than the smallest value in the heap of larger values, i.e. is this a larger value. If not, it goes in the set of smaller values.

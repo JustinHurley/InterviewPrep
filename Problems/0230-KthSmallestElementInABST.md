@@ -19,9 +19,9 @@ The trickier part of the problem is determining the kth smallest value from thes
 So the general approach to this problem is:
 - Go all the way to the left.
 - Once you reach the left-most node, start looking right
-- If there are no right nodes, start [[Categories/Backtracking|backtracking]].
+- If there are no right nodes, start [[Topics/Backtracking|backtracking]].
 Since we will have to "backtrack" in this scenario. We use a stack to keep track of nodes in this situation. We add left nodes until we can't to the stack, and then we start adding right nodes until we can't to the stack. The difference between adding left and right nodes is that when we see a right node, we start counting, since it means that we are looking at the next smallest value. We keep doing this until our counted value equals k, then we return the current node.
-This problem uses DFS, however benefits from using an iterative approach instead of a recursive approach, since we use a stack anyway, and [[Categories/Backtracking|backtracking]] while also returning values only in some cases with a recursive approach is more difficult. 
+This problem uses DFS, however benefits from using an iterative approach instead of a recursive approach, since we use a stack anyway, and [[Topics/Backtracking|backtracking]] while also returning values only in some cases with a recursive approach is more difficult. 
 
 #### Solution
 ```python 

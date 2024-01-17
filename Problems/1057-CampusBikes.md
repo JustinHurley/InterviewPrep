@@ -27,7 +27,7 @@ The **Manhattan distance** between two points `p1` and `p2` is `Manhattan
 - Use a heap to keep track of distance, worker, and bike
 
 #### Approach
-Break the distance calculation out into it's own method to keep the code neater. Then we will want to start building the heap. To do so, fill an array with the distances of each worker-bike pair, and the distance into a heap. We want to use a [[heap|min heap]] to keep track of the shortest distances, using the worker index value to break ties. We can then pop the stack, keeping track of which bikes have been claimed and which workers have been assigned bikes, until we have checked all the routes. Once that is completed, we can return the answer set.
+Break the distance calculation out into it's own method to keep the code neater. Then we will want to start building the heap. To do so, fill an array with the distances of each worker-bike pair, and the distance into a heap. We want to use a [[Heap|min heap]] to keep track of the shortest distances, using the worker index value to break ties. We can then pop the stack, keeping track of which bikes have been claimed and which workers have been assigned bikes, until we have checked all the routes. Once that is completed, we can return the answer set.
 
 #### Edge Cases
 - `len(workers) != len(bikes)`

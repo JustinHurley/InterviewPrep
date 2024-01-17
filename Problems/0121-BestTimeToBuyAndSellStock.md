@@ -24,7 +24,7 @@ One way to go about doing this is to use an array where we mark at each index `i
 We then can do a forward pass through `prices[i]` and at each index, calculate the difference between `prices[i]` and the future max sell price for that given position, then just return the max difference between buy and sell found.
 
 **Sliding Window**
-A different approach is to iterate through the array using a [[Categories/SlidingWindow|sliding window]]. Basically we have a left and right pointer, set them to the 1st and 2nd index positions, `0` and `1` respectively, and then start moving the window. 
+A different approach is to iterate through the array using a [[Topics/SlidingWindow|sliding window]]. Basically we have a left and right pointer, set them to the 1st and 2nd index positions, `0` and `1` respectively, and then start moving the window. 
 The window follows a greedy algorithm as such:
 1. If the difference is negative, start over from the next index.
 2. If the difference is positive, keep moving the right pointer to see if a better sell price can be found.

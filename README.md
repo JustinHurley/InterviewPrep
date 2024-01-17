@@ -1,6 +1,10 @@
-# InterviewPrep
-This is a collection of solved LeetCode problems. While prepping for interviews I found that I was able to retain the solution to a problem better if I did a small writeup about each one. 
+This repository contains a collection of resources and notes to prepare for the Software Engineering job application and interview process.
 
-I figured I would make my repo public in case someone else finds it helpful. 
+Contents:
+- Hundreds of LeetCode problem solutions 
+- Notes to explain how certain algorithms and data structures work
+- Problems organized by problem type, and other tags
+- Templates for reaching out to recruiters
+- Notes on system design 
 
-These files are written using Markup format and were designed to be read via Obsidian, the note taking app. 
+This repository is intended to be shared with others and used by anyone who is interested in the content. Feel free to submit PRs with content you think would be useful.

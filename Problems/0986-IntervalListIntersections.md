@@ -9,7 +9,7 @@ tags:
 ### 986. Interval List Intersections
 Link [here](https://leetcode.com/problems/interval-list-intersections/)
   
-Given 2 lists of closed [[intervals]]
+Given 2 lists of closed [[Intervals]]
 [[Intervals]] are always different numbers and in order
 We want to return the intersection of the two lists
 Looking for closed interval [a, b]
@@ -17,7 +17,7 @@ How to evaluate two intervals
 - Intersection is the highest starting value and the lowest ending value
 - If an intersection has an ending value less than the other's starting value, advance to next interval
 - Repeat until done
-It's important to compare [[intervals]] until they aren't valid anymore
+It's important to compare [[Intervals]] until they aren't valid anymore
 
 This problem comes down to finding criteria of when to advance a pointer and when to make an intersection. We can use a greedy property to determine which interval gets to stay. In this case, the interval with the earlier finish time gets their pointer advanced first. 
 

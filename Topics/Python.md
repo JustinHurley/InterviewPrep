@@ -1,3 +1,7 @@
+---
+tags: [category, "#python"]
+---
+
 Python can do a lot of the heavy lifting for some of these algorithm problems, which is why it's the language of choice for many in interviews. This file will contain Python code that will be good to remember for future problems. Understand how these methods work, it's fair game for an interviewer to ask you to do the process yourself.
 
 #### Counter
@@ -59,3 +63,11 @@ shallow_copy = arr.copy()
 shallow_copy = arr[:]
 ```
 Creates a shallow copy, this copy object can be mutated, and the only issues where a shallow copy sees changes when the original is mutated, is if the original copy has mutable objects passed by reference e.g. a list of lists. 
+
+#### Del
+```python
+dict = {'a': 1, 'b': 2, 'c': 3}
+del dict['a']
+dict -> {'b': 2, 'c': 3}
+```
+This deletes an element from a dictionary. The time complexity is effectively `O(1)`, however due to the HashTable implementation the worst case-scenario runtime would be `O(n)` if every entry in the dictionary had a hash-collision. 

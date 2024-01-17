@@ -10,14 +10,14 @@ tags:
 Link: [here](https://leetcode.com/problems/insert-interval/description/)
 
 #### Problem
-You are given an array of non-overlapping [[intervals]] intervals where `intervals[i] = [starti, endi]` represent the start and the end of the ith interval and [[intervals]] is sorted in ascending order by `starti`. You are also given an interval `newInterval = [start, end]` that represents the start and end of another interval.
+You are given an array of non-overlapping [[Intervals]] intervals where `intervals[i] = [starti, endi]` represent the start and the end of the ith interval and [[Intervals]] is sorted in ascending order by `starti`. You are also given an interval `newInterval = [start, end]` that represents the start and end of another interval.
 
 Insert `newInterval` into intervals such that intervals is still sorted in ascending order by `starti` and intervals still does not have any overlapping intervals (merge overlapping intervals if necessary).
 
 Return intervals after the insertion.
 
 #### Approach
-Tackling this problem comes down to handling the different interval cases. As we move through the array of intervals we want to consider each case. As we pass through these [[intervals]], we build them together and handle different cases and add them to an answer set.
+Tackling this problem comes down to handling the different interval cases. As we move through the array of intervals we want to consider each case. As we pass through these [[Intervals]], we build them together and handle different cases and add them to an answer set.
 
 1. The interval we want to insert is before the current interval we are looking at: In this case we have already "handled" the previous windows and so we can just insert the new interval, and then append the rest of the interval array from that position.
 2. The interval we want to insert is after the current interval we are looking at: In this case, we know that the current interval is "safe" i.e. we don't have to worry about overlap with the interval we want to add, and we already know it has no overlap with previous elements. So we add it to the answer array and keep going.
