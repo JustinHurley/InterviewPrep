@@ -1,10 +1,10 @@
-This repository contains a collection of resources and notes to prepare for the Software Engineering job application and interview process.
+Hello! 
 
-Contents:
-- Hundreds of LeetCode problem solutions 
-- Notes to explain how certain algorithms and data structures work
-- Problems organized by problem type, and other tags
-- Templates for reaching out to recruiters
-- Notes on system design 
+I made this repository as a place to put the notes I've taken throughout my interview prep process.
+It's a combination of LeetCode problem writeups, System Design notes, some templates for reaching out to recruiters, and more.
 
-This repository is intended to be shared with others and used by anyone who is interested in the content. Feel free to submit PRs with content you think would be useful.
+I've figured since I've spent so much time on this stuff, maybe someone also looking for Software Engineering Interivew prep resources would find it useful.
+Feel free to ask questions or leave comments on anything you see in the repo, and I'll be happy to try and get back to you.
+
+I use Obsidian, a Markdown formatter to store most of my notes, which is why the formatting is the way it is. 
+The best way to view this content is with an application that can render `.md` files.
