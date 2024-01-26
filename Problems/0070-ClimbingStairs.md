@@ -3,6 +3,7 @@ tags:
   - dynamic_programming
   - array
   - easy
+  - bottom_up
 ---
 
 ### 70. Climbing Stairs
@@ -23,7 +24,7 @@ The above is saying that at a certain step `i`, you can either go up 1 step or 2
 This DP problem is quickly solved by determining the rule to get the number of paths to take from step `k` when given steps `k+1` and `k+2`. So you can start with seed values for the goal step and the step before the goal step, and use those values to build your way to the solution. While DP typically calls for using an array, we actually don't need to in this scenario because we only care about the next two values at a time. Also you may have noticed that this pattern follows the Fibonacci sequence.
 #### Solution
 **First Solve**
-```
+```python
 class Solution:
     def climbStairs(self, n: int) -> int:
         # Make the DP array
@@ -40,7 +41,7 @@ class Solution:
         return ans[0]
 ```
 **Second Solve**
-```
+```python
 class Solution:
     def climbStairs(self, n: int) -> int:
         # This represents the last 2 positions on the stairs (base case seed values)

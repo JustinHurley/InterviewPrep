@@ -1,7 +1,7 @@
 ---
 tags: [easy, array, "#greedy"]
 ---
-### #. Can Place Flowers
+### 605. Can Place Flowers
 
 Link: [here](https://leetcode.com/problems/can-place-flowers/description/)
 
