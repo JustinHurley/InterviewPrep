@@ -5,5 +5,11 @@
   "autoPairMarkdown": false,
   "smartIndentList": false,
   "showFrontmatter": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": [
+    ".git",
+    ".gitingnore",
+    ".obsidian"
+  ]
 }

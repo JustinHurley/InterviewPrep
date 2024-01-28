@@ -11,7 +11,7 @@ Link: [here]()
 
 #### Approach
 
-#### Edge Cases
+#### Edge Cases/Gotchas 
 
 #### Solution
 ```python 
