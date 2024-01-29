@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/0859-BuddyStrings.md",
+                "file": "2185-CountingWordsWithAGivenPrefix.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/0859-BuddyStrings.md",
+                "file": "2185-CountingWordsWithAGivenPrefix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/0859-BuddyStrings.md",
+                "file": "2185-CountingWordsWithAGivenPrefix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/0859-BuddyStrings.md"
+                "file": "2185-CountingWordsWithAGivenPrefix.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -176,8 +176,9 @@
   },
   "active": "acf8c60f4a42e75d",
   "lastOpenFiles": [
-    "SystemDesign/Components/Content Delivery Network.md",
     "Problems/0859-BuddyStrings.md",
+    "2185-CountingWordsWithAGivenPrefix.md",
+    "SystemDesign/Components/Content Delivery Network.md",
     "SystemDesign/Components/Key Value Stores.md",
     "SystemDesign/Standards/CAP Theorem.md",
     "SystemDesign/Standards",
@@ -206,7 +207,6 @@
     "Applications/StubHub.md",
     "Algorithms/Backtracking.md",
     "Applications/StubHub",
-    "Applications/Balyasny Asset Management.md",
     "Applications",
     "Assets/FailureModel.png",
     "SystemDesign/Components",
