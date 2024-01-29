@@ -1,7 +1,7 @@
 ---
 tags: [category, "#python"]
 ---
-
+## Python
 Python can do a lot of the heavy lifting for some of these algorithm problems, which is why it's the language of choice for many in interviews. This file will contain Python code that will be good to remember for future problems. Understand how these methods work, it's fair game for an interviewer to ask you to do the process yourself.
 
 #### Counter
@@ -71,3 +71,22 @@ del dict['a']
 dict -> {'b': 2, 'c': 3}
 ```
 This deletes an element from a dictionary. The time complexity is effectively `O(1)`, however due to the HashTable implementation the worst case-scenario runtime would be `O(n)` if every entry in the dictionary had a hash-collision. 
+
+#### Bisect
+```python
+arr = [1,2,4,4,5]
+next_index_left = bisect.bisect_left(arr, 4) -> 2
+next_index_right = bisect.bisect_right(arr, 4) -> 4
+```
+The bisect method uses binary search to find an insertion index for the requested element in a given array. In the case of `bisect_left` it finds the index to insert an element on the left side of equivalent values, and `bisect_right` gives the index to insert on the right side of equivalent values. 
+If the given element we are looking to insert doesn't exist in the array, both `bisect_left` and `bisect_right` will have the same behavior. 
+
+#### MinHeap
+```python
+heap = [6,3,9,2,5,1]
+heapq.heapify(heap)
+heapq.heappop(heap) -> 1
+heapq.heappush(heap, 1)
+```
+Python has a built in min-heap library, that allows users to `heapify` lists in `O(n)` time, and to pop and push from the min-heap in `log(n)` time. If you want to use a max-heap, you must negate all the values. 
+If you add tuples to the heap, it will resolve duplicate entries in the order of tuple elements, i.e. for `(1,2,3) < (1,2,4) = ?` the heap would say the first element is smaller.

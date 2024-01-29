@@ -2,7 +2,6 @@
 aliases: [heap]
 tags: [heap, category]
 ---
-
 ## Heaps
 Heaps, AKA priority queues, are tree-based data structures that satisfy the [[#heap property]]. They are particularly useful when you want to prioritize nodes on a given characteristic, typically max or min value. This is because the tree data structure allows for you to find the max or min value in constant time. 
 
