@@ -1,26 +1,18 @@
 ---
 tags: [template]
 ---
-### #. Title
-
+# #. Title
 Link: [here]()
-
-#### Problem
-
-#### Main Idea
-
-#### Approach
-
-#### Edge Cases/Gotchas 
-
-#### Solution
+## Problem
+## Main Idea
+## Approach
+## Edge Cases/Gotchas 
+## Solution
 ```python 
 
 ```
-
-#### Time Complexity
+## Time Complexity
 `O()`
-
-#### Space Complexity
+## Space Complexity
 `O()`
 

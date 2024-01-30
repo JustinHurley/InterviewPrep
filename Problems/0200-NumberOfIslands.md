@@ -24,7 +24,7 @@ Something to keep in mind is the fact that the 1s in the problem are not integer
 
 #### Solution
 Note: You could also just put the DFS function in the `numIslands` function so that you don't need to pass in `grid` as a parameter and can just call it like a global variable since it's in the scope of the function.
-```
+```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         totalRows = len(grid)

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "34c78beb95070945",
+        "id": "b16fea182265face",
         "type": "tabs",
         "children": [
           {
-            "id": "acf8c60f4a42e75d",
+            "id": "38f6ed85fec3b6ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2185-CountingWordsWithAGivenPrefix.md",
+                "file": "Problems/2049-CountNodesWithTheHighestScore.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2185-CountingWordsWithAGivenPrefix.md",
+                "file": "Problems/2049-CountNodesWithTheHighestScore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2185-CountingWordsWithAGivenPrefix.md",
+                "file": "Problems/2049-CountNodesWithTheHighestScore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2185-CountingWordsWithAGivenPrefix.md"
+                "file": "Problems/2049-CountNodesWithTheHighestScore.md"
               }
             }
           },
@@ -174,11 +174,22 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "acf8c60f4a42e75d",
+  "active": "38f6ed85fec3b6ff",
   "lastOpenFiles": [
-    "Problems/0859-BuddyStrings.md",
-    "2185-CountingWordsWithAGivenPrefix.md",
+    "Templates/ProblemTemplate.md",
+    "Problems/2049-CountNodesWithTheHighestScore.md",
+    "Problems/2185-CountingWordsWithAGivenPrefix.md",
+    "Pitfalls.md",
+    "Problems/0150-EvaluateReversePolishNotation.md",
+    "Problems/0143-ReorderList.md",
+    "Problems/0200-NumberOfIslands.md",
+    "Problems/0206-ReverseLinkedList.md",
+    "Problems/0261-GraphValidTree.md",
+    "Problems/0211-DesignAddAndSearchWordsDataStructure.md",
+    "Home.md",
+    "Assets/CDNWorkflow.png",
     "SystemDesign/Components/Content Delivery Network.md",
+    "Problems/0859-BuddyStrings.md",
     "SystemDesign/Components/Key Value Stores.md",
     "SystemDesign/Standards/CAP Theorem.md",
     "SystemDesign/Standards",
@@ -188,7 +199,6 @@
     "Problems/1167-MinimumCostToConnectSticks.md",
     "Topics/DynamicProgramming.md",
     "Topics/Heap.md",
-    "Home.md",
     "Assets/ReplicationTypes.png",
     "Assets/RPC.png",
     "SystemDesign/Components/Databases.md",
@@ -197,15 +207,6 @@
     "Applications/Applications.md",
     "Problems/1166-DesignFileSystem.md",
     "SystemDesign/Components/Remote Procedure Calls.md",
-    "SystemDesign/Components/Domain Name System.md",
-    "Traps.md",
-    "SystemDesign/Standards/ACID.md",
-    "Templates/ProblemTemplate.md",
-    "Problems/1779-FindNearestPointThatHasTheSameXOrYCoordinate.md",
-    "Problems/0826-MostProfitAssigningWork.md",
-    "Applications/DoorDash.md",
-    "Applications/StubHub.md",
-    "Algorithms/Backtracking.md",
     "Applications/StubHub",
     "Applications",
     "Assets/FailureModel.png",

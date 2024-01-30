@@ -1,8 +1,6 @@
-### Solutions Written 
-# Total: `$=dv.pages('"Problems"').length`
+# Problems Completed: `$=dv.pages('"Problems"').length`
 
-
-#### List of Problem Solutions
+# List of Problem Solutions
 ```dataview
 TABLE WITHOUT ID
 	file.link AS "Problem",
