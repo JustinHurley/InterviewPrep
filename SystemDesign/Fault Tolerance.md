@@ -1,3 +1,6 @@
+---
+tags: [system_design]
+---
 # Fault Tolerance
 A system's ability to execute persistently even if one or more of it's components fail (software or hardware).
 

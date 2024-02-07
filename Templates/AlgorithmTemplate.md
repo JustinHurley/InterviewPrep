@@ -1,17 +1,15 @@
 ---
 tags: [template]
 ---
-### Algorithm
+# Algorithm
 
-#### General Idea
+## General Idea
 
-#### Code
+## Code
 ```
 
 ```
-
-#### Time Complexity
+## Time Complexity
 `O()`
-
-#### Space Complexity 
+## Space Complexity 
 `O()`

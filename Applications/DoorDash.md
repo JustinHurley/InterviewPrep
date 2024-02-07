@@ -1,3 +1,8 @@
+---
+tags:
+  - job_search
+---
+
 INTERVIEW FORMAT
 The screen will be 60-minutes and generally structured as follows:
 • Introductions between you and your interviewer (5 min)

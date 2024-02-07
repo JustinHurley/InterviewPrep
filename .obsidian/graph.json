@@ -25,7 +25,7 @@
       "query": "tag:#easy",
       "color": {
         "a": 1,
-        "rgb": 2679835
+        "rgb": 3521068
       }
     },
     {
@@ -33,6 +33,13 @@
       "color": {
         "a": 1,
         "rgb": 14717522
+      }
+    },
+    {
+      "query": "tag:#system_design",
+      "color": {
+        "a": 1,
+        "rgb": 5402336
       }
     }
   ],
@@ -42,10 +49,10 @@
   "nodeSizeMultiplier": 3.44821370442708,
   "lineSizeMultiplier": 1.98236083984375,
   "collapse-forces": false,
-  "centerStrength": 0.7762451171875,
-  "repelStrength": 20,
-  "linkStrength": 1,
-  "linkDistance": 500,
+  "centerStrength": 0.312825520833333,
+  "repelStrength": 10.0390625,
+  "linkStrength": 0.5035400390625,
+  "linkDistance": 260,
   "scale": 0.2819539713307736,
   "close": true
 }

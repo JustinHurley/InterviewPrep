@@ -2,6 +2,10 @@
 tags:
   - system_design
   - component
+aliases:
+  - database
+  - Database
+  - databases
 ---
 # Databases
 A **database** is an organized collection of data that can be managed and accessed easily. Databases are created to make it easier to store, retrieve, modify, and delete data in connection with different data-processing procedures.

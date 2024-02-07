@@ -1,3 +1,7 @@
+---
+tags:
+  - job_search
+---
 Questions
 - What tech stacks are currently used on the team/at StubHub in general?
 	- Java, Python, C#

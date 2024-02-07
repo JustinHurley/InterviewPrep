@@ -2,7 +2,6 @@
 tags:
   - system_design
 ---
-
 # Remote Procedure Calls
 A Remote Procedure Call (RPC) is when a program causes a procedure or subroutine to execute in a separate address space
 
