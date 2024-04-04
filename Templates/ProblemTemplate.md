@@ -4,15 +4,15 @@ tags: [template]
 # #. Title
 Link: [here]()
 ## Problem
-## Main Idea
+## Intuition
 ## Approach
-## Edge Cases/Gotchas 
+## Edge Cases/Pitfalls
 ## Solution
 ```python 
 
 ```
 ## Time Complexity
-`O()`
+$O()$
 ## Space Complexity
-`O()`
-
+$O()$
+## Takeaways 

@@ -5,19 +5,19 @@ tags:
   - math
   - medium
 ---
-
-### 238. Product of Array Except Self
+# 238. Product of Array Except Self
 
 Link: [here](https://leetcode.com/problems/product-of-array-except-self/description/)
 
-#### Problem
+## Problem
 Given an integer array `nums`, return _an array_ `answer` _such that_ `answer[i]` _is equal to the product of all the elements of_ `nums` _except_ `nums[i]`.
 
 The product of any prefix or suffix of `nums` is **guaranteed** to fit in a **32-bit** integer.
 
 You must write an algorithm that runs in `O(n)` time and without using the division operation.
-
-#### Approach
+## Main Idea
+- We can take the prefix product and postfix product of each number (the product of all elements up to that element) and then to get the answer multiply the prefix and postfix products for that given cell
+## Approach
 This problem relies on prefix sum (in this case prefix product), where we utilize the fact that multiplication (and addition) is commutative, so we can multiply the items in any order and end up with the same solution.
 This means that for element `x` with index `i`, we only need to get the product of all elements to the left and all elements to the right, and then can multiply them by each-other to solve the problem.
 We can do this by doing 2 passes, left-to-right and then right-to-left in the array, where at each step of the iteration, we take the current product and multiply the current element, then multiply the current product by the number in the corresponding `nums` array and then move on. This ensures that we aren't adding the corresponding `nums` element to the answer array.

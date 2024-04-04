@@ -1,11 +1,8 @@
 ---
-tags:
-  - linked_list
-  - easy
+tags: [linked_list, easy]
 ---
 
-### 206. Reverse Linked List
-
+# 206. Reverse Linked List
 Link: [here](https://leetcode.com/problems/reverse-linked-list/description)
 
 #### Problem

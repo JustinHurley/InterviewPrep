@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "17f26dc1dc44dc21",
+        "id": "653bf36a22f86ef3",
         "type": "tabs",
         "children": [
           {
-            "id": "7d7e2f25c2e4984f",
+            "id": "b51bc6d738603eb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/0451-SortCharactersByFrequency.md",
+                "file": "Problems/0050-Pow(x,n).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fdd7621bb290eca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Applications.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/0451-SortCharactersByFrequency.md",
+                "file": "Applications/Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/0451-SortCharactersByFrequency.md",
+                "file": "Applications/Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/0451-SortCharactersByFrequency.md"
+                "file": "Applications/Applications.md"
               }
             }
           },
@@ -154,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -174,34 +187,35 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7d7e2f25c2e4984f",
+  "active": "3fdd7621bb290eca",
   "lastOpenFiles": [
-    "Algorithms/BucketSort.md",
-    "Problems/0451-SortCharactersByFrequency.md",
-    "Templates/AlgorithmTemplate.md",
+    "Problems/0050-Pow(x,n).md",
     "Applications/Applications.md",
-    "SystemDesign/Components/Blob Store.md",
-    "SystemDesign/Components/Monitoring.md",
-    "SystemDesign/Components/Sequencer.md",
-    "SystemDesign/Components/Universally Unique Identifiers.md",
-    "SystemDesign/Components/Databases.md",
-    "SystemDesign/Components/TrueTime API.md",
-    "SystemDesign/Components/Logical Clocks.md",
-    "SystemDesign/Components/UNIX Timestamps.md",
-    "SystemDesign/Components/Content Delivery Network.md",
-    "SystemDesign/Components/Range Handler.md",
-    "Untitled.md",
-    "Assets/LongTail.png",
-    "SystemDesign/Standards/Consistency Models.md",
-    "Problems/2966-DivideArrayIntoArraysWithMaxDifference.md",
-    "README.md",
+    "Problems/0322-CoinChange.md",
+    "Problems/0079-WordSearch.md",
+    "Problems/0767-ReorganizeString.md",
+    "Algorithms/CountPairs.md",
+    "Problems/2962-CountSubarraysWhereMaxElementAppearsAtLeastKTimes.md",
+    "Problems/2958-LengthOfLongestSubarrayWithAtMostKFrequency.md",
+    "Problems/0487-MaxConsecutiveOnesII.md",
+    "Problems/0334-IncreasingTripletSubsequence.md",
+    "Problems/0151-ReverseWordsInAString.md",
+    "Problems/0713-SubarrayProductLessThanK.md",
     "Templates/ProblemTemplate.md",
+    "Problems/0071-SimplifyPath.md",
+    "Problems/0041-FirstMissingPositive.md",
+    "Problems/2246-LongestPathWithDifferentAdjacentNodes.md",
+    "Problems/0277-FindTheCelebrity.md",
+    "Problems/2384-LargestPalindromincNumber.md",
+    "Problems/2483-MinimumPenaltyForAShop.md",
+    "Problems/0442-FindAllDuplicatesInArray.md",
+    "Problems/0003-LongestSubstringWithoutRepeatingCharacters.md",
     "Home.md",
-    "Applications/StubHub.md",
-    "Applications/DoorDash.md",
-    "Applications/Balyasny Asset Management.md",
-    "SystemDesign/Components/Remote Procedure Calls.md",
-    "SystemDesign/Fault Tolerance.md",
+    "Problems/0015-3Sum.md",
+    "Problems/0426-ConvertBinarySearchTreeToSortedDoublyLinkedList.md",
+    "Algorithms/Backtracking.md",
+    "Algorithms/BreadthFirstSearch.md",
+    "Assets/LongTail.png",
     "Problems/0542",
     "Assets/CDNWorkflow.png",
     "SystemDesign/Standards",

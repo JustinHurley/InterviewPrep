@@ -15,5 +15,6 @@ This repo has:
 - LeetCode problem write-ups
 - Algorithm and category notes
 - System design notes
-- My application tracking stats (this one is mostly for me)
+- My application tracking stats (this one is mostly for me but could be a good reference)
 - Templates to add new notes
+- Notes for specific job applications 

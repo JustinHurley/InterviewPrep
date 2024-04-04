@@ -1,14 +1,7 @@
 ---
-tags:
-  - combinations
-  - backtracking
-  - depth_first_search
-  - string
-  - medium
+tags: [combinations, backtracking, depth_first_search, string, medium]
 ---
-
-### 22. Generate Parentheses
-
+# 22. Generate Parentheses
 Link: [here](https://leetcode.com/problems/generate-parentheses/)
 
 #### Problem

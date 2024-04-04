@@ -2,7 +2,7 @@
 tags: [algorithm, backtracking, recursion]
 aliases: [backtracking]
 ---
-### Backtracking
+# Backtracking
 Backtracking is a great algorithm to use when you need to make a permutation of something. As backtracking is a recursive approach to generating multiple options given a single input, without mutating the output in a way that makes it unusable in different cases. When you need to permute multiple answers from a "seed" value, permutation is a great approach.
 
 #### General Idea

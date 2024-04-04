@@ -6,7 +6,7 @@ tags:
   - sorting
   - medium
 ---
-### 621. Task Scheduler
+# 621. Task Scheduler
 
 Link: [here](https://leetcode.com/problems/task-scheduler/description/)
 
@@ -17,8 +17,9 @@ However, there is a non-negative integer `n` that represents the cooldown peri
 
 Return _the least number of units of times that the CPU will take to finish all the given tasks_.
 
-#### Main Idea
-You want to do the most frequent tasks first, which can be stored with a heap. When tasks are on cooldown, use a queue to track which ones will be ready to be added back to the heap and executed. 
+## Main Idea
+- We want to greedily choose the tasks that need to be done the most amount of times
+- When we execute a task we can use a queue to hold it until it's time 
 #### Approach
 The solution to this task is to simulate it. We first want to determine which task should be done first. The strategy for choosing a task is based on wanting to avoid the worst case scenario: only being able to do 1 task at a time. To avoid this, we want to proactively do the most frequent tasks first, to ensure we avoid the worst case scenario if possible. To do this, we want a way to easily access and track the most frequent tasks, which we can do with a heap. 
 So to get frequency, we count the frequency of each char in the `tasks` array, and then with that we can discard the chars and put the frequencies into a [[Heap]] and heapify it. Then we basically just simulate the tasks with a while loop, keeping track of time with a counter. Once that is completed, and all tasks have been fully completed, you can return the time as the answer. 

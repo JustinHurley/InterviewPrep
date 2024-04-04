@@ -1,6 +1,10 @@
 ---
-tags: [dynamic_programming]
-aliases: ['dynamic programming', 'DP']
+tags:
+  - dynamic_programming
+  - topic
+aliases:
+  - dynamic programming
+  - DP
 ---
 # Dynamic Programming
 ### When to Use

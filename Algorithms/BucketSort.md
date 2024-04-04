@@ -2,7 +2,7 @@
 tags: [algorithm, sorting]
 aliases: [counting sort, bucket sort, Bucket Sort, Counting Sort, countingsort, CountingSort]
 ---
-# Algorithm
+# Bucket Sort (Counting Sort)
 Counting sort is a way to sort and store information for inputs of relatively small n, in less than the conventional `nlog(n)` sorting time. This is because for counting sort we use the input values to designate the array index locations, similar to a hash-map.
 Counting sort really only works on numbers, as we need a direct 1:1 mapping between an input value and an integer.
 The only downside is that it can only be used with "reasonably small" input sizes as there is no way to protect against hash-collisions, meaning that every tracked element must be unique. 

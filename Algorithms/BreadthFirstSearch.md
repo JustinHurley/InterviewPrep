@@ -2,8 +2,7 @@
 aliases: [breadth-first search, BFS, bfs]
 tags: [algorithm, graph, stack, breadth_first_search, tree]
 ---
-
-## Breadth-First Search
+# Breadth-First Search
 
 #### General Idea
 Breadth-first search (BFS) is a graph traversal algorithm, that traverses nodes by depth level, starting from the root and working its way out. This happens inherently because of the data structure used to traverse the graph, a queue. By adding children into the queue before iterating to the child nodes, it ensures that after the root node is visited, the left child is visited, and then the right (assuming you choose to add the left child to the queue first). The next node to visit is taken by polling the queue and repeating the process of adding children to the queue, and then visiting the next node in the queue.

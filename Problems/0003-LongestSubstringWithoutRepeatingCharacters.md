@@ -2,12 +2,11 @@
 tags:
   - sliding_window
   - string
-  - Set
   - dictionary
   - medium
+  - set
 ---
-
-### 3. Longest Substring Without Repeating Characters
+# 3. Longest Substring Without Repeating Characters
 
 Link: [here](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 
