@@ -53,3 +53,4 @@ tags:
 | Hearst Newspapers   | Newsroom AI and Automation Engineer       | 2024-04-03 | LI        |              |                                                                                                             |
 | TikTok              | Software Engineer                         | 2024-04-04 | LI        |              |                                                                                                             |
 | Affirm              | Software Engineer II                      | 2024-04-04 |           |              | Fullstack                                                                                                   |
+| Capital One         | Software Engineer                         | 2024-04-04 | Referral  |              | Full Stack                                                                                                  |

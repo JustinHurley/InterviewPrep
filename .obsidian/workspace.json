@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Applications.md",
+                "file": "Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Applications.md",
+                "file": "Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Applications.md",
+                "file": "Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Applications.md"
+                "file": "Python.md"
               }
             }
           },
@@ -167,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -189,8 +189,9 @@
   },
   "active": "3fdd7621bb290eca",
   "lastOpenFiles": [
-    "Problems/0050-Pow(x,n).md",
+    "DataStructures/DynamicProgramming.md",
     "Applications/Applications.md",
+    "Problems/0050-Pow(x,n).md",
     "Problems/0322-CoinChange.md",
     "Problems/0079-WordSearch.md",
     "Problems/0767-ReorganizeString.md",
@@ -214,7 +215,6 @@
     "Problems/0015-3Sum.md",
     "Problems/0426-ConvertBinarySearchTreeToSortedDoublyLinkedList.md",
     "Algorithms/Backtracking.md",
-    "Algorithms/BreadthFirstSearch.md",
     "Assets/LongTail.png",
     "Problems/0542",
     "Assets/CDNWorkflow.png",
@@ -232,7 +232,7 @@
     "Assets",
     "Templates/Untitled",
     "Pasted image 20230828140809.png",
-    "Topics",
+    "DataStructures",
     "Untitled.canvas"
   ]
 }
