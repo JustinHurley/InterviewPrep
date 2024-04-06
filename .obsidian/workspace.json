@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/0050-Pow(x,n).md",
+                "file": "Problems/0000-0999/0050-Pow(x,n).md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/1249-MinimumRemoveToMakeValidParentheses.md",
+                "file": "Problems/2000-2999/2013-DetectSquares.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/1249-MinimumRemoveToMakeValidParentheses.md",
+                "file": "Problems/2000-2999/2013-DetectSquares.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/1249-MinimumRemoveToMakeValidParentheses.md",
+                "file": "Problems/2000-2999/2013-DetectSquares.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/1249-MinimumRemoveToMakeValidParentheses.md"
+                "file": "Problems/2000-2999/2013-DetectSquares.md"
               }
             }
           },
@@ -187,34 +187,36 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3fdd7621bb290eca",
+  "active": "5b50846d455b7196",
   "lastOpenFiles": [
-    "Problems/0146-LRUCache.md",
-    "Problems/1544-MakeTheStringGreat.md",
+    "Problems/1000-1999/1027-LongestArithmeticSubsequence.md",
+    "Problems/2000-2999",
+    "Problems/Untitled.md",
+    "Problems/0000-0999/0003-LongestSubstringWithoutRepeatingCharacters.md",
+    "Problems/1000-1999",
+    "Problems/1000-1999/1249-MinimumRemoveToMakeValidParentheses.md",
+    "Problems/0000-0999",
+    "Problems/0000-0999/0146-LRUCache.md",
+    "Problems/1000-1999/1544-MakeTheStringGreat.md",
     "DataStructures/DynamicProgramming.md",
     "Applications.md",
     "Python.md",
     "Applications/Balyasny Asset Management.md",
-    "Problems/0050-Pow(x,n).md",
-    "Problems/0322-CoinChange.md",
-    "Problems/0079-WordSearch.md",
-    "Problems/0767-ReorganizeString.md",
+    "Problems/0000-0999/0050-Pow(x,n).md",
+    "Problems/0000-0999/0322-CoinChange.md",
+    "Problems/0000-0999/0079-WordSearch.md",
+    "Problems/0000-0999/0767-ReorganizeString.md",
     "Algorithms/CountPairs.md",
-    "Problems/2962-CountSubarraysWhereMaxElementAppearsAtLeastKTimes.md",
-    "Problems/2958-LengthOfLongestSubarrayWithAtMostKFrequency.md",
-    "Problems/0487-MaxConsecutiveOnesII.md",
-    "Problems/0334-IncreasingTripletSubsequence.md",
-    "Problems/0151-ReverseWordsInAString.md",
-    "Problems/0713-SubarrayProductLessThanK.md",
+    "Problems/2000-2999/2962-CountSubarraysWhereMaxElementAppearsAtLeastKTimes.md",
+    "Problems/2000-2999/2958-LengthOfLongestSubarrayWithAtMostKFrequency.md",
+    "Problems/0000-0999/0487-MaxConsecutiveOnesII.md",
+    "Problems/0000-0999/0334-IncreasingTripletSubsequence.md",
+    "Problems/0000-0999/0151-ReverseWordsInAString.md",
+    "Problems/0000-0999/0713-SubarrayProductLessThanK.md",
     "Templates/ProblemTemplate.md",
-    "Problems/0071-SimplifyPath.md",
-    "Problems/0041-FirstMissingPositive.md",
-    "Problems/2246-LongestPathWithDifferentAdjacentNodes.md",
-    "Problems/0277-FindTheCelebrity.md",
-    "Problems/2384-LargestPalindromincNumber.md",
-    "Problems/2483-MinimumPenaltyForAShop.md",
-    "Problems/0442-FindAllDuplicatesInArray.md",
-    "Problems/0003-LongestSubstringWithoutRepeatingCharacters.md",
+    "Problems/0000-0999/0071-SimplifyPath.md",
+    "Problems/0000-0999/0041-FirstMissingPositive.md",
+    "Problems/2000-2999/2246-LongestPathWithDifferentAdjacentNodes.md",
     "Assets/LongTail.png",
     "Problems/0542",
     "Assets/CDNWorkflow.png",
@@ -229,10 +231,7 @@
     "SystemDesign",
     "Networking",
     "Assets/champagne.png",
-    "Assets",
-    "Templates/Untitled",
     "Pasted image 20230828140809.png",
-    "DataStructures",
     "Untitled.canvas"
   ]
 }
