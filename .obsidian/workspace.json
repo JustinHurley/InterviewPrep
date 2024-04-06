@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python.md",
+                "file": "Problems/1249-MinimumRemoveToMakeValidParentheses.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python.md",
+                "file": "Problems/1249-MinimumRemoveToMakeValidParentheses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python.md",
+                "file": "Problems/1249-MinimumRemoveToMakeValidParentheses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python.md"
+                "file": "Problems/1249-MinimumRemoveToMakeValidParentheses.md"
               }
             }
           },
@@ -189,8 +189,12 @@
   },
   "active": "3fdd7621bb290eca",
   "lastOpenFiles": [
+    "Problems/0146-LRUCache.md",
+    "Problems/1544-MakeTheStringGreat.md",
     "DataStructures/DynamicProgramming.md",
-    "Applications/Applications.md",
+    "Applications.md",
+    "Python.md",
+    "Applications/Balyasny Asset Management.md",
     "Problems/0050-Pow(x,n).md",
     "Problems/0322-CoinChange.md",
     "Problems/0079-WordSearch.md",
@@ -211,10 +215,6 @@
     "Problems/2483-MinimumPenaltyForAShop.md",
     "Problems/0442-FindAllDuplicatesInArray.md",
     "Problems/0003-LongestSubstringWithoutRepeatingCharacters.md",
-    "Home.md",
-    "Problems/0015-3Sum.md",
-    "Problems/0426-ConvertBinarySearchTreeToSortedDoublyLinkedList.md",
-    "Algorithms/Backtracking.md",
     "Assets/LongTail.png",
     "Problems/0542",
     "Assets/CDNWorkflow.png",
