@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/2000-2999/2013-DetectSquares.md",
+                "file": "Problems/0000-0999/0255-VerifyPreorderSequenceInBinaryTree.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problems/2000-2999/2013-DetectSquares.md",
+                "file": "Problems/0000-0999/0255-VerifyPreorderSequenceInBinaryTree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problems/2000-2999/2013-DetectSquares.md",
+                "file": "Problems/0000-0999/0255-VerifyPreorderSequenceInBinaryTree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/2000-2999/2013-DetectSquares.md"
+                "file": "Problems/0000-0999/0255-VerifyPreorderSequenceInBinaryTree.md"
               }
             }
           },
@@ -187,8 +187,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "5b50846d455b7196",
+  "active": "3fdd7621bb290eca",
   "lastOpenFiles": [
+    "Problems/1000-1999/1700-NumberOfStudentsUnableToEatLunch.md",
+    "Problems/0000-0999/0255-VerifyPreorderSequenceInBinaryTree.md",
+    "Algorithms/DynamicProgramming.md",
+    "Problems/2000-2999/2013-DetectSquares.md",
     "Problems/1000-1999/1027-LongestArithmeticSubsequence.md",
     "Problems/2000-2999",
     "Problems/Untitled.md",
@@ -198,7 +202,6 @@
     "Problems/0000-0999",
     "Problems/0000-0999/0146-LRUCache.md",
     "Problems/1000-1999/1544-MakeTheStringGreat.md",
-    "DataStructures/DynamicProgramming.md",
     "Applications.md",
     "Python.md",
     "Applications/Balyasny Asset Management.md",
@@ -215,8 +218,6 @@
     "Problems/0000-0999/0713-SubarrayProductLessThanK.md",
     "Templates/ProblemTemplate.md",
     "Problems/0000-0999/0071-SimplifyPath.md",
-    "Problems/0000-0999/0041-FirstMissingPositive.md",
-    "Problems/2000-2999/2246-LongestPathWithDifferentAdjacentNodes.md",
     "Assets/LongTail.png",
     "Problems/0542",
     "Assets/CDNWorkflow.png",
